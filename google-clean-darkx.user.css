@@ -1,5 +1,5 @@
 /*
-Built on 2020-04-03 21:39:11.735053
+Built on 2020-04-03 22:15:43.381077
 DO NOT MODIFY THIS FILE DIRECTLY! Instead, modify the appropriate CSS file in the ./css directory
 */
 
@@ -623,12 +623,12 @@ DO NOT MODIFY THIS FILE DIRECTLY! Instead, modify the appropriate CSS file in th
         filter: invert(0.1) !important;
     }
 
-    .docs-material .goog-menuitem-icon .docs-icon-img-container,
-    > div > div > div.docs-homescreen-leftmenu-menuitem-icon > div,
-    > div > div > div.docs-homescreen-leftmenu-menuitem-icon > div {
-        opacity: 1 !important;
-        filter: invert(0) !important;
-    }
+    /*.docs-material .goog-menuitem-icon .docs-icon-img-container,*/
+    /*> div > div > div.docs-homescreen-leftmenu-menuitem-icon > div,*/
+    /*> div > div > div.docs-homescreen-leftmenu-menuitem-icon > div {*/
+    /*    opacity: 1 !important;*/
+    /*    filter: invert(0) !important;*/
+    /*}*/
 
     .docs-palette-title-bar, .docs-mic-palette .goog-flat-menu-button, .docs-palette-body {
         background: #252525 !important;
@@ -2435,9 +2435,16 @@ DO NOT MODIFY THIS FILE DIRECTLY! Instead, modify the appropriate CSS file in th
         cursor: pointer !important;
     }
 
-    .a-D-gc-wKOTTc .a-ec-Gd button.RTMQvb {
+    /* New button + text */
+    button.RTMQvb {
         box-shadow: none !important;
+        background: #333 !important;
     }
+
+    .wO3c5d {
+        color: #8e8e8e !important;
+    }
+
     /* Sidebar */
     .USrqEe-ml-Pr-gi .cr-hTVF2c-B-Fq92xe .B-Nd {
         fill: rgba(100, 100, 100, 0.3) !important;

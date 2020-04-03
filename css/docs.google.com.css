@@ -255,12 +255,12 @@
         filter: invert(0.1) !important;
     }
 
-    .docs-material .goog-menuitem-icon .docs-icon-img-container,
-    > div > div > div.docs-homescreen-leftmenu-menuitem-icon > div,
-    > div > div > div.docs-homescreen-leftmenu-menuitem-icon > div {
-        opacity: 1 !important;
-        filter: invert(0) !important;
-    }
+    /*.docs-material .goog-menuitem-icon .docs-icon-img-container,*/
+    /*> div > div > div.docs-homescreen-leftmenu-menuitem-icon > div,*/
+    /*> div > div > div.docs-homescreen-leftmenu-menuitem-icon > div {*/
+    /*    opacity: 1 !important;*/
+    /*    filter: invert(0) !important;*/
+    /*}*/
 
     .docs-palette-title-bar, .docs-mic-palette .goog-flat-menu-button, .docs-palette-body {
         background: #252525 !important;
