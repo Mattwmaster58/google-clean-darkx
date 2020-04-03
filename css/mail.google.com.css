@@ -1,45 +1,36 @@
-@-moz-document url-prefix("https://mail.google.com/mail/")
-{
+@-moz-document url-prefix("https://mail.google.com/mail/") {
     /* Make the loading screen dark */
-    #loading
-    {
-        background: #252525!important;
+    #loading {
+        background: #252525 !important;
     }
 
-    .msgb
-    {
-        color: #ccc!important;
+    .msgb {
+        color: #ccc !important;
     }
 
-    #bhlf > input.submit_as_link
-    {
-        color: #00adee!important;
+    #bhlf > input.submit_as_link {
+        color: #00adee !important;
     }
 
-    .z0>.L3
-    {
-        box-shadow: none!important;
-        background-color: #555!important;
-        color: #ccc!important;
+    .z0 > .L3 {
+        box-shadow: none !important;
+        background-color: #555 !important;
+        color: #ccc !important;
     }
 
-    .z0>.L3:hover
-    {
-        background-color: #777!important;
+    .z0 > .L3:hover {
+        background-color: #777 !important;
     }
     /* Calendar menu */
-    .brC-brG-Jz-bBA, .brC-brG-avC
-    {
-        background: #1b1b1b!important;
+    .brC-brG-Jz-bBA, .brC-brG-avC {
+        background: #1b1b1b !important;
     }
 
-    .brC-brG-avC
-    {
-        border-color: #333!important;
+    .brC-brG-avC {
+        border-color: #333 !important;
     }
 
-    .brC-brG-avC-bBo-JX
-    {
-        fill: #ccc!important;
+    .brC-brG-avC-bBo-JX {
+        fill: #ccc !important;
     }
 }
