@@ -1,0 +1,288 @@
+@-moz-document url-prefix("https://scholar.google")
+{
+    /* Main */
+    #gs_bdy, #gs_top, #gs_ftr, #gs_hdr_drw
+    {
+        background: #252525!important;
+    }
+
+    #gs_ab, #gs_hdr
+    {
+        background: #1b1b1b!important;
+    }
+
+    #gs_ab, #gs_ftr
+    {
+        border: none!important;
+    }
+
+    .gs_bdy_sb_sec:before, *, .gs_hdr_drw_sec:before
+    {
+        border-color: #333!important;
+    }
+
+    #gs_hdr_drs
+    {
+        background-color: #000!important;
+    }
+
+    body
+    {
+        color: #8e8e8e!important;
+    }
+
+    .gs_md_ac[dir="ltr"] .gs_md_ac_lh .gs_ico_X
+    {
+        filter: invert(1);
+    }
+    /* Articles */
+    .gs_eml_sd, #gsc_napb_hdrg, #gsc_napb_hdrb
+    {
+        background: #252525!important;
+    }
+
+    .gs_eml_gy, .gsc_oic_cb
+    {
+        background: #1b1b1b;
+    }
+
+    .gs_eml_star>svg, .gs_or_svg
+    {
+        stroke: #3296c8!important;
+    }
+    /* Results */
+    .gs_rt a:link, .gs_rt a:link b, .gs_rt2 a:link, .gs_rt2 a:link b, a.gs_fl:link, .gs_fl a:link, .gs_ctc, .gs_pda > a[href^="/scholar_settings"], .gs_pda > a[href^="/scholar"]:nth-of-type(1), #gs_n a:link, #gs_ftr a:link, a:link, #gs_eml_lcb, #gs_eml_lra, .gsc_oict_all[data-a]
+    {
+        color: #3296c8!important;
+    }
+
+    .gs_rt a:visited, .gs_rt a:visited b, .gs_rt2 a:visited, .gs_rt2 a:visited b, #gs_n a:visited, #gs_ftr a:visited, a:visited
+    {
+        color: #9558d6!important;
+    }
+
+    .gs_rs
+    {
+        color: #8e8e8e!important;
+    }
+
+    b
+    {
+        color: rgba(234, 234, 234, 0.87)!important;
+    }
+
+    .gs_rs b
+    {
+        color: #afafaf!important;
+    }
+
+    .gs_a, .gs_a a:link
+    {
+        color: #dedede!important;
+    }
+
+    .gs_ri
+    {
+        padding-bottom: 10px!important;
+    }
+    /* Sidebar */
+    #gs_lnv a:link, #gs_lnv a:visited
+    {
+        color: #e8e8e8;
+    }
+
+    div:nth-of-type(2) > .gs_in_ib.gs_btnM > .gs_ico, .gs_alrt_btm > .gs_in_ib.gs_btnM > .gs_ico, .gs_in_cb input:checked~.gs_chk, .gs_in_cb.gs_sel .gs_chk
+    {
+        filter: invert(0.8)!important;
+    }
+
+    #gs_lnv .gs_hr
+    {
+        border-color: #333!important;
+    }
+
+    #gs_lnv_pri a:hover, #gs_lnv_pri a:focus
+    {
+        background: #333;
+    }
+    /* Search */
+    .gs_in_txt
+    {
+        color: #e8e8e8!important;
+        background: #1b1b1b!important;
+        border: none!important;
+    }
+
+    .gs_in_txt:hover, .gs_in_txt:active, .gs_in_txt:focus
+    {
+        box-shadow: 1px 0 2px 1px rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08)!important;
+        transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1)!important;
+    }
+
+    .gs_btnAD .gs_ico, #gs_hdr_advx
+    {
+        filter: invert(1)!important;
+    }
+
+    #gs_hdr_adv
+    {
+        background: #252525!important;
+        color: #8e8e8e!important;
+    }
+
+    #gs_hdr_advx
+    {
+        background-color: #d8d8d8!important;
+    }
+
+    .gs_md_ac li
+    {
+        background: #252525!important;
+    }
+
+    .gs_md_ac li:hover
+    {
+        background: #333!important;
+    }
+
+    .gs_md_ac li
+    {
+        color: #8e8e8e!important;
+    }
+    /* Icons & Text */
+    /*.gs_ico,*/  .gs_icm, a.gs_in_ib .gs_ico, .gs_btnSB .gs_ico, .gs_btnLSG .gs_ico, .gs_btnLSI .gs_ico
+                  {
+                      filter: invert(0.9)!important;
+                  }
+
+    a.gs_in_ib .gs_lbl, .gs_in_cb, .gs_in_ra
+    {
+        color: #8e8e8e!important;
+    }
+
+    .gs_in_ra .gs_cbx
+    {
+        border-color: #474747;
+    }
+    /* Buttons */
+    .gs_el_sm #gs_ab_rt button, #gs_ab_rt button, button
+    {
+        background-image: -moz-linear-gradient(top,#3a3a3a,#313131)!important;
+        /* FF3.6+ */
+        background-image: -webkit-linear-gradient(top,#3a3a3a,#313131)!important;
+        /* Chrome10+,Safari5.1+ */
+        background-image: -o-linear-gradient(top,#3a3a3a,#313131)!important;
+        /* Opera 11.10+ */
+        background-image: -ms-linear-gradient(top,#3a3a3a,#313131)!important;
+        /* IE10+ */
+        background-image: linear-gradient(top,#3a3a3a,#313131)!important;
+        /* W3C */
+        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
+        border: none!important;
+        color: #8a8a8a!important;
+        cursor: pointer!important;
+    }
+
+    .gs_el_sm #gs_ab_rt button:hover, #gs_ab_rt button:hover, button:hover
+    {
+        background-image: -moz-linear-gradient(top,#313131,#3a3a3a)!important;
+        /* FF3.6+ */
+        background-image: -webkit-linear-gradient(top,#313131,#3a3a3a)!important;
+        /* Chrome10+,Safari5.1+ */
+        background-image: -o-linear-gradient(top,#313131,#3a3a3a)!important;
+        /* Opera 11.10+ */
+        background-image: -ms-linear-gradient(top,#313131,#3a3a3a)!important;
+        /* IE10+ */
+        background-image: linear-gradient(top,#313131,#3a3a3a)!important;
+        /* W3C */
+        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1b1b', endColorstr='#3a3a3a',GradientType=0 )!important; IE6-9 */
+        cursor: pointer!important;
+    }
+
+    .gs_in_ib.gs_btnC > .gs_wr > .gs_ico, .gs_md_li.gs_in_ib.gs_btnP > .gs_ico, #gs_a_adv > .gs_ico, .gs_md_li.gs_in_ib.gs_btnJ > .gs_ico
+    {
+        filter: invert(0.8)!important;
+    }
+
+    .gs_md_se li, .gs_md_li, .gs_md_li:link, .gs_md_li:visited
+    {
+        color: #e8e8e8!important;
+        background: #252525!important;
+    }
+
+    .gs_md_li:hover
+    {
+        background: #333!important;
+    }
+
+    .gs_md_wn
+    {
+        border-color: #333!important;
+    }
+    /* Notifications */
+    .gs_md_d
+    {
+        background: #252525!important;
+    }
+
+    #gs_hdr_act_ab
+    {
+        background: #1b1b1b!important;
+    }
+    /* Remove */
+    td:nth-of-type(12) > a[href^="/scholar"] > b, #gs_hdr_act_a1, #gs_hdr_act_a2
+    {
+        display: none!important;
+    }
+
+    ::-webkit-scrollbar
+    {
+        width: 10px;
+        height: 10px;
+    }
+
+    ::-webkit-scrollbar-button
+    {
+        width: 0px;
+        height: 0px;
+    }
+
+    ::-webkit-scrollbar-thumb
+    {
+        background: #2d2d2d;
+        border: none;
+        border-radius: 0px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover
+    {
+        background: #3e3e3e;
+    }
+
+    ::-webkit-scrollbar-thumb:active
+    {
+        background: #3e3e3e;
+    }
+
+    ::-webkit-scrollbar-track
+    {
+        background: #0e0e0e;
+        border: none;
+        border-radius: 0px;
+    }
+
+    ::-webkit-scrollbar-track:hover
+    {
+        background: #0e0e0e;
+    }
+
+    ::-webkit-scrollbar-track:active
+    {
+        background: #0e0e0e;
+    }
+
+    ::-webkit-scrollbar-corner
+    {
+        background: #0e0e0e;
+    }
+}

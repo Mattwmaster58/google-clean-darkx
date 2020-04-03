@@ -1,0 +1,206 @@
+@-moz-document url-prefix("https://news.google.com/")
+{
+    /* Main */
+    .zQTmif, body, .gb_6e.gb_7e, .gb_6e, .gb_if
+    {
+        background-color: #1b1b1b!important;
+    }
+
+    .SXu5Cc, .YDRMcc, .gAl5If.nID9nc, .NiLAwe.nID9nc, .g3VIld, .NiLAwe, .nLHjre, .To2ZZb.hpDt6e, .Jur22e, .jTzABb>.xTewfe
+    {
+        background-color: #252525!important;
+    }
+
+    .dSva6b, .GPmEYb.KKjvXb, .GPmEYb.KKjvXb:hover, .bDw0ac, .LNrHIf .CHM9mc, .giB63b .oWh3Ld, .MQsxIb, .kpaMUd, .OJMBqe, .i9ZCec .wBtOlc, .xwumSd, .Plhhzc .MlH7je, .Plhhzc .qCne4e, .G28GSc .fMAqYb, .G28GSc .MlH7je, .G28GSc .PWz4Tb, .To2ZZb.hpDt6e, .mggrR, div.SKMfG.focofd.FVKzAb > content > span, .Xcw0p.ztUP4e, .JkHSnc, .PYXaYc, .hQpybf, .nqrr9, .gb_Je.gb_He
+    {
+        color: #ccc!important;
+    }
+
+    .GPmEYb, .giB63b .NwrYVd, .seTZHc, .uBzFKf
+    {
+        color: #777!important;
+    }
+
+    .NiLAwe, .SXu5Cc, .SXu5Cc .JQQdOc, .wi7gLd, .YDRMcc .JQQdOc, .i9ZCec, .EOlQu .JQQdOc, .lBwEZb>.JQQdOc, .UJEP5e, .UJEP5e:nth-child(odd) .EBKU9d, .To2ZZb.hpDt6e, .hijjb, .Pt3ZH
+    {
+        border-color: #333!important;
+    }
+
+    .fKz7Od
+    {
+        color: #ccc!important;
+        fill: #ccc!important;
+    }
+
+    .nLHjre
+    {
+        box-shadow: none!important;
+        border: 1px solid #333!important;
+    }
+
+    div.Mfg7Tb.hGhvff.qLAFub.g0L7Q
+    {
+        filter: invert(.9)!important;
+    }
+    /* Header */
+    .gb_ke
+    {
+        background-color: #252525!important;
+    }
+
+    .gb_Va svg, .gb_oc svg
+    {
+        color: #fff!important;
+    }
+
+    .gb_ve, .gb_qe.gb_ve, .g4E9Cb .ZAGvjd, .v4vX6d
+    {
+        color: #ccc!important;
+    }
+
+    .VOEIyf .jBmls, .gb_af, #gb > div:nth-child(2) > div:nth-child(2) > div > form
+    {
+        background-color: #1b1b1b!important;
+    }
+
+    .oKubKe[aria-selected="true"]
+    {
+        background-color: #333!important;
+        cursor: pointer;
+    }
+    /* Sidebar */
+    .ICsaqd, .AXKfz
+    {
+        color: #aaa;
+    }
+
+    .Ikgmhe
+    {
+        color: #ccc;
+    }
+
+    .Qo7o0c
+    {
+        border-color: #333!important;
+    }
+    /* Tags, Bubbles */
+    .To2ZZb.DbQnIe, .RF3lAd, .uUmIDd, .qGcL6e
+    {
+        background-color: #333!important;
+        border-color: #444!important;
+        color: #ccc!important;
+    }
+
+    .To2ZZb.DbQnIe:hover, .RF3lAd:hover, .uUmIDd:hover, .qGcL6e:hover
+    {
+        background-color: #444!important;
+        color: #fff!important;
+        box-shadow: none!important;
+    }
+
+    .sZVhXe
+    {
+        background: #333!important;
+    }
+
+    .sZVhXe.Jczvec
+    {
+        background: #5f92e1!important;
+    }
+    /* Transition */
+    #yDmH0d > trans-layer > div
+    {
+        background: #000!important;
+    }
+    /* Popup menus */
+    .JPdR6b
+    {
+        background-color: #333!important;
+    }
+
+    .z80M1.FwR7Pc
+    {
+        background-color: #444!important;
+    }
+
+    .jO7h3c
+    {
+        color: #ccc!important;
+    }
+    /* From twitter */
+    .qp0W6e+.UKxoZe, .js5zDf
+    {
+        color: #ccc!important;
+    }
+
+    .ifw3f
+    {
+        color: #888!important;
+    }
+    /* Settings */
+    .lZERNc .JQQdOc, .QuqGMc
+    {
+        border-color: #333!important;
+    }
+
+    .REXN1d, .uwwVJb:only-child, .zLj4gd
+    {
+        color: #ccc!important;
+    }
+
+    .NqPCi, .xsLqxd, .VfPpkd-I9GLp-yrriRe>label
+    {
+        color: #999!important;
+    }
+    /* Scrollbar */
+    ::-webkit-scrollbar
+    {
+        width: 10px!important;
+        height: 10px!important;
+    }
+
+    ::-webkit-scrollbar-button
+    {
+        width: 0px!important;
+        height: 0px!important;
+    }
+
+    ::-webkit-scrollbar-thumb
+    {
+        background: #4b4b4b!important;
+        border: none!important;
+        border-radius: 0px!important;
+    }
+
+    ::-webkit-scrollbar-thumb:hover
+    {
+        background: #5a5a5a!important;
+    }
+
+    ::-webkit-scrollbar-thumb:active
+    {
+        background: #5a5a5a!important;
+    }
+
+    ::-webkit-scrollbar-track
+    {
+        background: #333333!important;
+        border: none!important;
+        border-radius: 0px!important;
+    }
+
+    ::-webkit-scrollbar-track:hover
+    {
+        background: #333333!important;
+    }
+
+    ::-webkit-scrollbar-track:active
+    {
+        background: #333333!important;
+    }
+
+    ::-webkit-scrollbar-corner
+    {
+        background: transparent!important;
+    }
+}

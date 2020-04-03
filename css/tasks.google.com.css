@@ -1,0 +1,96 @@
+@-moz-document url-prefix("https://tasks.google.com")
+{
+    .CTxcDf, body, .g3VIld, .oxAbDf
+    {
+        background-color: #252525!important;
+    }
+
+    .UXfMHb, .OyPDvb, .fKz7Od, .blBtle
+    {
+        color: #9c9c9c!important;
+    }
+
+    .UhNUGe
+    {
+        background-color: #333!important;
+    }
+
+    .UhNUGe:hover, .UhNUGe:focus
+    {
+        background-color: #555!important;
+    }
+
+    .kpuJe, .cbcjjb, .U1lyme .oJeWuf, .XKxdVe, .ncFHed, .JPdR6b, .g3VIld .rFrNMe .aXBtI, .Nm5pwe .lzIjk .LMgvRb, .PZqXCe, .nnsg6
+    {
+        background-color: #3e3e3e!important;
+    }
+
+    .kpuJe::before, .cbcjjb, .AY4Dce:not(.sMVRZe), .XKxdVe, .bKwVmd.DuSr9b, .oxAbDf::before, .Sze5Fc, .oXBvod.MdU9l:not(.sMVRZe)
+    {
+        border-color: #333!important;
+    }
+
+    .Wde9Bc:not(.CWc3Zb) .BjZULd::after, .Sze5Fc
+    {
+        background-color: #333!important;
+    }
+
+    .wYwLFe, .RwybPd, .tL9Q4c, .zHQkBf, .cbcjjb, .RaWQkc, .lzIjk .LMgvRb, .z80M1, .PNenzf, .C0oVfc .RveJvd, .mZwRef, .l2rb3b, .pRU5He, .qpGJsd, .rhGwLe, .V9NiMc, .oXBvod.MdU9l .Sze5Fc, .WBaDKd .uyYuVb, .SltZ5e .NlWrkb
+    {
+        color: #ccc!important;
+    }
+
+    .fKz7Od
+    {
+        fill: #ccc!important;
+    }
+
+    .FmNPqf
+    {
+        background-color: #252525!important;
+        color: #ccc!important;
+    }
+
+    .FuZZcf
+    {
+        stroke: rgba(255, 255, 255, 0.54);
+    }
+
+    .z80M1.N2RpBe::before
+    {
+        border-right-color: #ccc!important;
+        border-bottom-color: #ccc!important;
+    }
+
+    .z80M1.FwR7Pc
+    {
+        background-color: #333!important;
+        filter: invert(.2)!important;
+    }
+
+    .Nm5pwe .lzIjk .LMgvRb
+    {
+        background: #1b1b1b;
+    }
+
+    .vyISr
+    {
+        filter: invert(0.7)!important;
+    }
+    /* Docs fix */
+    .B9yICe
+    {
+        background-color: #252525!important;
+        border-color: #333!important;
+    }
+
+    .azMWHd .uyYuVb
+    {
+        color: #ccc!important;
+    }
+
+    ::-webkit-scrollbar-thumb
+    {
+        background: #252525!important;
+    }
+}
