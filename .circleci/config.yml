@@ -4,4 +4,15 @@ workflows:
     only: 
       - master
     jobs:
-      - welcome/run
+      - build-css
+
+jobs:
+  build-css:
+    docker:
+      - image: circleci/python:3.8
+    steps:
+      - checkout
+      - run:
+        command: python ./build.py
+      - run:
+        command: git add google-clean-darkx.user.css && git commit -m 'Build from CI @'`date '+%F_%H:%M:%S'` && git push
