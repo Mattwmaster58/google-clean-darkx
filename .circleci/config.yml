@@ -3,7 +3,7 @@ workflows:
   build-css:
     jobs:
       - build-css:
-          filter:
+          filters:
             branches:
               only: master
 
