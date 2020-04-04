@@ -17,6 +17,13 @@ jobs:
           fingerprints:
             - "a9:0d:0e:63:91:80:1b:45:74:fa:3c:25:2a:3e:61:c2"
       - run:
+          name: Build CSS file
           command: python ./build.py
       - run:
-          command: git add google-clean-darkx.user.css && git commit -m 'Build from CI @'`date '+%F_%H:%M:%S'` && git push
+          name: Push built CSS file to GitHub
+          command: |
+            git config user.email "circlecibuilder@circleci.com"
+            git config user.name "CircleCI Builder"
+            git add google-clean-darkx.user.css
+            git commit -m 'Build from CI @'`date '+%F_%H:%M:%S'`
+            git push
