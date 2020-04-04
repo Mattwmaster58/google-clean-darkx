@@ -40,7 +40,7 @@
         stroke: #3296c8 !important;
     }
     /* Results */
-    .gs_rt a:link, .gs_rt a:link b, .gs_rt2 a:link, .gs_rt2 a:link b, a.gs_fl:link, .gs_fl a:link, .gs_ctc, .gs_pda > a[href^="/scholar_settings"], .gs_pda > a[href^="/scholar"]:nth-of-type(1), #gs_n a:link, #gs_ftr a:link, a:link, #gs_eml_lcb, #gs_eml_lra, .gsc_oict_all[data-a] {
+    .gs_rt a:link, .gs_rt a:link b, .gs_rt2 a:link, .gs_rt2 a:link b, .gs_fl:link, .gs_fl a:link, .gs_ctc, .gs_pda > a[href^="/scholar_settings"], .gs_pda > a[href^="/scholar"]:nth-of-type(1), #gs_n a:link, #gs_ftr a:link, a:link, #gs_eml_lcb, #gs_eml_lra, .gsc_oict_all[data-a] {
         color: #3296c8 !important;
     }
 
@@ -121,11 +121,11 @@
     }
     /* Icons & Text */
     /*.gs_ico,*/
-    .gs_icm, a.gs_in_ib .gs_ico, .gs_btnSB .gs_ico, .gs_btnLSG .gs_ico, .gs_btnLSI .gs_ico {
+    .gs_icm, .gs_in_ib .gs_ico, .gs_btnSB .gs_ico, .gs_btnLSG .gs_ico, .gs_btnLSI .gs_ico {
         filter: invert(0.9) !important;
     }
 
-    a.gs_in_ib .gs_lbl, .gs_in_cb, .gs_in_ra {
+    .gs_in_ib .gs_lbl, .gs_in_cb, .gs_in_ra {
         color: #8e8e8e !important;
     }
 
@@ -165,7 +165,7 @@
         cursor: pointer !important;
     }
 
-    .gs_in_ib.gs_btnC > .gs_wr > .gs_ico, .gs_md_li.gs_in_ib.gs_btnP > .gs_ico, #gs_a_adv > .gs_ico, .gs_md_li.gs_in_ib.gs_btnJ > .gs_ico {
+    .gs_in_ib.gs_btnC > .gs_wr > .gs_ico, .gs_md_.gs_in_ib.gs_btnP > .gs_ico, #gs_a_adv > .gs_ico, .gs_md_.gs_in_ib.gs_btnJ > .gs_ico {
         filter: invert(0.8) !important;
     }
 

@@ -3,12 +3,10 @@ from pathlib import Path
 from textwrap import dedent
 
 try:
-    from css_html_js_minify import css_minify
+    from csscompressor import compress
 except ImportError:
-
-    def css_minify(inp, *__, **_):
-        return inp
-
+    def compress(*__, **_):
+        return __[0]
 
 try:
     from pyperclip import copy
@@ -31,12 +29,21 @@ def main():
     for file in sorted(Path('./css').iterdir(), key=lambda f: 'main' in f.name or 'global' in f.name):
         with open(file) as inf:
             to_write += inf.read()
-    to_write = css_minify(to_write, sort=True)
+    to_write = compress(to_write, preserve_exclamation_comments=False)
     copy(to_write)
     with open(OUTPUT_FILE_NAME, 'w') as out:
         out.write(
             dedent(
                 f'''\
+            /* ==UserStyle==
+            @name         Google - Clean Dark Extended
+            @namespace    _GCDE_
+            @homepageURL  https://github.com/Mattwmaster58/google-clean-darkx
+            @version      1.0.0
+            @license      CC-NC-SA
+            @description  Theme everything google
+            @author       Mattwmaster58 et al.
+            ==/UserStyle== */
             /*
             Built on {datetime.utcnow()}
             DO NOT MODIFY THIS FILE DIRECTLY! Instead, modify the appropriate CSS file in the ./css directory

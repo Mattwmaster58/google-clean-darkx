@@ -38,7 +38,7 @@
         color: #dedede !important;
     }
 
-    .uc-error-caption, .uc-warning-caption, #gb > div.gb_Cd.gb_8d > div.gb_zc.gb_Sd > div.gb_8b > div > a, .gb_Zb, .gb_Cd .gb_9b, .a-nEbBXb .a-q-Jc-bj, .a-nEbBXb .a-q-Lb-go, .a-nEbBXb .a-q-Ed-Js-j, .gb_he.gb_me, .H-qa-ea-A-ia, .a-Fa-xQS9Ed-V, .gb_Wa svg, .gb_vc svg, .gb_we, .aabwZd .WYuW0e .M3pype[data-column-field="6"], #sendSuccess {
+    .uc-error-caption, .uc-warning-caption, #gb > .gb_Cd.gb_8d > .gb_zc.gb_Sd > .gb_8b > div > a, .gb_Zb, .gb_Cd .gb_9b, .a-nEbBXb .a-q-Jc-bj, .a-nEbBXb .a-q-Lb-go, .a-nEbBXb .a-q-Ed-Js-j, .gb_he.gb_me, .H-qa-ea-A-ia, .a-Fa-xQS9Ed-V, .gb_Wa svg, .gb_vc svg, .gb_we, .aabwZd .WYuW0e .M3pype[data-column-field="6"], #sendSuccess {
         color: #e8e8e8 !important;
     }
 
@@ -58,7 +58,7 @@
         background-color: rgba(75, 175, 75, 0.1) !important;
     }
 
-    .Hb-ja-Na .a-ub-ra-B > .h-ra-B > .h-ra.h-ra-ha:focus {
+    .Hb-ja-Na .a-ub-ra-B > .h-ra-B > .h-r.h-ra-ha:focus {
         background: transparent !important;
     }
 
@@ -212,7 +212,7 @@
         border-color: #333 !important;
     }
 
-    .gbmc, .ia-invite-controls-area, .scope-icon-holder, .vpc-icon-holder, .e-F-V-Ta.e-Qf-Qd {
+    .gbmc, .ia-invite-controls-area, .scope-icon-holder, .vpc-icon-holder, .e-F-V-T.e-Qf-Qd {
         background: #252525 !important;
     }
 
@@ -230,7 +230,7 @@
         border-color: #333 !important;
     }
 
-    .Ea-oa.Ea-G, .apps-share-chips-input, .simple-sharing-note-text-area, .goog-menuitem, .goog-tristatemenuitem, .goog-filterobsmenuitem, .goog-menuitem-highlight .goog-menuitem-content, .e-rf.e-F, .a-b-Ia, #accessDeniedHeader {
+    .Ea-o.Ea-G, .apps-share-chips-input, .simple-sharing-note-text-area, .goog-menuitem, .goog-tristatemenuitem, .goog-filterobsmenuitem, .goog-menuitem-highlight .goog-menuitem-content, .e-rf.e-F, .a-b-Ia, #accessDeniedHeader {
         color: #ccc !important;
     }
 
@@ -260,7 +260,7 @@
         color: #5e98ff !important;
     }
 
-    .a-f-n svg, .toggle-link-icon-off, .apps-share-chips-icon-x, .rs-icon-edit, .goog-option-selected, .vpc-icon, .scope-icon-default, .e-Bc-Nq-Xd-d, .a-nEbBXb .e-D-va .g-d, .a-nEbBXb .e-F-dc-qb-o-d .g-d, .e-Bc-Ek-aa-be, .a-q-Xc-Ab, body > div.a-b.a-b-ja-el-db.a-b-Oe-n.a-b-L.a-b-Na > div.a-b-Sh > div:nth-child(6) > div.a-b-ah.a-b-va-Zf.a-b-tb-Ce > div > div.a-b-Ia > div.a-b-Ia-D > div.a-b-Ia-Xd-c.a-b-c.a-b-d, #accessDeniedIcon {
+    .a-f-n svg, .toggle-link-icon-off, .apps-share-chips-icon-x, .rs-icon-edit, .goog-option-selected, .vpc-icon, .scope-icon-default, .e-Bc-Nq-Xd-d, .a-nEbBXb .e-D-va .g-d, .a-nEbBXb .e-F-dc-qb-o-d .g-d, .e-Bc-Ek-aa-be, .a-q-Xc-Ab, body > .a-b.a-b-ja-el-db.a-b-Oe-n.a-b-L.a-b-Na > .a-b-Sh > div:nth-child(6) > .a-b-ah.a-b-va-Zf.a-b-tb-Ce > div > .a-b-Ia > .a-b-Ia-D > .a-b-Ia-Xd-c.a-b-c.a-b-d, #accessDeniedIcon {
         filter: invert(.9) !important;
     }
 
@@ -276,7 +276,7 @@
         border-color: #333 !important;
     }
 
-    div.h-sb-Ic.h-R-d.a-c-d.W-d.h-R-d-W > div.a-d-c.d-tf-c.z-Ea-pd-c > svg > path, div.a-d-c.d-tf-c.z-Ea-pd-c > svg > path, div.a-d-c.d-tf-c.z-Ea-pd-c > svg > path {
+    .h-sb-Ic.h-R-d.a-c-d.W-d.h-R-d-W > .a-d-c.d-tf-c.z-Ea-pd-c > svg > path, .a-d-c.d-tf-c.z-Ea-pd-c > svg > path, .a-d-c.d-tf-c.z-Ea-pd-c > svg > path {
         fill: #333 !important;
     }
 
@@ -568,15 +568,15 @@
         border-bottom-color: #333 !important;
     }
 
-    #gbwa > div.gb_Kc > div.gb_pb, #gbw > div > div > div.gb_yc.gb_xg.gb_R > div.gb_Hc.gb_3c.gb_R.gb_Ic.gb_g > div.gb_Kc > div.gb_pb, #gbw > div > div > div.gb_yc.gb_xg.gb_R > div.gb_hb.gb_3c.gb_xg.gb_R.gb_g > div.gb_Kc.gb_jb.gb_xg.gb_R > div.gb_pb {
+    #gbwa > .gb_Kc > .gb_pb, #gbw > div > div > .gb_yc.gb_xg.gb_R > .gb_Hc.gb_3c.gb_R.gb_Ic.gb_g > .gb_Kc > .gb_pb, #gbw > div > div > .gb_yc.gb_xg.gb_R > .gb_hb.gb_3c.gb_xg.gb_R.gb_g > .gb_Kc.gb_jb.gb_xg.gb_R > .gb_pb {
         border-bottom-color: #252525 !important;
     }
 
-    #gbwa > div.gb_Kc > div.gb_qb, #gbw > div > div > div.gb_yc.gb_xg.gb_R > div.gb_Hc.gb_3c.gb_R.gb_Ic.gb_g > div.gb_Kc > div.gb_qb, #gbw > div > div > div.gb_yc.gb_xg.gb_R > div.gb_hb.gb_3c.gb_xg.gb_R.gb_g > div.gb_Kc.gb_jb.gb_xg.gb_R > div.gb_qb {
+    #gbwa > .gb_Kc > .gb_qb, #gbw > div > div > .gb_yc.gb_xg.gb_R > .gb_Hc.gb_3c.gb_R.gb_Ic.gb_g > .gb_Kc > .gb_qb, #gbw > div > div > .gb_yc.gb_xg.gb_R > .gb_hb.gb_3c.gb_xg.gb_R.gb_g > .gb_Kc.gb_jb.gb_xg.gb_R > .gb_qb {
         border-bottom-color: #333 !important;
     }
 
-    #gb > div.gb_yd.gb_4d > div.gb_rb.gb_fa.gb_g > div.gb_Eb > div:nth-child(1) > a, #gb_71, .g-d-fa, .a-D-gc-wKOTTc .a-ec-Gd button.RTMQvb, .jfk-button-standard {
+    #gb > .gb_yd.gb_4d > .gb_rb.gb_f.gb_g > .gb_Eb > div:nth-child(1) > a, #gb_71, .g-d-fa, .a-D-gc-wKOTTc .a-ec-Gd button.RTMQvb, .jfk-button-standard {
         background-image: -moz-linear-gradient(top, #3a3a3a, #313131) !important;
         /* FF3.6+ */
         background-image: -webkit-linear-gradient(top, #3a3a3a, #313131) !important;
@@ -593,7 +593,7 @@
         cursor: pointer !important;
     }
 
-    #gb > div.gb_yd.gb_4d > div.gb_rb.gb_fa.gb_g > div.gb_Eb > div:nth-child(1) > a:hover, #gb_71:hover, .g-d-fa:hover, .a-D-gc-wKOTTc .a-ec-Gd button.RTMQvb:hover, .jfk-button-standard:hover {
+    #gb > .gb_yd.gb_4d > .gb_rb.gb_f.gb_g > .gb_Eb > div:nth-child(1) > a:hover, #gb_71:hover, .g-d-fa:hover, .a-D-gc-wKOTTc .a-ec-Gd button.RTMQvb:hover, .jfk-button-standard:hover {
         background-image: -moz-linear-gradient(top, #313131, #3a3a3a) !important;
         /* FF3.6+ */
         background-image: -webkit-linear-gradient(top, #313131, #3a3a3a) !important;
@@ -744,12 +744,12 @@
         color: #8e8e8e;
     }
 
-    #yDmH0d > c-wiz > div.W0LMif > c-wiz > div > div.Htk9cd > div.FtnAgb > c-wiz > div.ZSbElf > div.mTkKNe > div > svg > path:nth-child(1) {
+    #yDmH0d > c-wiz > .W0LMif > c-wiz > div > .Htk9cd > .FtnAgb > c-wiz > .ZSbElf > .mTkKNe > div > svg > path:nth-child(1) {
         fill: #555 !important;
         stroke: #555 !important;
     }
 
-    #yDmH0d > c-wiz > div.W0LMif > c-wiz > div > div.Htk9cd > div.FtnAgb > c-wiz > div.ZSbElf > div.mTkKNe > div > svg > path:nth-child(2) {
+    #yDmH0d > c-wiz > .W0LMif > c-wiz > div > .Htk9cd > .FtnAgb > c-wiz > .ZSbElf > .mTkKNe > div > svg > path:nth-child(2) {
         fill: #4285f4 !important;
         stroke: #5e9bff !important;
     }

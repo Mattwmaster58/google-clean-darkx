@@ -24,7 +24,7 @@ jobs:
           command: |
               git config user.email "circlecibuilder@circleci.com"
               git config user.name "CircleCI Builder"
-              git add google-clean-darkx.user.css
+              git add google-clean-darkx.min.user.css
               git commit -m 'Build from CI @'`date '+%F_%H:%M:%S'`'
               [skip ci]'
               git push

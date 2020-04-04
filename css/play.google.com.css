@@ -69,7 +69,7 @@
         background-color: #444 !important;
     }
     /* Buttons */
-    .play-button.small, .b7cPmf:last-child .g3P27d, .LkLjZd, .LkLjZd:visited, button.id-write-button.play-button, button.expand-button.expand-next > div.play-button, button.expand-button.expand-prev > div.play-button, .expand-close.play-button {
+    .play-button.small, .b7cPmf:last-child .g3P27d, .LkLjZd, .LkLjZd:visited, button.id-write-button.play-button, button.expand-button.expand-next > .play-button, button.expand-button.expand-prev > .play-button, .expand-close.play-button {
         background: #333 !important;
         border: 1px solid #333 !important;
     }
@@ -78,7 +78,7 @@
         color: #fff !important;
     }
 
-    #wrapper > div.action-bar-container > div > div.action-bar.movies > div.action-bar-aux > div.action-bar-item.settings-gear-menu.play-button.small > div.action-bar-link.id-track-click.id-track-impression.id-action-bar-settings-button > a > div {
+    #wrapper > .action-bar-container > div > .action-bar.movies > .action-bar-aux > .action-bar-item.settings-gear-menu.play-button.small > .action-bar-link.id-track-click.id-track-impression.id-action-bar-settings-button > a > div {
         background: transparent !important;
     }
 
@@ -116,21 +116,21 @@
         color: #ccc;
     }
 
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.music.hidden-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.apps.hidden-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.movies-tv.hidden-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.books.hidden-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.devices.hidden-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.entertainment.hidden-item > a > span > span {
+    #wrapper > div > div > ul > .nav-list-item.id-track-click.music.hidden-item > a > span > span,
+    #wrapper > div > div > ul > .nav-list-item.id-track-click.apps.hidden-item > a > span > span,
+    #wrapper > div > div > ul > .nav-list-item.id-track-click.movies-tv.hidden-item > a > span > span,
+    #wrapper > div > div > ul > .nav-list-item.id-track-click.books.hidden-item > a > span > span,
+    #wrapper > div > div > ul > .nav-list-item.id-track-click.devices.hidden-item > a > span > span,
+    #wrapper > div > div > ul > .nav-list-item.id-track-click.entertainment.hidden-item > a > span > span {
         color: transparent !important;
     }
 
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.music.visible-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.apps.visible-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.movies-tv.visible-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.books.visible-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.devices.visible-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.entertainment.visible-item > a > span > span {
+    #wrapper > div > div > ul > .nav-list-item.id-track-click.music.visible-item > a > span > span,
+    #wrapper > div > div > ul > .nav-list-item.id-track-click.apps.visible-item > a > span > span,
+    #wrapper > div > div > ul > .nav-list-item.id-track-click.movies-tv.visible-item > a > span > span,
+    #wrapper > div > div > ul > .nav-list-item.id-track-click.books.visible-item > a > span > span,
+    #wrapper > div > div > ul > .nav-list-item.id-track-click.devices.visible-item > a > span > span,
+    #wrapper > div > div > ul > .nav-list-item.id-track-click.entertainment.visible-item > a > span > span {
         color: #fff !important;
     }
 
@@ -172,7 +172,7 @@
         background-color: #252525 !important;
     }
 
-    #body-content > div.outer-container > div > div.secondary-content > div > div {
+    #body-content > .outer-container > div > .secondary-content > div > div {
         background: transparent !important;
     }
 
@@ -290,7 +290,7 @@
         color: #aaa !important;
     }
 
-    a.footer-item {
+    .footer-item {
         color: #ccc !important;
     }
     /* Settings */

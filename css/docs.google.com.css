@@ -24,7 +24,7 @@
         background-color: #4bfac880;
     }
 
-    #gb > div.gb_Sd.gb_qe.gb_1d > div.gb_Mc.gb_ce.gb_Pe > div.gb_ic > div > a, .gb_vc .gb_Ae {
+    #gb > .gb_Sd.gb_qe.gb_1d > .gb_Mc.gb_ce.gb_Pe > .gb_ic > div > a, .gb_vc .gb_Ae {
         background-color: transparent !important;
     }
 
@@ -235,7 +235,7 @@
         color: #e8e8e8 !important;
     }
 
-    .navigation-item .navigation-item-level-1, .navigation-widget-hat-title, .modal-dialog, .docs-access-level-indicator-menu-text, .apc-email-contents, .apc-detail, .docs-promo-content, .docs-explore-kacard-disambiguationterm, .docs-explore-kacard-knowledgepanel-description, .docs-explore-kacard-knowledgepanel-facts-list, a.docs-explore-kacard-knowledgepanel-learnmore:link .docs-explore-kacard-knowledgepanel-learnmore-text, a.docs-explore-kacard-knowledgepanel-learnmore:visited .docs-explore-kacard-knowledgepanel-learnmore-text, .docs-explore-citation-format-picker-menu .goog-menuheader {
+    .navigation-item .navigation-item-level-1, .navigation-widget-hat-title, .modal-dialog, .docs-access-level-indicator-menu-text, .apc-email-contents, .apc-detail, .docs-promo-content, .docs-explore-kacard-disambiguationterm, .docs-explore-kacard-knowledgepanel-description, .docs-explore-kacard-knowledgepanel-facts-list, .docs-explore-kacard-knowledgepanel-learnmore:link .docs-explore-kacard-knowledgepanel-learnmore-text, .docs-explore-kacard-knowledgepanel-learnmore:visited .docs-explore-kacard-knowledgepanel-learnmore-text, .docs-explore-citation-format-picker-menu .goog-menuheader {
         color: #8e8e8e !important;
     }
 
@@ -247,7 +247,7 @@
         color: #ccc !important;
     }
 
-    .docs-material .docs-icon-img, .waffle-promo-bubble-icon, .jfk-bubble-closebtn, .docs-sheet-button-icon, .dcs-a-dcs-hb-dcs-xe-dcs-ye:before, .dcs-a-dcs-hb-dcs-xe:before, .docs-material.goog-menu .apps-menuitem .goog-menuitem-checkbox, .docs-material.goog-menu .apps-menuitem .goog-menuitem-icon, .sketchy-icon-accessible-img:before, .docs-material-appbar #punch-start-presentation-left .punch-start-presentation-icon:before, .docs-dialog .modal-dialog-title-close:after, div.goog-menuitem-icon.docs-icon.docs-fontmenu-icon, .rs-hide-caption .rs-role-icon, .apps-share-sprite, .ita-cp-lens, .ita-cp-backspace-img.ita-kd-img, .Gd-Je-pi-dk-n-Kc .Gd-f-u, .nh-Xh-Gd-xi .Gd-Je-Kc .Nf-Je-Oc-Kc svg, .kix-equation-toolbar-icon, #kix-bordersshadingdialog-borderdash .docs-icon-img, .docs-icon-paragraph-border-top, .docs-icon-paragraph-border-bottom, .docs-icon-paragraph-border-left, .docs-icon-paragraph-border-right, .docs-icon-paragraph-border-between, .docs-icon-img-container.docs-icon-img.docs-icon-no-color, #kix-bordersshadingdialog-borderdash .goog-flat-menu-button-caption, .docs-mic-palette .docs-mic-control, .docs-palette-grippy-icon, .docs-palette-close-icon, .docs-mic-palette-help, .docs-slidingdialog .docs-icon-close, .docs-icon-search-this-document, .docs-revisions-chromecover-titlebar-button-back.docs-material .docs-icon, .docs-revisions-tile-arrow-button, .docs-revisions-icon-overflow, .docs-explore-forward-arrow-black, .docs-explore-more-black, .docs-explore-cite-black-18, .docs-icon-close-thin, .docs-slidingdialog .docs-icon-up, .docs-slidingdialog .docs-icon-down, .docs-slidingdialog .docs-icon-close, .docs-slidingdialog .docs-icon-ellipsis, .docs-slidingdialog .docs-icon-overflow-three-dots {
+    .docs-material .docs-icon-img, .waffle-promo-bubble-icon, .jfk-bubble-closebtn, .docs-sheet-button-icon, .dcs-a-dcs-hb-dcs-xe-dcs-ye:before, .dcs-a-dcs-hb-dcs-xe:before, .docs-material.goog-menu .apps-menuitem .goog-menuitem-checkbox, .docs-material.goog-menu .apps-menuitem .goog-menuitem-icon, .sketchy-icon-accessible-img:before, .docs-material-appbar #punch-start-presentation-left .punch-start-presentation-icon:before, .docs-dialog .modal-dialog-title-close:after, .goog-menuitem-icon.docs-icon.docs-fontmenu-icon, .rs-hide-caption .rs-role-icon, .apps-share-sprite, .ita-cp-lens, .ita-cp-backspace-img.ita-kd-img, .Gd-Je-pi-dk-n-Kc .Gd-f-u, .nh-Xh-Gd-xi .Gd-Je-Kc .Nf-Je-Oc-Kc svg, .kix-equation-toolbar-icon, #kix-bordersshadingdialog-borderdash .docs-icon-img, .docs-icon-paragraph-border-top, .docs-icon-paragraph-border-bottom, .docs-icon-paragraph-border-left, .docs-icon-paragraph-border-right, .docs-icon-paragraph-border-between, .docs-icon-img-container.docs-icon-img.docs-icon-no-color, #kix-bordersshadingdialog-borderdash .goog-flat-menu-button-caption, .docs-mic-palette .docs-mic-control, .docs-palette-grippy-icon, .docs-palette-close-icon, .docs-mic-palette-help, .docs-slidingdialog .docs-icon-close, .docs-icon-search-this-document, .docs-revisions-chromecover-titlebar-button-back.docs-material .docs-icon, .docs-revisions-tile-arrow-button, .docs-revisions-icon-overflow, .docs-explore-forward-arrow-black, .docs-explore-more-black, .docs-explore-cite-black-18, .docs-icon-close-thin, .docs-slidingdialog .docs-icon-up, .docs-slidingdialog .docs-icon-down, .docs-slidingdialog .docs-icon-close, .docs-slidingdialog .docs-icon-ellipsis, .docs-slidingdialog .docs-icon-overflow-three-dots {
         filter: invert(.9) !important;
     }
 
@@ -256,8 +256,8 @@
     }
 
     /*.docs-material .goog-menuitem-icon .docs-icon-img-container,*/
-    /*> div > div > div.docs-homescreen-leftmenu-menuitem-icon > div,*/
-    /*> div > div > div.docs-homescreen-leftmenu-menuitem-icon > div {*/
+    /*> div > div > .docs-homescreen-leftmenu-menuitem-icon > div,*/
+    /*> div > div > .docs-homescreen-leftmenu-menuitem-icon > div {*/
     /*    opacity: 1 !important;*/
     /*    filter: invert(0) !important;*/
     /*}*/
@@ -294,7 +294,7 @@
         background-color: #333 !important;
     }
 
-    div.docs-homescreen-leftmenu-menuitem-icon > div, .docs-hs-tmp-contractedheader-overflowicon, .docs-hs-tmp-contractedheader-moreicon, .docs-homescreen-grid-item-icon, #lineButton > div > div > div, #selectButton > div > div > div, .docs-homescreen-overflowmenuitem-icon .docs-icon, .nh-Et-gt-xj .nh-jr-db-qb-ks-lg, .nh-Vr-db-Ge {
+    .docs-homescreen-leftmenu-menuitem-icon > div, .docs-hs-tmp-contractedheader-overflowicon, .docs-hs-tmp-contractedheader-moreicon, .docs-homescreen-grid-item-icon, #lineButton > div > div > div, #selectButton > div > div > div, .docs-homescreen-overflowmenuitem-icon .docs-icon, .nh-Et-gt-xj .nh-jr-db-qb-ks-lg, .nh-Vr-db-Ge {
         filter: invert(1) !important;
     }
 
@@ -628,7 +628,7 @@
         color: #ccc !important;
     }
 
-    .docos-anchoredreplyview-body.docos-replyview-body > div > span, div.docos-anchoreddocoview.docos-docoview-tesla-conflict > .jfk-scrollbar.docos-anchoreddocoview-internal > .jfk-scrollbar.docos-docoview-replycontainer.docos-anchoreddocoview-content > .docos-docoview-rootreply > .docos-replyview-suggest.docos-replyview-first.docos-anchoredreplyview > .docos-collapsible-replyview > .docos-replyview-static > .docos-anchoredreplyview-body.docos-replyview-body > div, #sendSuccess {
+    .docos-anchoredreplyview-body.docos-replyview-body > div > span, .docos-anchoreddocoview.docos-docoview-tesla-conflict > .jfk-scrollbar.docos-anchoreddocoview-internal > .jfk-scrollbar.docos-docoview-replycontainer.docos-anchoreddocoview-content > .docos-docoview-rootreply > .docos-replyview-suggest.docos-replyview-first.docos-anchoredreplyview > .docos-collapsible-replyview > .docos-replyview-static > .docos-anchoredreplyview-body.docos-replyview-body > div, #sendSuccess {
         color: #ccc !important;
     }
 
@@ -929,7 +929,7 @@
         fill: #ccc !important;
     }
 
-    #ResponsesView > div > div > div > div > div.SummaryContainer.freebirdFormeditorViewResponsesSummaryInsightsInsightsRoot.freebirdFormeditorViewResponsesSummaryInsightsGradingEnabled.freebirdFormeditorViewResponsesSummaryInsightsHasResponses > div.freebirdFormeditorViewResponsesSummaryInsightsHistogramContainer > div > div > div > div > svg > g > g > text {
+    #ResponsesView > div > div > div > div > .SummaryContainer.freebirdFormeditorViewResponsesSummaryInsightsInsightsRoot.freebirdFormeditorViewResponsesSummaryInsightsGradingEnabled.freebirdFormeditorViewResponsesSummaryInsightsHasResponses > .freebirdFormeditorViewResponsesSummaryInsightsHistogramContainer > div > div > div > div > svg > g > g > text {
         fill: #ccc !important;
     }
     /* Slides */
@@ -990,7 +990,7 @@
         border-color: #333 !important;
     }
 
-    .punch-filmstrip-controls-view-tab-bar .goog-tab-selected .punch-filmstrip-controls-icon, .punch-filmstrip-controls .punch-filmstrip-controls-icon, div.goog-inline-block.jfk-button.jfk-button-flat.docs-dictionary-titlebar-close-icon.docs-dictionary-titlebar-icon.jfk-button-clear-outline, .docs-explore-emptylist-icon, .punch-sidebar-tile-thumbnail, .punch-animation-sidebar-close, .dcs-a-dcs-hb-dcs-ye:before, .docs-material #punch-start-presentation-left .punch-start-presentation-icon:before, .dcs-a-dcs-hb-dcs-af-dcs-bf:before {
+    .punch-filmstrip-controls-view-tab-bar .goog-tab-selected .punch-filmstrip-controls-icon, .punch-filmstrip-controls .punch-filmstrip-controls-icon, .goog-inline-block.jfk-button.jfk-button-flat.docs-dictionary-titlebar-close-icon.docs-dictionary-titlebar-icon.jfk-button-clear-outline, .docs-explore-emptylist-icon, .punch-sidebar-tile-thumbnail, .punch-animation-sidebar-close, .dcs-a-dcs-hb-dcs-ye:before, .docs-material #punch-start-presentation-left .punch-start-presentation-icon:before, .dcs-a-dcs-hb-dcs-af-dcs-bf:before {
         filter: invert(.9) !important;
     }
 
@@ -1025,7 +1025,7 @@
         background-color: #555 !important;
     }
 
-    a.docs-explore-serp-webresult-title-link:link {
+    .docs-explore-serp-webresult-title-link:link {
         color: #3296c8 !important;
     }
 
@@ -1037,7 +1037,7 @@
         color: #9558d6;
     }
 
-    .docs-explore-serp-webresult-snippet, a.docs-explore-serp-webresultscard-header-text:link, a.docs-explore-serp-webresultscard-header-text:visited, a.docs-explore-serp-webresultscard-allresults:link .docs-explore-serp-webresultscard-allresults-text, a.docs-explore-serp-webresultscard-allresults:visited .docs-explore-serp-webresultscard-allresults-text {
+    .docs-explore-serp-webresult-snippet, .docs-explore-serp-webresultscard-header-text:link, .docs-explore-serp-webresultscard-header-text:visited, .docs-explore-serp-webresultscard-allresults:link .docs-explore-serp-webresultscard-allresults-text, .docs-explore-serp-webresultscard-allresults:visited .docs-explore-serp-webresultscard-allresults-text {
         color: #8e8e8e !important;
     }
 
@@ -1163,7 +1163,7 @@
         border-color: #000 !important;
     }
 
-    .dcs-a.dcs-d-dcs-eg-dcs-hj .dcs-f-dcs-bb.dcs-f-dcs-bb-dcs-yc, .dcs-a.dcs-a-dcs-eg-dcs-p.dcs-d-dcs-eg-dcs-hj .dcs-f-dcs-bb.dcs-f-dcs-bb-dcs-yc.dcs-f-dcs-bb-dcs-se {
+    .dcs-.dcs-d-dcs-eg-dcs-hj .dcs-f-dcs-bb.dcs-f-dcs-bb-dcs-yc, .dcs-.dcs-a-dcs-eg-dcs-p.dcs-d-dcs-eg-dcs-hj .dcs-f-dcs-bb.dcs-f-dcs-bb-dcs-yc.dcs-f-dcs-bb-dcs-se {
         border-color: #000 !important;
     }
 

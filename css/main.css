@@ -27,7 +27,7 @@
         background: #333 !important;
     }
 
-    #gbsfw.gb_Wc, #gbsfw.gb_4c, #gbw > div > div > div > div.gb_hb.gb_id.gb_ah.gb_R.gb_g > div.gb_wb.gb_ba.gb_g, #gb > div.gb_Sd.gb_qe.gb_1d > div.gb_wb.gb_ba.gb_g, #gb > div.gb_Sd.gb_qe > div.gb_wb.gb_ba.gb_g, #gb > div > div > div.gb_hb.gb_id.gb_ah.gb_R.gb_Xf.gb_qb.gb_g > div.gb_wb.gb_ba.gb_g, #gbsfw.gb_7c {
+    #gbsfw.gb_Wc, #gbsfw.gb_4c, #gbw > div > div > div > .gb_hb.gb_id.gb_ah.gb_R.gb_g > .gb_wb.gb_b.gb_g, #gb > .gb_Sd.gb_qe.gb_1d > .gb_wb.gb_b.gb_g, #gb > .gb_Sd.gb_qe > .gb_wb.gb_b.gb_g, #gb > div > div > .gb_hb.gb_id.gb_ah.gb_R.gb_Xf.gb_qb.gb_g > .gb_wb.gb_b.gb_g, #gbsfw.gb_7c {
         border-color: #333 !important;
     }
 
@@ -45,7 +45,7 @@
         cursor: pointer !important;
     }
 
-    #gb .gb_xb a.gb_Db.gb_Db {
+    #gb .gb_xb .gb_Db.gb_Db {
         color: #fff !important;
     }
 
@@ -53,7 +53,7 @@
         color: #e8e8e8 !important;
     }
 
-    #gb a.gb_ja, #gb a.gb_ja:visited, #gb a.gb_ja:active, #gb a.gb_ka, #gb a.gb_ka:visited, #gb a.gb_ea, .gb_bc {
+    #gb .gb_ja, #gb .gb_ja:visited, #gb .gb_ja:active, #gb .gb_ka, #gb .gb_ka:visited, #gb .gb_ea, .gb_bc {
         color: #8e8e8e !important;
     }
 
@@ -85,7 +85,7 @@
         border-bottom-color: #252525 !important;
     }
 
-    #gbwa > div.gb_Oc > div.gb_rb, #gbwa > div.gb_Pc > div.gb_sb {
+    #gbwa > .gb_Oc > .gb_rb, #gbwa > .gb_Pc > .gb_sb {
         border-bottom-color: #1b1b1b !important;
     }
 
@@ -101,7 +101,7 @@
         border-color: #252525 !important;
     }
 
-    .gb_ka, .gb_da, #gb a.gb_ea, .gb_ea {
+    .gb_ka, .gb_da, #gb .gb_ea, .gb_ea {
         background: #1b1b1b !important;
     }
 
@@ -117,7 +117,7 @@
         color: #3296c8 !important;
     }
 
-    #gb#gb a.gb_O, #gb#gb a.gb_P, #gb#gb span.gb_P {
+    #gb#gb .gb_O, #gb#gb .gb_P, #gb#gb span.gb_P {
         color: #3296c8;
     }
 
@@ -125,7 +125,7 @@
         border-bottom: 1px solid #3a3a3a !important;
     }
 
-    .gb_4b.gb_b, .gb_4b.gb_Fc.gb_Ec, #gbwa > div.gb_Oc > a, .gb_ec.gb_b, .gb_ec.gb_Rc.gb_Qc, .gb_8 .gb_b, .gb_Rc.gb_Sc, #gbwa > div.gb_0c, #gbw > div > div > div > div.gb_Wc.gb_id.gb_R.gb_Xc > div.gb_0c, #gbwa > div.gb_3c > a, .gb_4c.gb_5c {
+    .gb_4b.gb_b, .gb_4b.gb_Fc.gb_Ec, #gbwa > .gb_Oc > a, .gb_ec.gb_b, .gb_ec.gb_Rc.gb_Qc, .gb_8 .gb_b, .gb_Rc.gb_Sc, #gbwa > .gb_0c, #gbw > div > div > div > .gb_Wc.gb_id.gb_R.gb_Xc > .gb_0c, #gbwa > .gb_3c > a, .gb_4c.gb_5c {
         filter: invert(1) !important;
     }
 
@@ -157,7 +157,7 @@
         background: #333 !important;
     }
 
-    #gb a.gb_Ba.gb_Ba {
+    #gb .gb_Ba.gb_Ba {
         color: #fff !important;
     }
 
@@ -165,7 +165,7 @@
         fill: #ccc !important;
     }
 
-    .gb_Fa, #gb a.gb_Fa.gb_Fa, .gb_Ha, .gb_Kb .gb_Jb, .gb_za, #gb a.gb_za.gb_za, .gb_Nb .gb_Mb {
+    .gb_Fa, #gb .gb_Fa.gb_Fa, .gb_Ha, .gb_Kb .gb_Jb, .gb_za, #gb .gb_za.gb_za, .gb_Nb .gb_Mb {
         background-image: -moz-linear-gradient(top, #3a3a3a, #313131) !important;
         /* FF3.6+ */
         background-image: -webkit-linear-gradient(top, #3a3a3a, #313131) !important;
@@ -182,7 +182,7 @@
         cursor: pointer !important;
     }
 
-    .gb_Fa:hover, #gb a.gb_Fa.gb_Fa:hover, .gb_Ha:hover, .gb_Jb .gb_Ib:hover, .gb_Kb .gb_Jb:hover, .gb_za, #gb a.gb_za.gb_za:hover, .gb_Nb .gb_Mb:hover {
+    .gb_Fa:hover, #gb .gb_Fa.gb_Fa:hover, .gb_Ha:hover, .gb_Jb .gb_Ib:hover, .gb_Kb .gb_Jb:hover, .gb_za, #gb .gb_za.gb_za:hover, .gb_Nb .gb_Mb:hover {
         background-image: -moz-linear-gradient(top, #313131, #3a3a3a) !important;
         /* FF3.6+ */
         background-image: -webkit-linear-gradient(top, #313131, #3a3a3a) !important;
@@ -197,7 +197,7 @@
         cursor: pointer !important;
     }
 
-    #gb .gb_Cb a.gb_Jb.gb_Jb, #gb .gb_yb a.gb_Eb.gb_Eb, .gb_Cb .gb_Mb, .gb_Ba {
+    #gb .gb_Cb .gb_Jb.gb_Jb, #gb .gb_yb .gb_Eb.gb_Eb, .gb_Cb .gb_Mb, .gb_Ba {
         background-image: -moz-linear-gradient(top, #4d90fe, #3069c7) !important;
         /* FF3.6+ */
         background-image: -webkit-linear-gradient(top, #4d90fe, #3069c7) !important;
@@ -215,7 +215,7 @@
         text-shadow: 1px 1px 0px #000 !important;
     }
 
-    #gb .gb_Cb a.gb_Jb.gb_Jb:hover, #gb .gb_yb a.gb_Eb.gb_Eb:hover, .gb_Cb .gb_Mb:hover, .gb_Ba:hover {
+    #gb .gb_Cb .gb_Jb.gb_Jb:hover, #gb .gb_yb .gb_Eb.gb_Eb:hover, .gb_Cb .gb_Mb:hover, .gb_Ba:hover {
         background-image: -moz-linear-gradient(top, #3069c7, #4d90fe) !important;
         /* FF3.6+ */
         background-image: -webkit-linear-gradient(top, #3069c7, #4d90fe) !important;
@@ -289,7 +289,7 @@
         color: #9a9a9a!important;
     }
     /* Calendar fix */
-    #gb > div.gb_Ld.gb_je > div.gb_Ec.gb_kb.gb_Dc.gb_de > div > div.gb_ee > div.gb_Oc.gb_ad.gb_R.gb_Pc.gb_Qf > div > a > div > svg, #gb > div.gb_Ld.gb_je > div.gb_Dc.gb_5d.gb_Je > div:nth-child(1) > svg {
+    #gb > .gb_Ld.gb_je > .gb_Ec.gb_kb.gb_Dc.gb_de > div > .gb_ee > .gb_Oc.gb_ad.gb_R.gb_Pc.gb_Qf > div > a > div > svg, #gb > .gb_Ld.gb_je > .gb_Dc.gb_5d.gb_Je > div:nth-child(1) > svg {
         fill: #fff !important;
     }
 
