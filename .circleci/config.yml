@@ -1,8 +1,8 @@
 version: 2.1
 workflows:
-  build-css:
+  main:
     jobs:
-      - build-css1:
+      - build-css:
         filter:
           branches:
             only: master
