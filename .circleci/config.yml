@@ -1,13 +1,11 @@
 version: 2.1
 workflows:
-  nightly:
-    triggers:
-      - schedule:
-          cron: "0 0 * * *"
-          filters:
-            branches:
-              only:
-                - master
+  build-css:
+    jobs:
+      - build-css1:
+        filter:
+          branches:
+            only: master
 
 jobs:
   build-css:
@@ -16,16 +14,19 @@ jobs:
     steps:
       - checkout
       - add_ssh_keys:
-          fingerprints:
-            - "a9:0d:0e:63:91:80:1b:45:74:fa:3c:25:2a:3e:61:c2"
+        fingerprints:
+          - "a9:0d:0e:63:91:80:1b:45:74:fa:3c:25:2a:3e:61:c2"
       - run:
-          name: Build CSS file
-          command: python ./build.py
+        name: Build CSS file
+        command: python ./build.py
       - run:
-          name: Push built CSS file to GitHub
-          command: |
+        name: Push built CSS file to GitHub
+        command: |
+          if [[ $(git log -1 --pretty=%B | grep -v 'Build from CI') ]]
+          then
             git config user.email "circlecibuilder@circleci.com"
             git config user.name "CircleCI Builder"
             git add google-clean-darkx.user.css
             git commit -m 'Build from CI @'`date '+%F_%H:%M:%S'`
             git push
+          fi
