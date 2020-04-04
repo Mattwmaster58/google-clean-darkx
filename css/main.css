@@ -296,10 +296,6 @@
     .gb_pe.gb_ue, .gb_pe, .gb_Va svg, .gb_nc svg {
         color: #ccc !important;
     }
-    /* please let it be a fix for the goddamn header & account info */
-    #gb > div:nth-child(2), #gb > div:nth-child(2) > div:nth-child(2) {
-        background: #252525 !important;
-    }
     /* notifications */
     #gb > div:nth-child(2) > div:nth-child(5) {
         border-color: #333 !important;

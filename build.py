@@ -16,7 +16,8 @@ def main():
         Built on {datetime.utcnow()}
         DO NOT MODIFY THIS FILE DIRECTLY! Instead, modify the appropriate CSS file in the ./css directory
         */\n\n'''))
-        for file in Path('./css').iterdir():
+        # we want main and global styles to be overridden not the other way around
+        for file in sorted(Path('./css').iterdir(), key=lambda f: 'main' in f.name or 'global' in f.name):
             with open(file) as inf:
                 out.write(inf.read())
 
