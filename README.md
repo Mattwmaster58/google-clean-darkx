@@ -18,7 +18,3 @@ This repo is always accepting pull requests, but please follow some guidelines:
  - Autodeploy to userstyles
  - Merge in better looking google search styles
  - Use CSS Color variables
-
-
-##### Google Clean Dark Extended - Continuation of https://userstyles.org/styles/144028/google-clean-dark
-##### Original Author: https://userstyles.org/users/352024
