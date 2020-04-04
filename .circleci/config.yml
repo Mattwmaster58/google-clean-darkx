@@ -13,6 +13,6 @@ jobs:
     steps:
       - checkout
       - run:
-        command: python ./build.py
+          command: python ./build.py
       - run:
-        command: git add google-clean-darkx.user.css && git commit -m 'Build from CI @'`date '+%F_%H:%M:%S'` && git push
+          command: git add google-clean-darkx.user.css && git commit -m 'Build from CI @'`date '+%F_%H:%M:%S'` && git push
