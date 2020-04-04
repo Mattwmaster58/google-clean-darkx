@@ -1,8 +1,49 @@
 /*
-Built on 2020-04-04 18:49:12.243764
+Built on 2020-04-04 18:49:24.463521
 DO NOT MODIFY THIS FILE DIRECTLY! Instead, modify the appropriate CSS file in the ./css directory
 */
 
+@-moz-document url-prefix("https://mail.google.com/mail/") {
+    /* Make the loading screen dark */
+    #loading {
+        background: #252525 !important;
+    }
+
+    /* Gmail has a dark theme, we allow it to style the header */
+    .gb_8d {
+        background: inherit !important;
+    }
+
+    .msgb {
+        color: #ccc !important;
+    }
+
+    #bhlf > input.submit_as_link {
+        color: #00adee !important;
+    }
+
+    .z0 > .L3 {
+        box-shadow: none !important;
+        background-color: #555 !important;
+        color: #ccc !important;
+    }
+
+    .z0 > .L3:hover {
+        background-color: #777 !important;
+    }
+    /* Calendar menu */
+    .brC-brG-Jz-bBA, .brC-brG-avC {
+        background: #1b1b1b !important;
+    }
+
+    .brC-brG-avC {
+        border-color: #333 !important;
+    }
+
+    .brC-brG-avC-bBo-JX {
+        fill: #ccc !important;
+    }
+}
 @-moz-document url-prefix("https://drive.google") {
     /*** Main ***/
     body {
@@ -790,812 +831,6 @@ DO NOT MODIFY THIS FILE DIRECTLY! Instead, modify the appropriate CSS file in th
     /* Remove */
     .uc-footer {
         display: none !important;
-    }
-}
-@-moz-document url-prefix("https://calendar.google") {
-    /* Native */
-    .p9lUpf, body, .YqtBEc, .BWsMTe, .BYXlo, .gb_9d, .gb_ce, .NekIXe, .a0xMze {
-        background-color: #1b1b1b !important;
-    }
-
-    .DyOaYd, .HLI7qf, .FpmPAb, .jZ0DTb, .EmURbc, .gssb_e, .gb_Xa:not(.gb_Za) .gb_Hd, .gb_de, .VmUiic, .Lzfnue, .J09ahd {
-        background-color: #252525 !important;
-    }
-
-    #gb > div, #gb > div > div {
-        background-color: #252525 !important;
-    }
-
-    .ncFHed, .ncFHed .MocG8c.KKjvXb, .z80M1.FwR7Pc, .VOEIyf .jBmls, .oKubKe[aria-selected="true"], .I2LGc:hover, .xuBVOe, .gssb_i, .CCRNT, .VKy0Ic[aria-selected="true"], .gHQcAb, .gb_Qe.gb_8e, .cnTo8e, .shdZ7e .mIZh1c {
-        background-color: #333 !important;
-    }
-
-    .ncFHed .MocG8c.KKjvXb, .z80M1.FwR7Pc, .oKubKe[aria-selected="true"], .VKy0Ic[aria-selected="true"] {
-        color: #fff !important;
-        filter: invert(.2) !important;
-    }
-
-    .j3nyw, .uOjlA, .PNenzf, .O0WRkf.RDPZE, .C0oVfc .RveJvd, .aStPEd, .ThdJC, .HLI7qf .c7fp5b, .MocG8c, .z80M1, .hGcgEd, .DN1TJ, .gb_ge.gb_le, .KaL5Wc, .QA0Szd-xl07Ob .uyYuVb, .C188rb, .Dna1ee, .CflnFb, .t3Qf0e, .Cd9hpd .NlWrkb, .gb_ge, .gb_Pe.gb_6e .gb_7e, .gPMPbe, .gb_ie.gb_ne, .MmhHI.N4XV7d, .gb_ie, .gb_9e, .g3dbUc.smECzc, .gb_he.gb_me, .gb_Ta svg, .gb_lc svg, .GgNG3d, .iJNNw, .m9xvCf, .QpG80, .Z7IIl, .oPF3Ce, .cuBluc, .wqqJUb, .JunSsb, .nxPHec, .YTCBlf, .DJmpu, .NkK3Fc span[role=heading] {
-        color: #ccc !important;
-    }
-
-    .srd2n, .s9eZvd, .PbnGhe, .BYXlo {
-        color: #8e8e8e !important;
-    }
-
-    .PqAscf, .uJ4w1, .mrslJ, .Zlotdb + .FYEgid .XQINac, .T8CF3c, .hEtGGf, .qZvm2d-clz4Ic, body[data-viewfamily=EVENT] .TOTjfb, body[data-viewfamily=SEARCH] .TOTjfb, .GrK4Mb, .hVDHke, .l7VQxb, .qNixLe, .lzc0vb, .xuBVOe, .gssb_e, .cBs4Te, body[data-viewfamily=EVENT] .SGWAac, body[data-viewfamily=SEARCH] .SGWAac, .ETUnje, .Xo3rO {
-        border-color: #333 !important;
-    }
-
-    .z80M1.N2RpBe::before {
-        border-right-color: #ccc !important;
-        border-bottom-color: #ccc !important;
-    }
-
-    .YvjgZe, .G5v83e, .SU7tYb, .BWsMTe, .qgbr2b, .qb8AF, .GENA3c, .H7IzGb, .eADW5d, .mmsF1c:after, .SULbR {
-        border-color: #555 !important;
-    }
-
-    .v83gc, .JtukPc, .BvQsje, .Uit9Se, .NBzXR, .eh5oYe .GFiTfe .uj9dId, .B8NVZb, .SU7tYb.F262Ye, .j0nwNb .eh5oYe .eADW5d, .j0nwNb .eh5oYe .yEkOpe {
-        background-color: #3e3e3e !important;
-    }
-
-    .uSx8Od, .gsoi_0, .asor_o {
-        filter: invert(.9) !important;
-    }
-
-    .gb_Xa svg, .gb_oc svg {
-        color: #fff !important;
-    }
-
-    .LokBre .GrK4Mb, .LokBre .hVDHke, .LokBre .l7VQxb, .LokBre .zP0T0b, .iLpjNc {
-        background-color: #63633f !important;
-    }
-
-    .gb_Pe.gb_6e, .NAFvr, .U0vptb {
-        background-color: #373737 !important;
-    }
-
-    .gssb_m {
-        color: #ccc;
-        background: #252525;
-    }
-
-    .gssb_l, .KSxb4d.RKLVef:hover, body.geSgge .KSxb4d.RKLVef:hover, .KSxb4d.N4XV7d.RKLVef:hover, body.geSgge .KSxb4d.N4XV7d.RKLVef:hover {
-        background: #333 !important;
-    }
-
-    .YvjgZe.F262Ye:after {
-        background-color: rgba(0, 188, 212, 0.02);
-    }
-
-    .Qfwgwb {
-        background-color: #1e1e1e !important;
-    }
-
-    .LV4Pme {
-        color: #ccc !important;
-    }
-
-    .g3dbUc.smECzc.KKjvXb, .GrxScd .g3dbUc.smECzc:focus, .mKdssd, .ZGVUP:hover, .g3dbUc.LKeQwe {
-        background-color: #555;
-    }
-
-    .ZGVUP, .g3dbUc.LKeQwe {
-        border-color: #555 !important;
-    }
-    /* Search */
-    #aso_search_form_anchor {
-        background-color: #1b1b1b !important;
-    }
-
-    #aso_search_form_anchor > div > input {
-        color: #ccc !important;
-    }
-    /* Gmail menu */
-    .W0m3G.i8dSE .r4nke {
-        color: #fff !important;
-        background-color: #6b7686 !important;
-    }
-
-    .OWyNBb.m1fiJb {
-        background-color: #212b35 !important;
-        border-color: transparent !important;
-        color: #ccc !important;
-    }
-
-    .q1j8lf, .GENA3c, .Gk2izd, .g3VIld, .brC-brG-Jz-bBA, .brC-brG-avC {
-        background: #1b1b1b !important;
-    }
-
-    .W0m3G .r4nke, .G5v83e /*, .Kb2sf*/, .dKHeGf, .AKhndf, .IIB0tc .ULpymb, .JPdR6b, .rF3YF.u3bW4e, .rF3YF:hover, .kMp0We.Wm6kRe:hover, .GrxScd .kMp0We:focus, .kMp0We.gk6SMd, .GrxScd .kMp0We.u3bW4e, .GrxScd .kMp0We.n2fNkc, .KwL08c.kMp0We, .KwL08c > .kMp0We, div.oFBMuc:hover, .SaBhMc {
-        background-color: #333 !important;
-    }
-
-    .Erb9le:not(.RDPZE) .qmMNRc.y7OZL {
-        background-color: #1b1b1b;
-    }
-
-    .uHMk6b {
-        border-color: #252525 !important;
-    }
-
-    .Gk2izd {
-        border-right: none !important;
-        border-bottom-color: #333 !important;
-    }
-
-    .cBs4Te.ZmuLbd, .zIq8Wc.JhZbF, .brC-brG-avC {
-        border-color: #333 !important;
-    }
-
-    .iMprOe, .whsOnd, .Mfdus .iuaqab, .qmMNRc, .n1rxgc, .WpDZC, .MSZkRb .r4nke {
-        color: #a6a6a6 !important;
-    }
-
-    .pCoqfc, .MANBAf, .NI2kfb, .kap9Ye, .uQ1ixe .snByac, .u5sQsb, .YK7obe .yzYBvd, .rSoRzd {
-        color: #ccc !important;
-    }
-
-    .rF3YF, .K2mXPb, .brC-brG-avC-bta-atM .brC-brG-avC-bBo-JX {
-        color: rgba(255, 255, 255, 0.54) !important;
-        fill: rgba(255, 255, 255, 0.54) !important;
-    }
-
-    .rL6ose {
-        filter: invert(.9) !important;
-    }
-
-    .hEtGGf::after {
-        display: none !important;
-    }
-    /* Settings */
-    .xpYref, .WefNYe:before {
-        background-color: #1b1b1b !important;
-    }
-
-    .xWId8e {
-        background-color: #252525 !important;
-    }
-
-    .cAYGed.KKjvXb .Ioup7e, .cAYGed.KKjvXb .BMQm1d {
-        background-color: #444 !important;
-    }
-
-    .mfcZZc + .mfcZZc, body[data-viewfamily=SETTINGS] .SGWAac, body[data-viewfamily=TRASH] .SGWAac {
-        border-color: #333 !important;
-    }
-
-    .MDfQ7 {
-        background-color: #252525 !important;
-    }
-
-    .O1gyfd {
-        color: #ccc !important;
-    }
-
-    .HLAc8, .oj6B2e {
-        color: #8e8e8e !important;
-    }
-
-    .jZ0DTb.kM7Sgc .ry3kXd .LMgvRb.KKjvXb, .Kb2sf {
-        background: rgba(0, 0, 0, .2) !important;
-    }
-
-    .uVccjd {
-        border-color: #777;
-    }
-
-    .WefNYe::-webkit-scrollbar-thumb {
-        border-color: #555 !important;
-        background-color: #555 !important;
-    }
-
-    .DaQ2rc::before {
-        background-color: #555 !important;
-    }
-
-    .a0xMze.T8M5bd::after {
-        display: none !important;
-    }
-    /*** View ***/
-    /* Schedule */
-    .L1Ysrb, .d3Ig7c {
-        border-color: #333 !important;
-    }
-
-    .dtaVuc.FwR7Pc {
-        background-color: #333 !important;
-    }
-
-    .taTyDe, .dtaVuc {
-        color: #8e8e8e !important;
-    }
-
-    .O3EOA, .EgH9k .JAPzS {
-        color: #ccc !important;
-    }
-
-    .wcJUvc::-webkit-scrollbar-thumb {
-        border-color: #555 !important;
-        background: #555 !important;
-    }
-    /* Day */
-    .jRJqje {
-        background: #3e3e3e !important;
-    }
-
-    .qAeuG, .qAeuG.N4XV7d, .qAeuG.pCcXPe, .KSxb4d.pCcXPe, body.geSgge .KSxb4d.pCcXPe {
-        color: #fff !important;
-    }
-
-    .wWdzec {
-        background-color: #333 !important;
-        color: #ccc !important;
-    }
-
-    .J2aUD.T8M5bd .sx5BGe::before, .SGFqbe.T8M5bd .sx5BGe::before, .J2aUD.T8M5bd .qmFsL::before, .SGFqbe.T8M5bd .qmFsL::before, .J2aUD.T8M5bd .qmFsL::after, .SGFqbe.T8M5bd .qmFsL::after, .JE11kf.FEiQrc .xsOpqe, .xsOpqe {
-        display: none !important;
-    }
-
-    .EdAri {
-        border-color: transparent !important;
-    }
-
-    .hnGhZ::-webkit-scrollbar-thumb {
-        border-color: #555 !important;
-        background: #555 !important;
-    }
-    /* Week */
-    .j0nwNb .eh5oYe .eADW5d, .j0nwNb .eh5oYe .yEkOpe {
-        border-color: #555 !important;
-    }
-    /* Month */
-    .akJTWe, .XnnJrc.Wyo4Qe .TKMrfe {
-        background-color: #212b35 !important;
-        color: #ccc !important;
-    }
-
-    .tNDBE {
-        background-color: #252525 !important;
-    }
-
-    .t8qpF, .akJTWe, .XnnJrc.Wyo4Qe, .PhLhOd, .QIadxc {
-        border-color: #555 !important;
-    }
-
-    .YK7obe {
-        color: #ccc !important;
-    }
-
-    .ef2wWc, .ecKr0 {
-        background-color: #23252b !important;
-    }
-
-    .eADW5d {
-        border-right: none !important;
-    }
-    /* Year */
-    .QJLQUd {
-        color: #ccc !important;
-    }
-    /* Buttons */
-    .GXlaye.qRI4pc, .Cd9hpd, .qmv2fc.KKjvXb, .qmv2fc.kaAt2:hover {
-        border-color: #333 !important;
-        background-color: #333 !important;
-    }
-
-    .Cd9hpd:hover .mAozAc.u3bW4e, .Cd9hpd .mAozAc.iWO5td {
-        background: #777 !important;
-    }
-
-    .nYqxP {
-        color: #ccc !important;
-    }
-    /* Scrollbar */
-    ::-webkit-scrollbar-thumb {
-        background: #444;
-    }
-
-    :hover::-webkit-scrollbar-thumb {
-        background: #666;
-    }
-    /* Docs fix */
-    .tVqNxd {
-        background-color: #333;
-    }
-
-    .cOoA8d {
-        border-color: #333 !important;
-    }
-
-    .jgtV4b {
-        color: #ccc !important;
-    }
-    /* Companion sidebar */
-    .Kk7lMc-DWWcKd-OomVLb-haAclf {
-        background-color: #252525 !important;
-        border-color: #333 !important;
-    }
-
-    .ONKrsd-jrnDlb-LgbsSe-ZmdkE .ONKrsd-jrnDlb-Bz112c-haAclf, .ONKrsd-jrnDlb-LgbsSe-FNFY6c .ONKrsd-jrnDlb-Bz112c-haAclf {
-        background-color: #333;
-    }
-
-    .eU5T0b {
-        background-color: #252525 !important;
-        color: #ccc !important;
-    }
-    /* Loading tasks */
-    .Kk7lMc-ae3xF-tJHJj, .Kk7lMc-ae3xF-bN97Pc-LYNcwc {
-        background-color: #1b1b1b !important;
-    }
-
-    .Kk7lMc-ae3xF-tJHJj {
-        border-color: #333 !important;
-    }
-
-    .Kk7lMc-ae3xF-tJHJj-CZjX4e-AHe6Kc .Kk7lMc-ae3xF-tJHJj-OAU7Vd-Bz112c {
-        fill: #fff !important;
-    }
-    /*Sidebar */
-    .Kk7lMc-DWWcKd-OomVLb-hgDUwe {
-        border-color: #333 !important;
-    }
-
-    #Aeh9bb {
-        filter: invert(.9) !important;
-    }
-
-    .Kk7lMc-QWPxkf-LgbsSe.DWWcKd-OomVLb-LgbsSe-barxie .DWWcKd-OomVLb-LgbsSe-Bz112c-haAclf, .Kk7lMc-Ia7Qfc-CZjX4e .Kk7lMc-QWPxkf-LgbsSe.DWWcKd-OomVLb-LgbsSe-barxie .DWWcKd-OomVLb-LgbsSe-Bz112c-haAclf, .DWWcKd-OomVLb-LgbsSe-Bz112c-haAclf {
-        background-color: #1b1b1b !important;
-    }
-
-    .DWWcKd-OomVLb-LgbsSe-Bz112c-haAclf {
-        background-color: transparent !important;
-    }
-}
-@-moz-document url-prefix("https://tasks.google.com") {
-    .CTxcDf, body, .g3VIld, .oxAbDf {
-        background-color: #252525 !important;
-    }
-
-    .UXfMHb, .OyPDvb, .fKz7Od, .blBtle {
-        color: #9c9c9c !important;
-    }
-
-    .UhNUGe {
-        background-color: #333 !important;
-    }
-
-    .UhNUGe:hover, .UhNUGe:focus {
-        background-color: #555 !important;
-    }
-
-    .kpuJe, .cbcjjb, .U1lyme .oJeWuf, .XKxdVe, .ncFHed, .JPdR6b, .g3VIld .rFrNMe .aXBtI, .Nm5pwe .lzIjk .LMgvRb, .PZqXCe, .nnsg6 {
-        background-color: #3e3e3e !important;
-    }
-
-    .kpuJe::before, .cbcjjb, .AY4Dce:not(.sMVRZe), .XKxdVe, .bKwVmd.DuSr9b, .oxAbDf::before, .Sze5Fc, .oXBvod.MdU9l:not(.sMVRZe) {
-        border-color: #333 !important;
-    }
-
-    .Wde9Bc:not(.CWc3Zb) .BjZULd::after, .Sze5Fc {
-        background-color: #333 !important;
-    }
-
-    .wYwLFe, .RwybPd, .tL9Q4c, .zHQkBf, .cbcjjb, .RaWQkc, .lzIjk .LMgvRb, .z80M1, .PNenzf, .C0oVfc .RveJvd, .mZwRef, .l2rb3b, .pRU5He, .qpGJsd, .rhGwLe, .V9NiMc, .oXBvod.MdU9l .Sze5Fc, .WBaDKd .uyYuVb, .SltZ5e .NlWrkb {
-        color: #ccc !important;
-    }
-
-    .fKz7Od {
-        fill: #ccc !important;
-    }
-
-    .FmNPqf {
-        background-color: #252525 !important;
-        color: #ccc !important;
-    }
-
-    .FuZZcf {
-        stroke: rgba(255, 255, 255, 0.54);
-    }
-
-    .z80M1.N2RpBe::before {
-        border-right-color: #ccc !important;
-        border-bottom-color: #ccc !important;
-    }
-
-    .z80M1.FwR7Pc {
-        background-color: #333 !important;
-        filter: invert(.2) !important;
-    }
-
-    .Nm5pwe .lzIjk .LMgvRb {
-        background: #1b1b1b;
-    }
-
-    .vyISr {
-        filter: invert(0.7) !important;
-    }
-    /* Docs fix */
-    .B9yICe {
-        background-color: #252525 !important;
-        border-color: #333 !important;
-    }
-
-    .azMWHd .uyYuVb {
-        color: #ccc !important;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background: #252525 !important;
-    }
-}
-@-moz-document url-prefix("https://play.google.com/") {
-    /* Header */
-    #gb > div {
-        background-color: #252525 !important;
-    }
-    /* Account settings icons */
-    #gbwa > div:nth-child(1) > a, #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(3) > div:nth-child(1) > a {
-        filter: invert(.9) !important;
-    }
-    /* Search */
-    .gbqfqw {
-        background: #1b1b1b !important;
-        border: 1px solid #1b1b1b !important;
-    }
-
-    .gbqfif, .gbqfsf, .hNW13c, .ac-row {
-        color: #ccc !important;
-    }
-
-    .qZxJ9, .ac-renderer {
-        background: #252525 !important;
-        border-top: 1px solid !important;
-        border-color: #333 !important;
-    }
-
-    .eOnYEd, .ac-active {
-        background: #333 !important;
-    }
-    /* Main */
-    body, .cluster, .cluster-container {
-        background-color: #1b1b1b !important;
-        color: #aaa !important;
-    }
-
-    .action-bar, .t5eBue, .qAAUy:hover, body:not(.phone-optimized) .card-cluster .card-list {
-        background-color: #2a2a2a !important;
-    }
-
-    .action-bar-dropdown-top:hover {
-        background: transparent !important;
-    }
-
-    .action-bar-link .anchor:hover, .jGu02 .uJjCzb:hover {
-        background: #444 !important;
-    }
-
-    .action-bar-spacer, .JvjCjf {
-        background: #444 !important;
-    }
-
-    h1 > a, h2 > a, h2 {
-        color: #fff !important;
-    }
-
-    .cluster-heading .subtitle, .action-bar-dropdown, .action-bar-link, .action-bar-link .anchor, .action-bar-link .anchor:visited, .jGu02 .uJjCzb, .jGu02 .uJjCzb:visited, .qAAUy, .editors-choice-card .editorial-page-title, .II4YWb {
-        color: #ccc !important;
-    }
-
-    a {
-        color: #ccc;
-    }
-    /* Popup */
-    .dropdown-submenu, .dropdown-sub-submenu {
-        background-color: #333 !important;
-        border-color: #333 !important;
-    }
-
-    .leaf-submenu-link:hover, .parent-submenu-link, .child-submenu-link:hover {
-        background-color: #444 !important;
-    }
-    /* Buttons */
-    .play-button.small, .b7cPmf:last-child .g3P27d, .LkLjZd, .LkLjZd:visited, button.id-write-button.play-button, button.expand-button.expand-next > div.play-button, button.expand-button.expand-prev > div.play-button, .expand-close.play-button {
-        background: #333 !important;
-        border: 1px solid #333 !important;
-    }
-
-    button.id-write-button.play-button:hover {
-        color: #fff !important;
-    }
-
-    #wrapper > div.action-bar-container > div > div.action-bar.movies > div.action-bar-aux > div.action-bar-item.settings-gear-menu.play-button.small > div.action-bar-link.id-track-click.id-track-impression.id-action-bar-settings-button > a > div {
-        background: transparent !important;
-    }
-
-    .action-bar-help .action-bar-link-title, .action-bar-item.settings-gear-menu .dropdown-icon, .mZr3Me .pHFsbd, .CVBexe .L9ZZW, .expand-next .button-image, .expand-next .arrow-image, .expand-prev .button-image, .expand-prev .arrow-image, .spam-flag, .rate-review .icon, .expand-close .close-image {
-        filter: invert(.9) !important;
-    }
-
-    .boqPlaycardFloatinghighlightsrowScrollButton {
-        background-color: #000 !important;
-        color: #fff !important;
-    }
-
-    .U8Ww7d:hover, .VkbTne:hover, .CqJCxd:hover, .t2Y9uc:hover, .mgVrBf:hover, .xjAeve:hover, .IfEcue:hover {
-        box-shadow: none !important;
-        background-color: #444 !important;
-    }
-    /* Sidebar */
-    .nav .entertainment .sub-nav, .nav .store .sub-nav, .nav-container .shared-sub-nav, .nav .not-selected .hover-target, .nav, .k8Lt0 .CoKTif, .k8Lt0 .XBXPXc {
-        background-color: #2a2a2a !important;
-    }
-
-    .POfIAc {
-        background: #444 !important;
-    }
-
-    .nav .entertainment .sub-nav, .nav .store .sub-nav, .nav-container .shared-sub-nav, .k8Lt0 .CoKTif {
-        border-color: #333 !important;
-    }
-
-    .secondary-sub-nav-option .sub-nav-link, .nav .not-selected .title, .k8Lt0 .fle8Af .gm1qLe {
-        color: #aaa !important;
-    }
-
-    .nav .shop-link, .nav .library-link, .nav .wishlist-link, .WtH9qd, .iZhiic .pvVVcb {
-        color: #ccc;
-    }
-
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.music.hidden-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.apps.hidden-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.movies-tv.hidden-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.books.hidden-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.devices.hidden-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.entertainment.hidden-item > a > span > span {
-        color: transparent !important;
-    }
-
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.music.visible-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.apps.visible-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.movies-tv.visible-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.books.visible-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.devices.visible-item > a > span > span,
-    #wrapper > div > div > ul > li.nav-list-item.id-track-click.entertainment.visible-item > a > span > span {
-        color: #fff !important;
-    }
-
-    .show-all-hover-zone, .k8Lt0 .znPNx {
-        background-color: #444 !important;
-    }
-
-    .sub-nav-divider {
-        background: #333 !important;
-    }
-    /* Cards */
-    .card-content, .card .reason-set, .card .price-container .price {
-        background: #252525 !important;
-    }
-
-    .paragraph-end {
-        background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, #252525)) !important;
-        background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #252525) !important;
-        background: linear-gradient(to right, rgba(255, 255, 255, 0), #252525) !important;
-    }
-
-    .card .cover {
-        background: transparent !important;
-    }
-
-    .card .title {
-        color: #fff !important;
-    }
-
-    .card .subtitle {
-        color: #ccc !important;
-    }
-
-    .tiny-star.star-rating-non-editable-container {
-        filter: brightness(1.5) !important;
-    }
-    /* Items */
-    .W4P4ne, .LXrl4c, .details-section, .userlist-yet-to-add.default, .userlist-adding.default, .userlist-added.default, .userlist-remove.default, .userlist-removing.default, .details-actions .play-button:first-child, .details-info, .details-wrapper, .main-content {
-        background-color: #252525 !important;
-    }
-
-    #body-content > div.outer-container > div > div.secondary-content > div > div {
-        background: transparent !important;
-    }
-
-    .f3Fr9d, .cqtbn {
-        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, #252525)) !important;
-        background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #252525) !important;
-        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #252525) !important;
-    }
-
-    .track-list-row:hover td, .track-list-row.playing td, .track-list-row.loading td {
-        background-color: #333 !important;
-    }
-
-    .Njo8s, .details-section-divider {
-        border-color: #333 !important;
-    }
-
-    .nP60O, .jdjqLd, .dNLKff, .UD7Dzf, .htlgb, .EymY4b, .track-list-row, .details-section.description.simple .text-body {
-        color: #aaa !important;
-    }
-
-    .DWPxHb, .mMF0fd, .X43Kjb, .IEFhEe, .BgcNfc, .info-container .document-subtitle, .main-content .details-section .heading, .meta-info .title, .featured-review .author-name, .score-container .score, .rating-box .rating-bar-container {
-        color: #ccc !important;
-    }
-
-    .AHFaub, .BHMmbe, .info-container .document-title, .rating-box .bar-number {
-        color: #fff !important;
-    }
-
-    .L0jl5e, .vQHuPe, .NVmCwd, .BGNhFb, .clock, .playback-button.playing {
-        filter: invert(.9) !important;
-    }
-
-    .Nywl9c {
-        box-shadow: none !important;
-    }
-    /***/
-    /* Music */
-    .card.music .consume-link, .card.music .price {
-        color: #fb8e35 !important;
-    }
-
-    .albums-secondary-color button, .albums-secondary-color a, .albums-secondary-color a:visited {
-        color: #f76b40 !important;
-    }
-
-    .censor-sticker {
-        color: #f76b40 !important;
-        border-color: #f76b40 !important;
-    }
-
-    .music .userlist-yet-to-add .wishlist-icon {
-        filter: brightness(2) !important;
-    }
-    /* Apps */
-    .drrice .hrTbp, .drrice .hrTbp:visited, .drrice .nSYH7e, .drrice .VmgRE, .drrice .n9lfJ .snByac, .drrice .JHTxhe a, .drrice .JHTxhe a:visited {
-        color: #59fb59 !important;
-    }
-
-    .drrice .r1Rcnb {
-        filter: brightness(1.8) !important;
-    }
-    /* Movies - TV */
-    .card.movies .consume-link, .card.movies .price, .card.tv .price {
-        color: #e65656 !important;
-    }
-
-    .q9QOMe .hrTbp, .q9QOMe .hrTbp:visited, .q9QOMe .JHTxhe a, .q9QOMe .JHTxhe a:visited, .q9QOMe .nSYH7e, .q9QOMe .VmgRE, .q9QOMe .n9lfJ .snByac, .q9QOMe .i5DZme {
-        color: #ff5137 !important;
-    }
-
-    .q9QOMe .r1Rcnb {
-        filter: brightness(1.5) !important;
-    }
-    /* Books */
-    .card.books .consume-link, .card.books .price, .K1b9Kc .i5DZme {
-        color: #55c7ff !important;
-    }
-
-    .K1b9Kc .hrTbp, .K1b9Kc .hrTbp:visited, .K1b9Kc .JHTxhe a, .K1b9Kc .JHTxhe a:visited, .K1b9Kc .nSYH7e, .K1b9Kc .VmgRE, .K1b9Kc .n9lfJ .snByac {
-        color: #3fa6f7 !important;
-    }
-
-    .K1b9Kc .r1Rcnb, .EIekTb {
-        filter: brightness(2) !important;
-    }
-    /***/
-    /* Similar */
-    .uMConb {
-        background-color: #252525 !important;
-    }
-    /* Popups */
-    .JAPqpe {
-        background-color: #333 !important;
-    }
-
-    .z80M1.FwR7Pc {
-        background-color: #444 !important;
-    }
-
-    .jO7h3c {
-        color: #ccc !important;
-    }
-    /* Comments */
-    .LVQB0b {
-        background-color: #252525 !important;
-    }
-
-    .QoPmEb {
-        border-bottom: 10px solid #252525 !important;
-    }
-    /* Footer */
-    .footer {
-        background: #1b1b1b !important;
-        color: #aaa !important;
-    }
-
-    a.footer-item {
-        color: #ccc !important;
-    }
-    /* Settings */
-    .rymPhb-oKdM2c:hover {
-        background-color: #333 !important;
-    }
-
-    .LS81yb-Ud7fr {
-        color: #ccc !important;
-    }
-
-    .Lr18sf, .rymPhb-jyrRxf-tJHJj th, .rymPhb-oKdM2c td {
-        color: #aaa !important;
-    }
-
-    .rymPhb-oKdM2c {
-        border-color: #333 !important;
-    }
-    /* Overlay */
-    .body-content-loading-overlay {
-        background: #000 !important;
-    }
-
-    .body-content-loading-spinner {
-        filter: invert(1) !important;
-    }
-    /* Remove */
-    .k8Lt0 .y089Ob {
-        display: none !important;
-    }
-    /* Scrollbar */
-    ::-webkit-scrollbar {
-        width: 10px;
-        height: 10px;
-    }
-
-    ::-webkit-scrollbar-button {
-        width: 0px;
-        height: 0px;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background: #ffffff1f;
-        border: none;
-        border-radius: 0px;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-        background: #fff3;
-    }
-
-    ::-webkit-scrollbar-thumb:active {
-        background: #fff3;
-    }
-
-    ::-webkit-scrollbar-track {
-        background: #0000004d;
-        border: none;
-        border-radius: 0px;
-    }
-
-    ::-webkit-scrollbar-track:hover {
-        background: #0000004d;
-    }
-
-    ::-webkit-scrollbar-track:active {
-        background: #0000004d;
-    }
-
-    ::-webkit-scrollbar-corner {
-        background: #0000004d;
     }
 }
 @-moz-document url-prefix("https://docs.google.com") {
@@ -3058,214 +2293,6 @@ DO NOT MODIFY THIS FILE DIRECTLY! Instead, modify the appropriate CSS file in th
         background: transparent !important;
     }
 }
-@-moz-document url-prefix("https://mail.google.com/mail/") {
-    /* Make the loading screen dark */
-    #loading {
-        background: #252525 !important;
-    }
-
-    /* Gmail has a dark theme, we allow it to style the header */
-    .gb_8d {
-        background: inherit !important;
-    }
-
-    .msgb {
-        color: #ccc !important;
-    }
-
-    #bhlf > input.submit_as_link {
-        color: #00adee !important;
-    }
-
-    .z0 > .L3 {
-        box-shadow: none !important;
-        background-color: #555 !important;
-        color: #ccc !important;
-    }
-
-    .z0 > .L3:hover {
-        background-color: #777 !important;
-    }
-    /* Calendar menu */
-    .brC-brG-Jz-bBA, .brC-brG-avC {
-        background: #1b1b1b !important;
-    }
-
-    .brC-brG-avC {
-        border-color: #333 !important;
-    }
-
-    .brC-brG-avC-bBo-JX {
-        fill: #ccc !important;
-    }
-}
-@-moz-document url-prefix("https://news.google.com/") {
-    /* Main */
-    .zQTmif, body, .gb_6e.gb_7e, .gb_6e, .gb_if {
-        background-color: #1b1b1b !important;
-    }
-
-    .SXu5Cc, .YDRMcc, .gAl5If.nID9nc, .NiLAwe.nID9nc, .g3VIld, .NiLAwe, .nLHjre, .To2ZZb.hpDt6e, .Jur22e, .jTzABb > .xTewfe {
-        background-color: #252525 !important;
-    }
-
-    .dSva6b, .GPmEYb.KKjvXb, .GPmEYb.KKjvXb:hover, .bDw0ac, .LNrHIf .CHM9mc, .giB63b .oWh3Ld, .MQsxIb, .kpaMUd, .OJMBqe, .i9ZCec .wBtOlc, .xwumSd, .Plhhzc .MlH7je, .Plhhzc .qCne4e, .G28GSc .fMAqYb, .G28GSc .MlH7je, .G28GSc .PWz4Tb, .To2ZZb.hpDt6e, .mggrR, div.SKMfG.focofd.FVKzAb > content > span, .Xcw0p.ztUP4e, .JkHSnc, .PYXaYc, .hQpybf, .nqrr9, .gb_Je.gb_He {
-        color: #ccc !important;
-    }
-
-    .GPmEYb, .giB63b .NwrYVd, .seTZHc, .uBzFKf {
-        color: #777 !important;
-    }
-
-    .NiLAwe, .SXu5Cc, .SXu5Cc .JQQdOc, .wi7gLd, .YDRMcc .JQQdOc, .i9ZCec, .EOlQu .JQQdOc, .lBwEZb > .JQQdOc, .UJEP5e, .UJEP5e:nth-child(odd) .EBKU9d, .To2ZZb.hpDt6e, .hijjb, .Pt3ZH {
-        border-color: #333 !important;
-    }
-
-    .fKz7Od {
-        color: #ccc !important;
-        fill: #ccc !important;
-    }
-
-    .nLHjre {
-        box-shadow: none !important;
-        border: 1px solid #333 !important;
-    }
-
-    div.Mfg7Tb.hGhvff.qLAFub.g0L7Q {
-        filter: invert(.9) !important;
-    }
-    /* Header */
-    .gb_ke {
-        background-color: #252525 !important;
-    }
-
-    .gb_Va svg, .gb_oc svg {
-        color: #fff !important;
-    }
-
-    .gb_ve, .gb_qe.gb_ve, .g4E9Cb .ZAGvjd, .v4vX6d {
-        color: #ccc !important;
-    }
-
-    .VOEIyf .jBmls, .gb_af, #gb > div:nth-child(2) > div:nth-child(2) > div > form {
-        background-color: #1b1b1b !important;
-    }
-
-    .oKubKe[aria-selected="true"] {
-        background-color: #333 !important;
-        cursor: pointer;
-    }
-    /* Sidebar */
-    .ICsaqd, .AXKfz {
-        color: #aaa;
-    }
-
-    .Ikgmhe {
-        color: #ccc;
-    }
-
-    .Qo7o0c {
-        border-color: #333 !important;
-    }
-    /* Tags, Bubbles */
-    .To2ZZb.DbQnIe, .RF3lAd, .uUmIDd, .qGcL6e {
-        background-color: #333 !important;
-        border-color: #444 !important;
-        color: #ccc !important;
-    }
-
-    .To2ZZb.DbQnIe:hover, .RF3lAd:hover, .uUmIDd:hover, .qGcL6e:hover {
-        background-color: #444 !important;
-        color: #fff !important;
-        box-shadow: none !important;
-    }
-
-    .sZVhXe {
-        background: #333 !important;
-    }
-
-    .sZVhXe.Jczvec {
-        background: #5f92e1 !important;
-    }
-    /* Transition */
-    #yDmH0d > trans-layer > div {
-        background: #000 !important;
-    }
-    /* Popup menus */
-    .JPdR6b {
-        background-color: #333 !important;
-    }
-
-    .z80M1.FwR7Pc {
-        background-color: #444 !important;
-    }
-
-    .jO7h3c {
-        color: #ccc !important;
-    }
-    /* From twitter */
-    .qp0W6e + .UKxoZe, .js5zDf {
-        color: #ccc !important;
-    }
-
-    .ifw3f {
-        color: #888 !important;
-    }
-    /* Settings */
-    .lZERNc .JQQdOc, .QuqGMc {
-        border-color: #333 !important;
-    }
-
-    .REXN1d, .uwwVJb:only-child, .zLj4gd {
-        color: #ccc !important;
-    }
-
-    .NqPCi, .xsLqxd, .VfPpkd-I9GLp-yrriRe > label {
-        color: #999 !important;
-    }
-    /* Scrollbar */
-    ::-webkit-scrollbar {
-        width: 10px !important;
-        height: 10px !important;
-    }
-
-    ::-webkit-scrollbar-button {
-        width: 0px !important;
-        height: 0px !important;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background: #4b4b4b !important;
-        border: none !important;
-        border-radius: 0px !important;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-        background: #5a5a5a !important;
-    }
-
-    ::-webkit-scrollbar-thumb:active {
-        background: #5a5a5a !important;
-    }
-
-    ::-webkit-scrollbar-track {
-        background: #333333 !important;
-        border: none !important;
-        border-radius: 0px !important;
-    }
-
-    ::-webkit-scrollbar-track:hover {
-        background: #333333 !important;
-    }
-
-    ::-webkit-scrollbar-track:active {
-        background: #333333 !important;
-    }
-
-    ::-webkit-scrollbar-corner {
-        background: transparent !important;
-    }
-}
 @-moz-document url-prefix("https://keep.google.com/") {
     /* Main */
     body {
@@ -3546,6 +2573,449 @@ DO NOT MODIFY THIS FILE DIRECTLY! Instead, modify the appropriate CSS file in th
 
     ::-webkit-scrollbar-corner {
         background: transparent !important;
+    }
+}
+@-moz-document url-prefix("https://play.google.com/") {
+    /* Header */
+    #gb > div {
+        background-color: #252525 !important;
+    }
+    /* Account settings icons */
+    #gbwa > div:nth-child(1) > a, #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(3) > div:nth-child(1) > a {
+        filter: invert(.9) !important;
+    }
+    /* Search */
+    .gbqfqw {
+        background: #1b1b1b !important;
+        border: 1px solid #1b1b1b !important;
+    }
+
+    .gbqfif, .gbqfsf, .hNW13c, .ac-row {
+        color: #ccc !important;
+    }
+
+    .qZxJ9, .ac-renderer {
+        background: #252525 !important;
+        border-top: 1px solid !important;
+        border-color: #333 !important;
+    }
+
+    .eOnYEd, .ac-active {
+        background: #333 !important;
+    }
+    /* Main */
+    body, .cluster, .cluster-container {
+        background-color: #1b1b1b !important;
+        color: #aaa !important;
+    }
+
+    .action-bar, .t5eBue, .qAAUy:hover, body:not(.phone-optimized) .card-cluster .card-list {
+        background-color: #2a2a2a !important;
+    }
+
+    .action-bar-dropdown-top:hover {
+        background: transparent !important;
+    }
+
+    .action-bar-link .anchor:hover, .jGu02 .uJjCzb:hover {
+        background: #444 !important;
+    }
+
+    .action-bar-spacer, .JvjCjf {
+        background: #444 !important;
+    }
+
+    h1 > a, h2 > a, h2 {
+        color: #fff !important;
+    }
+
+    .cluster-heading .subtitle, .action-bar-dropdown, .action-bar-link, .action-bar-link .anchor, .action-bar-link .anchor:visited, .jGu02 .uJjCzb, .jGu02 .uJjCzb:visited, .qAAUy, .editors-choice-card .editorial-page-title, .II4YWb {
+        color: #ccc !important;
+    }
+
+    a {
+        color: #ccc;
+    }
+    /* Popup */
+    .dropdown-submenu, .dropdown-sub-submenu {
+        background-color: #333 !important;
+        border-color: #333 !important;
+    }
+
+    .leaf-submenu-link:hover, .parent-submenu-link, .child-submenu-link:hover {
+        background-color: #444 !important;
+    }
+    /* Buttons */
+    .play-button.small, .b7cPmf:last-child .g3P27d, .LkLjZd, .LkLjZd:visited, button.id-write-button.play-button, button.expand-button.expand-next > div.play-button, button.expand-button.expand-prev > div.play-button, .expand-close.play-button {
+        background: #333 !important;
+        border: 1px solid #333 !important;
+    }
+
+    button.id-write-button.play-button:hover {
+        color: #fff !important;
+    }
+
+    #wrapper > div.action-bar-container > div > div.action-bar.movies > div.action-bar-aux > div.action-bar-item.settings-gear-menu.play-button.small > div.action-bar-link.id-track-click.id-track-impression.id-action-bar-settings-button > a > div {
+        background: transparent !important;
+    }
+
+    .action-bar-help .action-bar-link-title, .action-bar-item.settings-gear-menu .dropdown-icon, .mZr3Me .pHFsbd, .CVBexe .L9ZZW, .expand-next .button-image, .expand-next .arrow-image, .expand-prev .button-image, .expand-prev .arrow-image, .spam-flag, .rate-review .icon, .expand-close .close-image {
+        filter: invert(.9) !important;
+    }
+
+    .boqPlaycardFloatinghighlightsrowScrollButton {
+        background-color: #000 !important;
+        color: #fff !important;
+    }
+
+    .U8Ww7d:hover, .VkbTne:hover, .CqJCxd:hover, .t2Y9uc:hover, .mgVrBf:hover, .xjAeve:hover, .IfEcue:hover {
+        box-shadow: none !important;
+        background-color: #444 !important;
+    }
+    /* Sidebar */
+    .nav .entertainment .sub-nav, .nav .store .sub-nav, .nav-container .shared-sub-nav, .nav .not-selected .hover-target, .nav, .k8Lt0 .CoKTif, .k8Lt0 .XBXPXc {
+        background-color: #2a2a2a !important;
+    }
+
+    .POfIAc {
+        background: #444 !important;
+    }
+
+    .nav .entertainment .sub-nav, .nav .store .sub-nav, .nav-container .shared-sub-nav, .k8Lt0 .CoKTif {
+        border-color: #333 !important;
+    }
+
+    .secondary-sub-nav-option .sub-nav-link, .nav .not-selected .title, .k8Lt0 .fle8Af .gm1qLe {
+        color: #aaa !important;
+    }
+
+    .nav .shop-link, .nav .library-link, .nav .wishlist-link, .WtH9qd, .iZhiic .pvVVcb {
+        color: #ccc;
+    }
+
+    #wrapper > div > div > ul > li.nav-list-item.id-track-click.music.hidden-item > a > span > span,
+    #wrapper > div > div > ul > li.nav-list-item.id-track-click.apps.hidden-item > a > span > span,
+    #wrapper > div > div > ul > li.nav-list-item.id-track-click.movies-tv.hidden-item > a > span > span,
+    #wrapper > div > div > ul > li.nav-list-item.id-track-click.books.hidden-item > a > span > span,
+    #wrapper > div > div > ul > li.nav-list-item.id-track-click.devices.hidden-item > a > span > span,
+    #wrapper > div > div > ul > li.nav-list-item.id-track-click.entertainment.hidden-item > a > span > span {
+        color: transparent !important;
+    }
+
+    #wrapper > div > div > ul > li.nav-list-item.id-track-click.music.visible-item > a > span > span,
+    #wrapper > div > div > ul > li.nav-list-item.id-track-click.apps.visible-item > a > span > span,
+    #wrapper > div > div > ul > li.nav-list-item.id-track-click.movies-tv.visible-item > a > span > span,
+    #wrapper > div > div > ul > li.nav-list-item.id-track-click.books.visible-item > a > span > span,
+    #wrapper > div > div > ul > li.nav-list-item.id-track-click.devices.visible-item > a > span > span,
+    #wrapper > div > div > ul > li.nav-list-item.id-track-click.entertainment.visible-item > a > span > span {
+        color: #fff !important;
+    }
+
+    .show-all-hover-zone, .k8Lt0 .znPNx {
+        background-color: #444 !important;
+    }
+
+    .sub-nav-divider {
+        background: #333 !important;
+    }
+    /* Cards */
+    .card-content, .card .reason-set, .card .price-container .price {
+        background: #252525 !important;
+    }
+
+    .paragraph-end {
+        background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, #252525)) !important;
+        background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #252525) !important;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), #252525) !important;
+    }
+
+    .card .cover {
+        background: transparent !important;
+    }
+
+    .card .title {
+        color: #fff !important;
+    }
+
+    .card .subtitle {
+        color: #ccc !important;
+    }
+
+    .tiny-star.star-rating-non-editable-container {
+        filter: brightness(1.5) !important;
+    }
+    /* Items */
+    .W4P4ne, .LXrl4c, .details-section, .userlist-yet-to-add.default, .userlist-adding.default, .userlist-added.default, .userlist-remove.default, .userlist-removing.default, .details-actions .play-button:first-child, .details-info, .details-wrapper, .main-content {
+        background-color: #252525 !important;
+    }
+
+    #body-content > div.outer-container > div > div.secondary-content > div > div {
+        background: transparent !important;
+    }
+
+    .f3Fr9d, .cqtbn {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, #252525)) !important;
+        background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #252525) !important;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #252525) !important;
+    }
+
+    .track-list-row:hover td, .track-list-row.playing td, .track-list-row.loading td {
+        background-color: #333 !important;
+    }
+
+    .Njo8s, .details-section-divider {
+        border-color: #333 !important;
+    }
+
+    .nP60O, .jdjqLd, .dNLKff, .UD7Dzf, .htlgb, .EymY4b, .track-list-row, .details-section.description.simple .text-body {
+        color: #aaa !important;
+    }
+
+    .DWPxHb, .mMF0fd, .X43Kjb, .IEFhEe, .BgcNfc, .info-container .document-subtitle, .main-content .details-section .heading, .meta-info .title, .featured-review .author-name, .score-container .score, .rating-box .rating-bar-container {
+        color: #ccc !important;
+    }
+
+    .AHFaub, .BHMmbe, .info-container .document-title, .rating-box .bar-number {
+        color: #fff !important;
+    }
+
+    .L0jl5e, .vQHuPe, .NVmCwd, .BGNhFb, .clock, .playback-button.playing {
+        filter: invert(.9) !important;
+    }
+
+    .Nywl9c {
+        box-shadow: none !important;
+    }
+    /***/
+    /* Music */
+    .card.music .consume-link, .card.music .price {
+        color: #fb8e35 !important;
+    }
+
+    .albums-secondary-color button, .albums-secondary-color a, .albums-secondary-color a:visited {
+        color: #f76b40 !important;
+    }
+
+    .censor-sticker {
+        color: #f76b40 !important;
+        border-color: #f76b40 !important;
+    }
+
+    .music .userlist-yet-to-add .wishlist-icon {
+        filter: brightness(2) !important;
+    }
+    /* Apps */
+    .drrice .hrTbp, .drrice .hrTbp:visited, .drrice .nSYH7e, .drrice .VmgRE, .drrice .n9lfJ .snByac, .drrice .JHTxhe a, .drrice .JHTxhe a:visited {
+        color: #59fb59 !important;
+    }
+
+    .drrice .r1Rcnb {
+        filter: brightness(1.8) !important;
+    }
+    /* Movies - TV */
+    .card.movies .consume-link, .card.movies .price, .card.tv .price {
+        color: #e65656 !important;
+    }
+
+    .q9QOMe .hrTbp, .q9QOMe .hrTbp:visited, .q9QOMe .JHTxhe a, .q9QOMe .JHTxhe a:visited, .q9QOMe .nSYH7e, .q9QOMe .VmgRE, .q9QOMe .n9lfJ .snByac, .q9QOMe .i5DZme {
+        color: #ff5137 !important;
+    }
+
+    .q9QOMe .r1Rcnb {
+        filter: brightness(1.5) !important;
+    }
+    /* Books */
+    .card.books .consume-link, .card.books .price, .K1b9Kc .i5DZme {
+        color: #55c7ff !important;
+    }
+
+    .K1b9Kc .hrTbp, .K1b9Kc .hrTbp:visited, .K1b9Kc .JHTxhe a, .K1b9Kc .JHTxhe a:visited, .K1b9Kc .nSYH7e, .K1b9Kc .VmgRE, .K1b9Kc .n9lfJ .snByac {
+        color: #3fa6f7 !important;
+    }
+
+    .K1b9Kc .r1Rcnb, .EIekTb {
+        filter: brightness(2) !important;
+    }
+    /***/
+    /* Similar */
+    .uMConb {
+        background-color: #252525 !important;
+    }
+    /* Popups */
+    .JAPqpe {
+        background-color: #333 !important;
+    }
+
+    .z80M1.FwR7Pc {
+        background-color: #444 !important;
+    }
+
+    .jO7h3c {
+        color: #ccc !important;
+    }
+    /* Comments */
+    .LVQB0b {
+        background-color: #252525 !important;
+    }
+
+    .QoPmEb {
+        border-bottom: 10px solid #252525 !important;
+    }
+    /* Footer */
+    .footer {
+        background: #1b1b1b !important;
+        color: #aaa !important;
+    }
+
+    a.footer-item {
+        color: #ccc !important;
+    }
+    /* Settings */
+    .rymPhb-oKdM2c:hover {
+        background-color: #333 !important;
+    }
+
+    .LS81yb-Ud7fr {
+        color: #ccc !important;
+    }
+
+    .Lr18sf, .rymPhb-jyrRxf-tJHJj th, .rymPhb-oKdM2c td {
+        color: #aaa !important;
+    }
+
+    .rymPhb-oKdM2c {
+        border-color: #333 !important;
+    }
+    /* Overlay */
+    .body-content-loading-overlay {
+        background: #000 !important;
+    }
+
+    .body-content-loading-spinner {
+        filter: invert(1) !important;
+    }
+    /* Remove */
+    .k8Lt0 .y089Ob {
+        display: none !important;
+    }
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+
+    ::-webkit-scrollbar-button {
+        width: 0px;
+        height: 0px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #ffffff1f;
+        border: none;
+        border-radius: 0px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #fff3;
+    }
+
+    ::-webkit-scrollbar-thumb:active {
+        background: #fff3;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #0000004d;
+        border: none;
+        border-radius: 0px;
+    }
+
+    ::-webkit-scrollbar-track:hover {
+        background: #0000004d;
+    }
+
+    ::-webkit-scrollbar-track:active {
+        background: #0000004d;
+    }
+
+    ::-webkit-scrollbar-corner {
+        background: #0000004d;
+    }
+}
+@-moz-document url-prefix("https://tasks.google.com") {
+    .CTxcDf, body, .g3VIld, .oxAbDf {
+        background-color: #252525 !important;
+    }
+
+    .UXfMHb, .OyPDvb, .fKz7Od, .blBtle {
+        color: #9c9c9c !important;
+    }
+
+    .UhNUGe {
+        background-color: #333 !important;
+    }
+
+    .UhNUGe:hover, .UhNUGe:focus {
+        background-color: #555 !important;
+    }
+
+    .kpuJe, .cbcjjb, .U1lyme .oJeWuf, .XKxdVe, .ncFHed, .JPdR6b, .g3VIld .rFrNMe .aXBtI, .Nm5pwe .lzIjk .LMgvRb, .PZqXCe, .nnsg6 {
+        background-color: #3e3e3e !important;
+    }
+
+    .kpuJe::before, .cbcjjb, .AY4Dce:not(.sMVRZe), .XKxdVe, .bKwVmd.DuSr9b, .oxAbDf::before, .Sze5Fc, .oXBvod.MdU9l:not(.sMVRZe) {
+        border-color: #333 !important;
+    }
+
+    .Wde9Bc:not(.CWc3Zb) .BjZULd::after, .Sze5Fc {
+        background-color: #333 !important;
+    }
+
+    .wYwLFe, .RwybPd, .tL9Q4c, .zHQkBf, .cbcjjb, .RaWQkc, .lzIjk .LMgvRb, .z80M1, .PNenzf, .C0oVfc .RveJvd, .mZwRef, .l2rb3b, .pRU5He, .qpGJsd, .rhGwLe, .V9NiMc, .oXBvod.MdU9l .Sze5Fc, .WBaDKd .uyYuVb, .SltZ5e .NlWrkb {
+        color: #ccc !important;
+    }
+
+    .fKz7Od {
+        fill: #ccc !important;
+    }
+
+    .FmNPqf {
+        background-color: #252525 !important;
+        color: #ccc !important;
+    }
+
+    .FuZZcf {
+        stroke: rgba(255, 255, 255, 0.54);
+    }
+
+    .z80M1.N2RpBe::before {
+        border-right-color: #ccc !important;
+        border-bottom-color: #ccc !important;
+    }
+
+    .z80M1.FwR7Pc {
+        background-color: #333 !important;
+        filter: invert(.2) !important;
+    }
+
+    .Nm5pwe .lzIjk .LMgvRb {
+        background: #1b1b1b;
+    }
+
+    .vyISr {
+        filter: invert(0.7) !important;
+    }
+    /* Docs fix */
+    .B9yICe {
+        background-color: #252525 !important;
+        border-color: #333 !important;
+    }
+
+    .azMWHd .uyYuVb {
+        color: #ccc !important;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #252525 !important;
     }
 }
 @-moz-document url-prefix("https://photos.google.com/") {
@@ -3909,6 +3379,369 @@ DO NOT MODIFY THIS FILE DIRECTLY! Instead, modify the appropriate CSS file in th
         color: #30b35a !important;
     }
 }
+@-moz-document url-prefix("https://calendar.google") {
+    /* Native */
+    .p9lUpf, body, .YqtBEc, .BWsMTe, .BYXlo, .gb_9d, .gb_ce, .NekIXe, .a0xMze {
+        background-color: #1b1b1b !important;
+    }
+
+    .DyOaYd, .HLI7qf, .FpmPAb, .jZ0DTb, .EmURbc, .gssb_e, .gb_Xa:not(.gb_Za) .gb_Hd, .gb_de, .VmUiic, .Lzfnue, .J09ahd {
+        background-color: #252525 !important;
+    }
+
+    #gb > div, #gb > div > div {
+        background-color: #252525 !important;
+    }
+
+    .ncFHed, .ncFHed .MocG8c.KKjvXb, .z80M1.FwR7Pc, .VOEIyf .jBmls, .oKubKe[aria-selected="true"], .I2LGc:hover, .xuBVOe, .gssb_i, .CCRNT, .VKy0Ic[aria-selected="true"], .gHQcAb, .gb_Qe.gb_8e, .cnTo8e, .shdZ7e .mIZh1c {
+        background-color: #333 !important;
+    }
+
+    .ncFHed .MocG8c.KKjvXb, .z80M1.FwR7Pc, .oKubKe[aria-selected="true"], .VKy0Ic[aria-selected="true"] {
+        color: #fff !important;
+        filter: invert(.2) !important;
+    }
+
+    .j3nyw, .uOjlA, .PNenzf, .O0WRkf.RDPZE, .C0oVfc .RveJvd, .aStPEd, .ThdJC, .HLI7qf .c7fp5b, .MocG8c, .z80M1, .hGcgEd, .DN1TJ, .gb_ge.gb_le, .KaL5Wc, .QA0Szd-xl07Ob .uyYuVb, .C188rb, .Dna1ee, .CflnFb, .t3Qf0e, .Cd9hpd .NlWrkb, .gb_ge, .gb_Pe.gb_6e .gb_7e, .gPMPbe, .gb_ie.gb_ne, .MmhHI.N4XV7d, .gb_ie, .gb_9e, .g3dbUc.smECzc, .gb_he.gb_me, .gb_Ta svg, .gb_lc svg, .GgNG3d, .iJNNw, .m9xvCf, .QpG80, .Z7IIl, .oPF3Ce, .cuBluc, .wqqJUb, .JunSsb, .nxPHec, .YTCBlf, .DJmpu, .NkK3Fc span[role=heading] {
+        color: #ccc !important;
+    }
+
+    .srd2n, .s9eZvd, .PbnGhe, .BYXlo {
+        color: #8e8e8e !important;
+    }
+
+    .PqAscf, .uJ4w1, .mrslJ, .Zlotdb + .FYEgid .XQINac, .T8CF3c, .hEtGGf, .qZvm2d-clz4Ic, body[data-viewfamily=EVENT] .TOTjfb, body[data-viewfamily=SEARCH] .TOTjfb, .GrK4Mb, .hVDHke, .l7VQxb, .qNixLe, .lzc0vb, .xuBVOe, .gssb_e, .cBs4Te, body[data-viewfamily=EVENT] .SGWAac, body[data-viewfamily=SEARCH] .SGWAac, .ETUnje, .Xo3rO {
+        border-color: #333 !important;
+    }
+
+    .z80M1.N2RpBe::before {
+        border-right-color: #ccc !important;
+        border-bottom-color: #ccc !important;
+    }
+
+    .YvjgZe, .G5v83e, .SU7tYb, .BWsMTe, .qgbr2b, .qb8AF, .GENA3c, .H7IzGb, .eADW5d, .mmsF1c:after, .SULbR {
+        border-color: #555 !important;
+    }
+
+    .v83gc, .JtukPc, .BvQsje, .Uit9Se, .NBzXR, .eh5oYe .GFiTfe .uj9dId, .B8NVZb, .SU7tYb.F262Ye, .j0nwNb .eh5oYe .eADW5d, .j0nwNb .eh5oYe .yEkOpe {
+        background-color: #3e3e3e !important;
+    }
+
+    .uSx8Od, .gsoi_0, .asor_o {
+        filter: invert(.9) !important;
+    }
+
+    .gb_Xa svg, .gb_oc svg {
+        color: #fff !important;
+    }
+
+    .LokBre .GrK4Mb, .LokBre .hVDHke, .LokBre .l7VQxb, .LokBre .zP0T0b, .iLpjNc {
+        background-color: #63633f !important;
+    }
+
+    .gb_Pe.gb_6e, .NAFvr, .U0vptb {
+        background-color: #373737 !important;
+    }
+
+    .gssb_m {
+        color: #ccc;
+        background: #252525;
+    }
+
+    .gssb_l, .KSxb4d.RKLVef:hover, body.geSgge .KSxb4d.RKLVef:hover, .KSxb4d.N4XV7d.RKLVef:hover, body.geSgge .KSxb4d.N4XV7d.RKLVef:hover {
+        background: #333 !important;
+    }
+
+    .YvjgZe.F262Ye:after {
+        background-color: rgba(0, 188, 212, 0.02);
+    }
+
+    .Qfwgwb {
+        background-color: #1e1e1e !important;
+    }
+
+    .LV4Pme {
+        color: #ccc !important;
+    }
+
+    .g3dbUc.smECzc.KKjvXb, .GrxScd .g3dbUc.smECzc:focus, .mKdssd, .ZGVUP:hover, .g3dbUc.LKeQwe {
+        background-color: #555;
+    }
+
+    .ZGVUP, .g3dbUc.LKeQwe {
+        border-color: #555 !important;
+    }
+    /* Search */
+    #aso_search_form_anchor {
+        background-color: #1b1b1b !important;
+    }
+
+    #aso_search_form_anchor > div > input {
+        color: #ccc !important;
+    }
+    /* Gmail menu */
+    .W0m3G.i8dSE .r4nke {
+        color: #fff !important;
+        background-color: #6b7686 !important;
+    }
+
+    .OWyNBb.m1fiJb {
+        background-color: #212b35 !important;
+        border-color: transparent !important;
+        color: #ccc !important;
+    }
+
+    .q1j8lf, .GENA3c, .Gk2izd, .g3VIld, .brC-brG-Jz-bBA, .brC-brG-avC {
+        background: #1b1b1b !important;
+    }
+
+    .W0m3G .r4nke, .G5v83e /*, .Kb2sf*/, .dKHeGf, .AKhndf, .IIB0tc .ULpymb, .JPdR6b, .rF3YF.u3bW4e, .rF3YF:hover, .kMp0We.Wm6kRe:hover, .GrxScd .kMp0We:focus, .kMp0We.gk6SMd, .GrxScd .kMp0We.u3bW4e, .GrxScd .kMp0We.n2fNkc, .KwL08c.kMp0We, .KwL08c > .kMp0We, div.oFBMuc:hover, .SaBhMc {
+        background-color: #333 !important;
+    }
+
+    .Erb9le:not(.RDPZE) .qmMNRc.y7OZL {
+        background-color: #1b1b1b;
+    }
+
+    .uHMk6b {
+        border-color: #252525 !important;
+    }
+
+    .Gk2izd {
+        border-right: none !important;
+        border-bottom-color: #333 !important;
+    }
+
+    .cBs4Te.ZmuLbd, .zIq8Wc.JhZbF, .brC-brG-avC {
+        border-color: #333 !important;
+    }
+
+    .iMprOe, .whsOnd, .Mfdus .iuaqab, .qmMNRc, .n1rxgc, .WpDZC, .MSZkRb .r4nke {
+        color: #a6a6a6 !important;
+    }
+
+    .pCoqfc, .MANBAf, .NI2kfb, .kap9Ye, .uQ1ixe .snByac, .u5sQsb, .YK7obe .yzYBvd, .rSoRzd {
+        color: #ccc !important;
+    }
+
+    .rF3YF, .K2mXPb, .brC-brG-avC-bta-atM .brC-brG-avC-bBo-JX {
+        color: rgba(255, 255, 255, 0.54) !important;
+        fill: rgba(255, 255, 255, 0.54) !important;
+    }
+
+    .rL6ose {
+        filter: invert(.9) !important;
+    }
+
+    .hEtGGf::after {
+        display: none !important;
+    }
+    /* Settings */
+    .xpYref, .WefNYe:before {
+        background-color: #1b1b1b !important;
+    }
+
+    .xWId8e {
+        background-color: #252525 !important;
+    }
+
+    .cAYGed.KKjvXb .Ioup7e, .cAYGed.KKjvXb .BMQm1d {
+        background-color: #444 !important;
+    }
+
+    .mfcZZc + .mfcZZc, body[data-viewfamily=SETTINGS] .SGWAac, body[data-viewfamily=TRASH] .SGWAac {
+        border-color: #333 !important;
+    }
+
+    .MDfQ7 {
+        background-color: #252525 !important;
+    }
+
+    .O1gyfd {
+        color: #ccc !important;
+    }
+
+    .HLAc8, .oj6B2e {
+        color: #8e8e8e !important;
+    }
+
+    .jZ0DTb.kM7Sgc .ry3kXd .LMgvRb.KKjvXb, .Kb2sf {
+        background: rgba(0, 0, 0, .2) !important;
+    }
+
+    .uVccjd {
+        border-color: #777;
+    }
+
+    .WefNYe::-webkit-scrollbar-thumb {
+        border-color: #555 !important;
+        background-color: #555 !important;
+    }
+
+    .DaQ2rc::before {
+        background-color: #555 !important;
+    }
+
+    .a0xMze.T8M5bd::after {
+        display: none !important;
+    }
+    /*** View ***/
+    /* Schedule */
+    .L1Ysrb, .d3Ig7c {
+        border-color: #333 !important;
+    }
+
+    .dtaVuc.FwR7Pc {
+        background-color: #333 !important;
+    }
+
+    .taTyDe, .dtaVuc {
+        color: #8e8e8e !important;
+    }
+
+    .O3EOA, .EgH9k .JAPzS {
+        color: #ccc !important;
+    }
+
+    .wcJUvc::-webkit-scrollbar-thumb {
+        border-color: #555 !important;
+        background: #555 !important;
+    }
+    /* Day */
+    .jRJqje {
+        background: #3e3e3e !important;
+    }
+
+    .qAeuG, .qAeuG.N4XV7d, .qAeuG.pCcXPe, .KSxb4d.pCcXPe, body.geSgge .KSxb4d.pCcXPe {
+        color: #fff !important;
+    }
+
+    .wWdzec {
+        background-color: #333 !important;
+        color: #ccc !important;
+    }
+
+    .J2aUD.T8M5bd .sx5BGe::before, .SGFqbe.T8M5bd .sx5BGe::before, .J2aUD.T8M5bd .qmFsL::before, .SGFqbe.T8M5bd .qmFsL::before, .J2aUD.T8M5bd .qmFsL::after, .SGFqbe.T8M5bd .qmFsL::after, .JE11kf.FEiQrc .xsOpqe, .xsOpqe {
+        display: none !important;
+    }
+
+    .EdAri {
+        border-color: transparent !important;
+    }
+
+    .hnGhZ::-webkit-scrollbar-thumb {
+        border-color: #555 !important;
+        background: #555 !important;
+    }
+    /* Week */
+    .j0nwNb .eh5oYe .eADW5d, .j0nwNb .eh5oYe .yEkOpe {
+        border-color: #555 !important;
+    }
+    /* Month */
+    .akJTWe, .XnnJrc.Wyo4Qe .TKMrfe {
+        background-color: #212b35 !important;
+        color: #ccc !important;
+    }
+
+    .tNDBE {
+        background-color: #252525 !important;
+    }
+
+    .t8qpF, .akJTWe, .XnnJrc.Wyo4Qe, .PhLhOd, .QIadxc {
+        border-color: #555 !important;
+    }
+
+    .YK7obe {
+        color: #ccc !important;
+    }
+
+    .ef2wWc, .ecKr0 {
+        background-color: #23252b !important;
+    }
+
+    .eADW5d {
+        border-right: none !important;
+    }
+    /* Year */
+    .QJLQUd {
+        color: #ccc !important;
+    }
+    /* Buttons */
+    .GXlaye.qRI4pc, .Cd9hpd, .qmv2fc.KKjvXb, .qmv2fc.kaAt2:hover {
+        border-color: #333 !important;
+        background-color: #333 !important;
+    }
+
+    .Cd9hpd:hover .mAozAc.u3bW4e, .Cd9hpd .mAozAc.iWO5td {
+        background: #777 !important;
+    }
+
+    .nYqxP {
+        color: #ccc !important;
+    }
+    /* Scrollbar */
+    ::-webkit-scrollbar-thumb {
+        background: #444;
+    }
+
+    :hover::-webkit-scrollbar-thumb {
+        background: #666;
+    }
+    /* Docs fix */
+    .tVqNxd {
+        background-color: #333;
+    }
+
+    .cOoA8d {
+        border-color: #333 !important;
+    }
+
+    .jgtV4b {
+        color: #ccc !important;
+    }
+    /* Companion sidebar */
+    .Kk7lMc-DWWcKd-OomVLb-haAclf {
+        background-color: #252525 !important;
+        border-color: #333 !important;
+    }
+
+    .ONKrsd-jrnDlb-LgbsSe-ZmdkE .ONKrsd-jrnDlb-Bz112c-haAclf, .ONKrsd-jrnDlb-LgbsSe-FNFY6c .ONKrsd-jrnDlb-Bz112c-haAclf {
+        background-color: #333;
+    }
+
+    .eU5T0b {
+        background-color: #252525 !important;
+        color: #ccc !important;
+    }
+    /* Loading tasks */
+    .Kk7lMc-ae3xF-tJHJj, .Kk7lMc-ae3xF-bN97Pc-LYNcwc {
+        background-color: #1b1b1b !important;
+    }
+
+    .Kk7lMc-ae3xF-tJHJj {
+        border-color: #333 !important;
+    }
+
+    .Kk7lMc-ae3xF-tJHJj-CZjX4e-AHe6Kc .Kk7lMc-ae3xF-tJHJj-OAU7Vd-Bz112c {
+        fill: #fff !important;
+    }
+    /*Sidebar */
+    .Kk7lMc-DWWcKd-OomVLb-hgDUwe {
+        border-color: #333 !important;
+    }
+
+    #Aeh9bb {
+        filter: invert(.9) !important;
+    }
+
+    .Kk7lMc-QWPxkf-LgbsSe.DWWcKd-OomVLb-LgbsSe-barxie .DWWcKd-OomVLb-LgbsSe-Bz112c-haAclf, .Kk7lMc-Ia7Qfc-CZjX4e .Kk7lMc-QWPxkf-LgbsSe.DWWcKd-OomVLb-LgbsSe-barxie .DWWcKd-OomVLb-LgbsSe-Bz112c-haAclf, .DWWcKd-OomVLb-LgbsSe-Bz112c-haAclf {
+        background-color: #1b1b1b !important;
+    }
+
+    .DWWcKd-OomVLb-LgbsSe-Bz112c-haAclf {
+        background-color: transparent !important;
+    }
+}
 @-moz-document url-prefix("https://scholar.google") {
     /* Main */
     #gs_bdy, #gs_top, #gs_ftr, #gs_hdr_drw {
@@ -4145,6 +3978,571 @@ DO NOT MODIFY THIS FILE DIRECTLY! Instead, modify the appropriate CSS file in th
 
     ::-webkit-scrollbar-corner {
         background: #0e0e0e;
+    }
+}
+@-moz-document url-prefix("https://news.google.com/") {
+    /* Main */
+    .zQTmif, body, .gb_6e.gb_7e, .gb_6e, .gb_if {
+        background-color: #1b1b1b !important;
+    }
+
+    .SXu5Cc, .YDRMcc, .gAl5If.nID9nc, .NiLAwe.nID9nc, .g3VIld, .NiLAwe, .nLHjre, .To2ZZb.hpDt6e, .Jur22e, .jTzABb > .xTewfe {
+        background-color: #252525 !important;
+    }
+
+    .dSva6b, .GPmEYb.KKjvXb, .GPmEYb.KKjvXb:hover, .bDw0ac, .LNrHIf .CHM9mc, .giB63b .oWh3Ld, .MQsxIb, .kpaMUd, .OJMBqe, .i9ZCec .wBtOlc, .xwumSd, .Plhhzc .MlH7je, .Plhhzc .qCne4e, .G28GSc .fMAqYb, .G28GSc .MlH7je, .G28GSc .PWz4Tb, .To2ZZb.hpDt6e, .mggrR, div.SKMfG.focofd.FVKzAb > content > span, .Xcw0p.ztUP4e, .JkHSnc, .PYXaYc, .hQpybf, .nqrr9, .gb_Je.gb_He {
+        color: #ccc !important;
+    }
+
+    .GPmEYb, .giB63b .NwrYVd, .seTZHc, .uBzFKf {
+        color: #777 !important;
+    }
+
+    .NiLAwe, .SXu5Cc, .SXu5Cc .JQQdOc, .wi7gLd, .YDRMcc .JQQdOc, .i9ZCec, .EOlQu .JQQdOc, .lBwEZb > .JQQdOc, .UJEP5e, .UJEP5e:nth-child(odd) .EBKU9d, .To2ZZb.hpDt6e, .hijjb, .Pt3ZH {
+        border-color: #333 !important;
+    }
+
+    .fKz7Od {
+        color: #ccc !important;
+        fill: #ccc !important;
+    }
+
+    .nLHjre {
+        box-shadow: none !important;
+        border: 1px solid #333 !important;
+    }
+
+    div.Mfg7Tb.hGhvff.qLAFub.g0L7Q {
+        filter: invert(.9) !important;
+    }
+    /* Header */
+    .gb_ke {
+        background-color: #252525 !important;
+    }
+
+    .gb_Va svg, .gb_oc svg {
+        color: #fff !important;
+    }
+
+    .gb_ve, .gb_qe.gb_ve, .g4E9Cb .ZAGvjd, .v4vX6d {
+        color: #ccc !important;
+    }
+
+    .VOEIyf .jBmls, .gb_af, #gb > div:nth-child(2) > div:nth-child(2) > div > form {
+        background-color: #1b1b1b !important;
+    }
+
+    .oKubKe[aria-selected="true"] {
+        background-color: #333 !important;
+        cursor: pointer;
+    }
+    /* Sidebar */
+    .ICsaqd, .AXKfz {
+        color: #aaa;
+    }
+
+    .Ikgmhe {
+        color: #ccc;
+    }
+
+    .Qo7o0c {
+        border-color: #333 !important;
+    }
+    /* Tags, Bubbles */
+    .To2ZZb.DbQnIe, .RF3lAd, .uUmIDd, .qGcL6e {
+        background-color: #333 !important;
+        border-color: #444 !important;
+        color: #ccc !important;
+    }
+
+    .To2ZZb.DbQnIe:hover, .RF3lAd:hover, .uUmIDd:hover, .qGcL6e:hover {
+        background-color: #444 !important;
+        color: #fff !important;
+        box-shadow: none !important;
+    }
+
+    .sZVhXe {
+        background: #333 !important;
+    }
+
+    .sZVhXe.Jczvec {
+        background: #5f92e1 !important;
+    }
+    /* Transition */
+    #yDmH0d > trans-layer > div {
+        background: #000 !important;
+    }
+    /* Popup menus */
+    .JPdR6b {
+        background-color: #333 !important;
+    }
+
+    .z80M1.FwR7Pc {
+        background-color: #444 !important;
+    }
+
+    .jO7h3c {
+        color: #ccc !important;
+    }
+    /* From twitter */
+    .qp0W6e + .UKxoZe, .js5zDf {
+        color: #ccc !important;
+    }
+
+    .ifw3f {
+        color: #888 !important;
+    }
+    /* Settings */
+    .lZERNc .JQQdOc, .QuqGMc {
+        border-color: #333 !important;
+    }
+
+    .REXN1d, .uwwVJb:only-child, .zLj4gd {
+        color: #ccc !important;
+    }
+
+    .NqPCi, .xsLqxd, .VfPpkd-I9GLp-yrriRe > label {
+        color: #999 !important;
+    }
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+        width: 10px !important;
+        height: 10px !important;
+    }
+
+    ::-webkit-scrollbar-button {
+        width: 0px !important;
+        height: 0px !important;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #4b4b4b !important;
+        border: none !important;
+        border-radius: 0px !important;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #5a5a5a !important;
+    }
+
+    ::-webkit-scrollbar-thumb:active {
+        background: #5a5a5a !important;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #333333 !important;
+        border: none !important;
+        border-radius: 0px !important;
+    }
+
+    ::-webkit-scrollbar-track:hover {
+        background: #333333 !important;
+    }
+
+    ::-webkit-scrollbar-track:active {
+        background: #333333 !important;
+    }
+
+    ::-webkit-scrollbar-corner {
+        background: transparent !important;
+    }
+}
+@-moz-document url-prefix("https://translate.google."), url-prefix("https://images.google."), url-prefix("https://photos.google."), url-prefix("https://books.google."), url-prefix("https://scholar.google."), url-prefix("https://accounts.google."), url-prefix("https://www.google."), url-prefix("https://mail.google."), url-prefix("https://drive.google."), url-prefix("https://calendar.google"), url-prefix("https://docs.google."), url-prefix("https://news.google."), url-prefix("https://keep.google."), url-prefix("https://play.google."), domain("notifications.google.com") {
+    /* Account info & settings */
+    .gb_ga, .gb_Mb, .gb_Kb, .gb_aa, .gb_Hb, .gb_3b, .gb_Ob, .gb_4b, .gb_ba, .gb_qe, .gb_fa, .gb_ue, .gb_Xb, .gb_Nb, .gb_dc, .gb_Nb:hover, .gb_ve {
+        background-color: #252525 !important;
+        color: #e8e8e8 !important;
+    }
+
+    .gb_ra, .gb_0b, .N9rVke, .N9rVke:active, .N9rVke:focus, .gb_1b, .gb_fa, .gb_7b, .gb_Z, .gb_Wa svg, .gb_vc svg, .gb_ac, .gb_Je {
+        color: #ccc !important;
+    }
+
+    .gb_qa {
+        box-shadow: none !important;
+    }
+
+    .gb_Ea, .gb_Qb:hover, .gb_0b:hover {
+        background: #333;
+        border-color: #333;
+        cursor: pointer !important;
+    }
+
+    .gb_Eb, .gb_Ab .gb_Hb {
+        background: transparent !important;
+    }
+
+    .RuaZWe, .gb_Wb:hover {
+        background: #333 !important;
+    }
+
+    #gbsfw.gb_Wc, #gbsfw.gb_4c, #gbw > div > div > div > div.gb_hb.gb_id.gb_ah.gb_R.gb_g > div.gb_wb.gb_ba.gb_g, #gb > div.gb_Sd.gb_qe.gb_1d > div.gb_wb.gb_ba.gb_g, #gb > div.gb_Sd.gb_qe > div.gb_wb.gb_ba.gb_g, #gb > div > div > div.gb_hb.gb_id.gb_ah.gb_R.gb_Xf.gb_qb.gb_g > div.gb_wb.gb_ba.gb_g, #gbsfw.gb_7c {
+        border-color: #333 !important;
+    }
+
+    .gb_fa {
+        border-color: transparent !important;
+    }
+
+    .gb_Jb .gb_Ib:hover {
+        border-color: transparent !important;
+    }
+
+    .gb_Eb .gb_Db:hover, .gb_T:hover a, .gb_T:hover .gb_X, .gb_T:hover .gb_Z {
+        background: #444 !important;
+        border-color: #444 !important;
+        cursor: pointer !important;
+    }
+
+    #gb .gb_xb a.gb_Db.gb_Db {
+        color: #fff !important;
+    }
+
+    .gb_Xb, .gb_Zb, .gb_2b, .gb_3b {
+        color: #e8e8e8 !important;
+    }
+
+    #gb a.gb_ja, #gb a.gb_ja:visited, #gb a.gb_ja:active, #gb a.gb_ka, #gb a.gb_ka:visited, #gb a.gb_ea, .gb_bc {
+        color: #8e8e8e !important;
+    }
+
+    .gb_yb, .gb_ia, .gb_Pb, .gb_Jb, .gb_Ib {
+        background: #252525 !important;
+    }
+
+    .gb_Rb:hover, .gb_Sb:hover, .gb_Pb:hover {
+        background: #333 !important;
+    }
+
+    .gb_Fb {
+        background: transparent !important;
+    }
+
+    .gb_jb, .gb_ub, .gb_aa {
+        border-bottom-color: #252525 !important;
+    }
+
+    .gb_rb {
+        border-bottom-color: #252525 !important;
+    }
+
+    .gb_sb {
+        border-bottom-color: #00000026;
+    }
+
+    .gb_kb, .gb_vb, .gb_sb {
+        border-bottom-color: #252525 !important;
+    }
+
+    #gbwa > div.gb_Oc > div.gb_rb, #gbwa > div.gb_Pc > div.gb_sb {
+        border-bottom-color: #1b1b1b !important;
+    }
+
+    .gb_wb, .gb_tb {
+        border-bottom-color: #333 !important;
+    }
+
+    .gb_ja {
+        background: #252525 !important;
+    }
+
+    #gbsfw.gb_Sc {
+        border-color: #252525 !important;
+    }
+
+    .gb_ka, .gb_da, #gb a.gb_ea, .gb_ea {
+        background: #1b1b1b !important;
+    }
+
+    .gb_Z:hover .gb_3 {
+        background: #333 !important;
+    }
+
+    .gb_Z:hover a {
+        border: 1px solid #333 !important;
+    }
+
+    .gb_3 {
+        color: #3296c8 !important;
+    }
+
+    #gb#gb a.gb_O, #gb#gb a.gb_P, #gb#gb span.gb_P {
+        color: #3296c8;
+    }
+
+    .gb_la {
+        border-bottom: 1px solid #3a3a3a !important;
+    }
+
+    .gb_4b.gb_b, .gb_4b.gb_Fc.gb_Ec, #gbwa > div.gb_Oc > a, .gb_ec.gb_b, .gb_ec.gb_Rc.gb_Qc, .gb_8 .gb_b, .gb_Rc.gb_Sc, #gbwa > div.gb_0c, #gbw > div > div > div > div.gb_Wc.gb_id.gb_R.gb_Xc > div.gb_0c, #gbwa > div.gb_3c > a, .gb_4c.gb_5c {
+        filter: invert(1) !important;
+    }
+
+    .gb_Ta svg, .gb_mc svg {
+        color: #fff !important;
+    }
+
+    #gbwa > div > a > svg {
+        color: #ccc !important;
+    }
+
+    .gb_Pc {
+        background-color: transparent !important;
+    }
+
+    .gb_ga, #gbsfw.gb_Tc, #gbsfw.gb_Uc, #gbsfw.gb_Vc {
+        border-color: #333 !important;
+    }
+
+    .gb_lb {
+        border-bottom-color: #333 !important;
+    }
+
+    .gb_ka, .gb_Nb, .pbLXBd:before {
+        border-color: #333 !important;
+    }
+
+    .gb_ka {
+        background: #333 !important;
+    }
+
+    #gb a.gb_Ba.gb_Ba {
+        color: #fff !important;
+    }
+
+    .ajgU6 {
+        fill: #ccc !important;
+    }
+
+    .gb_Fa, #gb a.gb_Fa.gb_Fa, .gb_Ha, .gb_Kb .gb_Jb, .gb_za, #gb a.gb_za.gb_za, .gb_Nb .gb_Mb {
+        background-image: -moz-linear-gradient(top, #3a3a3a, #313131) !important;
+        /* FF3.6+ */
+        background-image: -webkit-linear-gradient(top, #3a3a3a, #313131) !important;
+        /* Chrome10+,Safari5.1+ */
+        background-image: -o-linear-gradient(top, #3a3a3a, #313131) !important;
+        /* Opera 11.10+ */
+        background-image: -ms-linear-gradient(top, #3a3a3a, #313131) !important;
+        /* IE10+ */
+        background-image: linear-gradient(top, #3a3a3a, #313131) !important;
+        /* W3C */
+        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
+        border: none !important;
+        color: #8a8a8a !important;
+        cursor: pointer !important;
+    }
+
+    .gb_Fa:hover, #gb a.gb_Fa.gb_Fa:hover, .gb_Ha:hover, .gb_Jb .gb_Ib:hover, .gb_Kb .gb_Jb:hover, .gb_za, #gb a.gb_za.gb_za:hover, .gb_Nb .gb_Mb:hover {
+        background-image: -moz-linear-gradient(top, #313131, #3a3a3a) !important;
+        /* FF3.6+ */
+        background-image: -webkit-linear-gradient(top, #313131, #3a3a3a) !important;
+        /* Chrome10+,Safari5.1+ */
+        background-image: -o-linear-gradient(top, #313131, #3a3a3a) !important;
+        /* Opera 11.10+ */
+        background-image: -ms-linear-gradient(top, #313131, #3a3a3a) !important;
+        /* IE10+ */
+        background-image: linear-gradient(top, #313131, #3a3a3a) !important;
+        /* W3C */
+        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1b1b', endColorstr='#3a3a3a',GradientType=0 )!important; IE6-9 */
+        cursor: pointer !important;
+    }
+
+    #gb .gb_Cb a.gb_Jb.gb_Jb, #gb .gb_yb a.gb_Eb.gb_Eb, .gb_Cb .gb_Mb, .gb_Ba {
+        background-image: -moz-linear-gradient(top, #4d90fe, #3069c7) !important;
+        /* FF3.6+ */
+        background-image: -webkit-linear-gradient(top, #4d90fe, #3069c7) !important;
+        /* Chrome10+,Safari5.1+ */
+        background-image: -o-linear-gradient(top, #4d90fe, #3069c7) !important;
+        /* Opera 11.10+ */
+        background-image: -ms-linear-gradient(top, #4d90fe, #3069c7) !important;
+        /* IE10+ */
+        background-image: linear-gradient(top, #4d90fe, #3069c7) !important;
+        /* W3C */
+        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
+        border: none !important;
+        color: #fff !important;
+        cursor: pointer !important;
+        text-shadow: 1px 1px 0px #000 !important;
+    }
+
+    #gb .gb_Cb a.gb_Jb.gb_Jb:hover, #gb .gb_yb a.gb_Eb.gb_Eb:hover, .gb_Cb .gb_Mb:hover, .gb_Ba:hover {
+        background-image: -moz-linear-gradient(top, #3069c7, #4d90fe) !important;
+        /* FF3.6+ */
+        background-image: -webkit-linear-gradient(top, #3069c7, #4d90fe) !important;
+        /* Chrome10+,Safari5.1+ */
+        background-image: -o-linear-gradient(top, #3069c7, #4d90fe) !important;
+        /* Opera 11.10+ */
+        background-image: -ms-linear-gradient(top, #3069c7, #4d90fe) !important;
+        /* IE10+ */
+        background-image: linear-gradient(top, #3069c7, #4d90fe) !important;
+        /* W3C */
+        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
+        cursor: pointer !important;
+    }
+
+    .pbLXBd {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(37, 37, 37) 50%, rgb(37, 37, 37) 100%) !important;
+    }
+    /* Notifications */
+    .gV6pJf {
+        background: #252525 !important;
+    }
+
+    .gMG7Fd, .wh73ab, .Vz68Kb {
+        color: rgba(189, 189, 189, 0.87) !important;
+    }
+
+    .iWO9fc .mUbCce svg, .XSVuue {
+        fill: rgba(255, 255, 255, 0.54) !important;
+    }
+
+    .fEjTrb {
+        background-color: #1b1b1b !important;
+    }
+    /* Drive fix */
+    .gb_X {
+        color: #ccc !important;
+    }
+
+    ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: #8e8e8e !important;
+    }
+
+    ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #8e8e8e !important;
+    }
+
+    :-ms-input-placeholder {
+        /* IE 10+ */
+        color: #8e8e8e !important;
+    }
+
+    :-moz-placeholder {
+        /* Firefox 18- */
+        color: #8e8e8e !important;
+    }
+    /* Scholar fix */
+    .gs_hdr_act_am:link {
+        background-color: #252525 !important;
+    }
+
+    .gs_hdr_act_am:link:hover {
+        background-color: #333 !important;
+    }
+    /* Photos fix *
+    .gb_2b {
+        background-color: #252525!important;
+    }
+    .gb_Sa svg {
+        color: #9a9a9a!important;
+    }
+    /* Calendar fix */
+    #gb > div.gb_Ld.gb_je > div.gb_Ec.gb_kb.gb_Dc.gb_de > div > div.gb_ee > div.gb_Oc.gb_ad.gb_R.gb_Pc.gb_Qf > div > a > div > svg, #gb > div.gb_Ld.gb_je > div.gb_Dc.gb_5d.gb_Je > div:nth-child(1) > svg {
+        fill: #fff !important;
+    }
+
+    .gb_pe.gb_ue, .gb_pe, .gb_Va svg, .gb_nc svg {
+        color: #ccc !important;
+    }
+    /* notifications */
+    #gb > div:nth-child(2) > div:nth-child(5) {
+        border-color: #333 !important;
+    }
+    /* Accounts */
+    #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) {
+        background: #252525 !important;
+    }
+    /* account hover */
+    #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) > a:hover, #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > a:hover, #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a:hover {
+        background: #333 !important;
+    }
+    /* Account name */
+    #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) > a > div > div:nth-child(1), #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a > div > div:nth-child(1) {
+        color: #ccc !important;
+    }
+    /* all your brand accounts */
+    #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(2) > a:nth-child(2), #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > a, #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > a {
+        background: #252525 !important;
+    }
+    /* add account & sign out button area */
+    #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(4), #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4), #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) {
+        background: #252525 !important;
+    }
+    /* add account & sign out buttons */
+    #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(4) > div > a, #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a, #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a, #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div > a, #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a {
+        background-image: -moz-linear-gradient(top, #3a3a3a, #313131) !important;
+        /* FF3.6+ */
+        background-image: -webkit-linear-gradient(top, #3a3a3a, #313131) !important;
+        /* Chrome10+,Safari5.1+ */
+        background-image: -o-linear-gradient(top, #3a3a3a, #313131) !important;
+        /* Opera 11.10+ */
+        background-image: -ms-linear-gradient(top, #3a3a3a, #313131) !important;
+        /* IE10+ */
+        background-image: linear-gradient(top, #3a3a3a, #313131) !important;
+        /* W3C */
+        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
+        background-color: transparent !important;
+        border: none !important;
+        color: #8a8a8a !important;
+        cursor: pointer !important;
+    }
+
+    #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(4) > div > a:hover, #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a:hover, #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a:hover, #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div > a:hover, #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a:hover {
+        background-image: -moz-linear-gradient(top, #313131, #3a3a3a) !important;
+        /* FF3.6+ */
+        background-image: -webkit-linear-gradient(top, #313131, #3a3a3a) !important;
+        /* Chrome10+,Safari5.1+ */
+        background-image: -o-linear-gradient(top, #313131, #3a3a3a) !important;
+        /* Opera 11.10+ */
+        background-image: -ms-linear-gradient(top, #313131, #3a3a3a) !important;
+        /* IE10+ */
+        background-image: linear-gradient(top, #313131, #3a3a3a) !important;
+        /* W3C */
+        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1b1b', endColorstr='#3a3a3a',GradientType=0 )!important; IE6-9 */
+        cursor: pointer !important;
+    }
+    /* icons on main page */
+    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a, #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > a, #gbw > div > div > div > div > div > a > div, #gbw > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > a {
+        filter: invert(.9) !important;
+    }
+    /* notifications main page */
+    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1), #gbsfw {
+        border-color: #333 !important;
+    }
+    /* blue account button */
+    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a, #gbw > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(1) > div > a, #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div > a {
+        color: #fff !important;
+        cursor: pointer !important;
+    }
+    /* accounts main page */
+    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div, #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div {
+        background: #252525 !important;
+    }
+    /* accounts hover main page */
+    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a:hover, #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a:hover {
+        background: #333 !important;
+    }
+    /* Account name */
+    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a > div > div:nth-child(1), #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a > div > div:nth-child(1), #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > a > div > div:nth-child(1) {
+        color: #ccc !important;
+    }
+    /* add account & sign out button area */
+    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4), #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) {
+        background: #252525 !important;
+    }
+    /* images add a shortcut text */
+    #gbwa > div:nth-child(2) > div > div:nth-child(2) > div {
+        color: #ccc !important;
+    }
+    /* google page name */
+    #gb > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div > a > span {
+        color: #fff !important;
+    }
+    /* FF Scrollbar */
+    * {
+        scrollbar-width: thin !important;
+        scrollbar-color: #333 #1b1b1b !important;
     }
 }
 @-moz-document regexp("https?://(www|encrypted|images|translate|accounts|books|photos).google.(com|([a-z]{2}))(.[a-z]{2})?/(?!mobile|flights|intl|alerts|finance|calendar|nexus|contacts|services|voice|business|maps|dashboard|settings|android|adsense|analytics|doodles|chrome|fonts|patents|translate_p|recaptcha).*") {
@@ -7723,403 +8121,5 @@ DO NOT MODIFY THIS FILE DIRECTLY! Instead, modify the appropriate CSS file in th
     * {
         scrollbar-width: thin;
         scrollbar-color: #333 #1b1b1b;
-    }
-}
-@-moz-document url-prefix("https://translate.google."), url-prefix("https://images.google."), url-prefix("https://photos.google."), url-prefix("https://books.google."), url-prefix("https://scholar.google."), url-prefix("https://accounts.google."), url-prefix("https://www.google."), url-prefix("https://mail.google."), url-prefix("https://drive.google."), url-prefix("https://calendar.google"), url-prefix("https://docs.google."), url-prefix("https://news.google."), url-prefix("https://keep.google."), url-prefix("https://play.google."), domain("notifications.google.com") {
-    /* Account info & settings */
-    .gb_ga, .gb_Mb, .gb_Kb, .gb_aa, .gb_Hb, .gb_3b, .gb_Ob, .gb_4b, .gb_ba, .gb_qe, .gb_fa, .gb_ue, .gb_Xb, .gb_Nb, .gb_dc, .gb_Nb:hover, .gb_ve {
-        background-color: #252525 !important;
-        color: #e8e8e8 !important;
-    }
-
-    .gb_ra, .gb_0b, .N9rVke, .N9rVke:active, .N9rVke:focus, .gb_1b, .gb_fa, .gb_7b, .gb_Z, .gb_Wa svg, .gb_vc svg, .gb_ac, .gb_Je {
-        color: #ccc !important;
-    }
-
-    .gb_qa {
-        box-shadow: none !important;
-    }
-
-    .gb_Ea, .gb_Qb:hover, .gb_0b:hover {
-        background: #333;
-        border-color: #333;
-        cursor: pointer !important;
-    }
-
-    .gb_Eb, .gb_Ab .gb_Hb {
-        background: transparent !important;
-    }
-
-    .RuaZWe, .gb_Wb:hover {
-        background: #333 !important;
-    }
-
-    #gbsfw.gb_Wc, #gbsfw.gb_4c, #gbw > div > div > div > div.gb_hb.gb_id.gb_ah.gb_R.gb_g > div.gb_wb.gb_ba.gb_g, #gb > div.gb_Sd.gb_qe.gb_1d > div.gb_wb.gb_ba.gb_g, #gb > div.gb_Sd.gb_qe > div.gb_wb.gb_ba.gb_g, #gb > div > div > div.gb_hb.gb_id.gb_ah.gb_R.gb_Xf.gb_qb.gb_g > div.gb_wb.gb_ba.gb_g, #gbsfw.gb_7c {
-        border-color: #333 !important;
-    }
-
-    .gb_fa {
-        border-color: transparent !important;
-    }
-
-    .gb_Jb .gb_Ib:hover {
-        border-color: transparent !important;
-    }
-
-    .gb_Eb .gb_Db:hover, .gb_T:hover a, .gb_T:hover .gb_X, .gb_T:hover .gb_Z {
-        background: #444 !important;
-        border-color: #444 !important;
-        cursor: pointer !important;
-    }
-
-    #gb .gb_xb a.gb_Db.gb_Db {
-        color: #fff !important;
-    }
-
-    .gb_Xb, .gb_Zb, .gb_2b, .gb_3b {
-        color: #e8e8e8 !important;
-    }
-
-    #gb a.gb_ja, #gb a.gb_ja:visited, #gb a.gb_ja:active, #gb a.gb_ka, #gb a.gb_ka:visited, #gb a.gb_ea, .gb_bc {
-        color: #8e8e8e !important;
-    }
-
-    .gb_yb, .gb_ia, .gb_Pb, .gb_Jb, .gb_Ib {
-        background: #252525 !important;
-    }
-
-    .gb_Rb:hover, .gb_Sb:hover, .gb_Pb:hover {
-        background: #333 !important;
-    }
-
-    .gb_Fb {
-        background: transparent !important;
-    }
-
-    .gb_jb, .gb_ub, .gb_aa {
-        border-bottom-color: #252525 !important;
-    }
-
-    .gb_rb {
-        border-bottom-color: #252525 !important;
-    }
-
-    .gb_sb {
-        border-bottom-color: #00000026;
-    }
-
-    .gb_kb, .gb_vb, .gb_sb {
-        border-bottom-color: #252525 !important;
-    }
-
-    #gbwa > div.gb_Oc > div.gb_rb, #gbwa > div.gb_Pc > div.gb_sb {
-        border-bottom-color: #1b1b1b !important;
-    }
-
-    .gb_wb, .gb_tb {
-        border-bottom-color: #333 !important;
-    }
-
-    .gb_ja {
-        background: #252525 !important;
-    }
-
-    #gbsfw.gb_Sc {
-        border-color: #252525 !important;
-    }
-
-    .gb_ka, .gb_da, #gb a.gb_ea, .gb_ea {
-        background: #1b1b1b !important;
-    }
-
-    .gb_Z:hover .gb_3 {
-        background: #333 !important;
-    }
-
-    .gb_Z:hover a {
-        border: 1px solid #333 !important;
-    }
-
-    .gb_3 {
-        color: #3296c8 !important;
-    }
-
-    #gb#gb a.gb_O, #gb#gb a.gb_P, #gb#gb span.gb_P {
-        color: #3296c8;
-    }
-
-    .gb_la {
-        border-bottom: 1px solid #3a3a3a !important;
-    }
-
-    .gb_4b.gb_b, .gb_4b.gb_Fc.gb_Ec, #gbwa > div.gb_Oc > a, .gb_ec.gb_b, .gb_ec.gb_Rc.gb_Qc, .gb_8 .gb_b, .gb_Rc.gb_Sc, #gbwa > div.gb_0c, #gbw > div > div > div > div.gb_Wc.gb_id.gb_R.gb_Xc > div.gb_0c, #gbwa > div.gb_3c > a, .gb_4c.gb_5c {
-        filter: invert(1) !important;
-    }
-
-    .gb_Ta svg, .gb_mc svg {
-        color: #fff !important;
-    }
-
-    #gbwa > div > a > svg {
-        color: #ccc !important;
-    }
-
-    .gb_Pc {
-        background-color: transparent !important;
-    }
-
-    .gb_ga, #gbsfw.gb_Tc, #gbsfw.gb_Uc, #gbsfw.gb_Vc {
-        border-color: #333 !important;
-    }
-
-    .gb_lb {
-        border-bottom-color: #333 !important;
-    }
-
-    .gb_ka, .gb_Nb, .pbLXBd:before {
-        border-color: #333 !important;
-    }
-
-    .gb_ka {
-        background: #333 !important;
-    }
-
-    #gb a.gb_Ba.gb_Ba {
-        color: #fff !important;
-    }
-
-    .ajgU6 {
-        fill: #ccc !important;
-    }
-
-    .gb_Fa, #gb a.gb_Fa.gb_Fa, .gb_Ha, .gb_Kb .gb_Jb, .gb_za, #gb a.gb_za.gb_za, .gb_Nb .gb_Mb {
-        background-image: -moz-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* FF3.6+ */
-        background-image: -webkit-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* IE10+ */
-        background-image: linear-gradient(top, #3a3a3a, #313131) !important;
-        /* W3C */
-        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
-        border: none !important;
-        color: #8a8a8a !important;
-        cursor: pointer !important;
-    }
-
-    .gb_Fa:hover, #gb a.gb_Fa.gb_Fa:hover, .gb_Ha:hover, .gb_Jb .gb_Ib:hover, .gb_Kb .gb_Jb:hover, .gb_za, #gb a.gb_za.gb_za:hover, .gb_Nb .gb_Mb:hover {
-        background-image: -moz-linear-gradient(top, #313131, #3a3a3a) !important;
-        /* FF3.6+ */
-        background-image: -webkit-linear-gradient(top, #313131, #3a3a3a) !important;
-        /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top, #313131, #3a3a3a) !important;
-        /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top, #313131, #3a3a3a) !important;
-        /* IE10+ */
-        background-image: linear-gradient(top, #313131, #3a3a3a) !important;
-        /* W3C */
-        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1b1b', endColorstr='#3a3a3a',GradientType=0 )!important; IE6-9 */
-        cursor: pointer !important;
-    }
-
-    #gb .gb_Cb a.gb_Jb.gb_Jb, #gb .gb_yb a.gb_Eb.gb_Eb, .gb_Cb .gb_Mb, .gb_Ba {
-        background-image: -moz-linear-gradient(top, #4d90fe, #3069c7) !important;
-        /* FF3.6+ */
-        background-image: -webkit-linear-gradient(top, #4d90fe, #3069c7) !important;
-        /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top, #4d90fe, #3069c7) !important;
-        /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top, #4d90fe, #3069c7) !important;
-        /* IE10+ */
-        background-image: linear-gradient(top, #4d90fe, #3069c7) !important;
-        /* W3C */
-        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
-        border: none !important;
-        color: #fff !important;
-        cursor: pointer !important;
-        text-shadow: 1px 1px 0px #000 !important;
-    }
-
-    #gb .gb_Cb a.gb_Jb.gb_Jb:hover, #gb .gb_yb a.gb_Eb.gb_Eb:hover, .gb_Cb .gb_Mb:hover, .gb_Ba:hover {
-        background-image: -moz-linear-gradient(top, #3069c7, #4d90fe) !important;
-        /* FF3.6+ */
-        background-image: -webkit-linear-gradient(top, #3069c7, #4d90fe) !important;
-        /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top, #3069c7, #4d90fe) !important;
-        /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top, #3069c7, #4d90fe) !important;
-        /* IE10+ */
-        background-image: linear-gradient(top, #3069c7, #4d90fe) !important;
-        /* W3C */
-        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
-        cursor: pointer !important;
-    }
-
-    .pbLXBd {
-        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(37, 37, 37) 50%, rgb(37, 37, 37) 100%) !important;
-    }
-    /* Notifications */
-    .gV6pJf {
-        background: #252525 !important;
-    }
-
-    .gMG7Fd, .wh73ab, .Vz68Kb {
-        color: rgba(189, 189, 189, 0.87) !important;
-    }
-
-    .iWO9fc .mUbCce svg, .XSVuue {
-        fill: rgba(255, 255, 255, 0.54) !important;
-    }
-
-    .fEjTrb {
-        background-color: #1b1b1b !important;
-    }
-    /* Drive fix */
-    .gb_X {
-        color: #ccc !important;
-    }
-
-    ::-webkit-input-placeholder {
-        /* Chrome/Opera/Safari */
-        color: #8e8e8e !important;
-    }
-
-    ::-moz-placeholder {
-        /* Firefox 19+ */
-        color: #8e8e8e !important;
-    }
-
-    :-ms-input-placeholder {
-        /* IE 10+ */
-        color: #8e8e8e !important;
-    }
-
-    :-moz-placeholder {
-        /* Firefox 18- */
-        color: #8e8e8e !important;
-    }
-    /* Scholar fix */
-    .gs_hdr_act_am:link {
-        background-color: #252525 !important;
-    }
-
-    .gs_hdr_act_am:link:hover {
-        background-color: #333 !important;
-    }
-    /* Photos fix *
-    .gb_2b {
-        background-color: #252525!important;
-    }
-    .gb_Sa svg {
-        color: #9a9a9a!important;
-    }
-    /* Calendar fix */
-    #gb > div.gb_Ld.gb_je > div.gb_Ec.gb_kb.gb_Dc.gb_de > div > div.gb_ee > div.gb_Oc.gb_ad.gb_R.gb_Pc.gb_Qf > div > a > div > svg, #gb > div.gb_Ld.gb_je > div.gb_Dc.gb_5d.gb_Je > div:nth-child(1) > svg {
-        fill: #fff !important;
-    }
-
-    .gb_pe.gb_ue, .gb_pe, .gb_Va svg, .gb_nc svg {
-        color: #ccc !important;
-    }
-    /* notifications */
-    #gb > div:nth-child(2) > div:nth-child(5) {
-        border-color: #333 !important;
-    }
-    /* Accounts */
-    #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) {
-        background: #252525 !important;
-    }
-    /* account hover */
-    #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) > a:hover, #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > a:hover, #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a:hover {
-        background: #333 !important;
-    }
-    /* Account name */
-    #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) > a > div > div:nth-child(1), #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a > div > div:nth-child(1) {
-        color: #ccc !important;
-    }
-    /* all your brand accounts */
-    #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(2) > a:nth-child(2), #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > a, #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > a {
-        background: #252525 !important;
-    }
-    /* add account & sign out button area */
-    #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(4), #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4), #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) {
-        background: #252525 !important;
-    }
-    /* add account & sign out buttons */
-    #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(4) > div > a, #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a, #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a, #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div > a, #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a {
-        background-image: -moz-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* FF3.6+ */
-        background-image: -webkit-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* IE10+ */
-        background-image: linear-gradient(top, #3a3a3a, #313131) !important;
-        /* W3C */
-        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
-        background-color: transparent !important;
-        border: none !important;
-        color: #8a8a8a !important;
-        cursor: pointer !important;
-    }
-
-    #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(4) > div > a:hover, #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a:hover, #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a:hover, #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div > a:hover, #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a:hover {
-        background-image: -moz-linear-gradient(top, #313131, #3a3a3a) !important;
-        /* FF3.6+ */
-        background-image: -webkit-linear-gradient(top, #313131, #3a3a3a) !important;
-        /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top, #313131, #3a3a3a) !important;
-        /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top, #313131, #3a3a3a) !important;
-        /* IE10+ */
-        background-image: linear-gradient(top, #313131, #3a3a3a) !important;
-        /* W3C */
-        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1b1b', endColorstr='#3a3a3a',GradientType=0 )!important; IE6-9 */
-        cursor: pointer !important;
-    }
-    /* icons on main page */
-    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a, #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > a, #gbw > div > div > div > div > div > a > div, #gbw > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > a {
-        filter: invert(.9) !important;
-    }
-    /* notifications main page */
-    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1), #gbsfw {
-        border-color: #333 !important;
-    }
-    /* blue account button */
-    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a, #gbw > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(1) > div > a, #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div > a {
-        color: #fff !important;
-        cursor: pointer !important;
-    }
-    /* accounts main page */
-    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div, #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div {
-        background: #252525 !important;
-    }
-    /* accounts hover main page */
-    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a:hover, #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a:hover {
-        background: #333 !important;
-    }
-    /* Account name */
-    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a > div > div:nth-child(1), #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a > div > div:nth-child(1), #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > a > div > div:nth-child(1) {
-        color: #ccc !important;
-    }
-    /* add account & sign out button area */
-    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4), #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) {
-        background: #252525 !important;
-    }
-    /* images add a shortcut text */
-    #gbwa > div:nth-child(2) > div > div:nth-child(2) > div {
-        color: #ccc !important;
-    }
-    /* google page name */
-    #gb > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div > a > span {
-        color: #fff !important;
-    }
-    /* FF Scrollbar */
-    * {
-        scrollbar-width: thin !important;
-        scrollbar-color: #333 #1b1b1b !important;
     }
 }
