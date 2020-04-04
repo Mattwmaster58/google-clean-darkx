@@ -5,7 +5,7 @@
         background-color: #1b1b1b !important;
     }
 
-    .a-nEbBXb .a-qc-La, .a-nEbBXb .a-da-Mf-B-ji-j, .gb_Vd, .a-nEbBXb .a-D-B.a-D-B-gc-WErN3d, .gb_0d, .gb_5d, .gb_Md.gb_Xd .gb_Jd, .gb_Bd, .gb_yc:not(.gb_tb) .gb_Cd, .gb_8d, .gb_ae, .gb_be, .gb_de, .gb_9d, .gb_ce {
+    .a-nEbBXb .a-qc-La, .a-nEbBXb .a-da-Mf-B-ji-j, .gb_Vd, .a-nEbBXb .a-D-B.a-D-B-gc-WErN3d, .gb_0d, .gb_5d, .gb_Md.gb_Xd .gb_Jd, .gb_Bd, .gb_yc:not(.gb_tb) .gb_Cd, .gb_8d, .gb_ae, .gb_be, .gb_de, .gb_9d, .gb_ce, .a-D-B-x {
         background-color: #252525 !important;
     }
 
@@ -607,6 +607,11 @@
         cursor: pointer !important;
     }
 
+    /* Header border fixing */
+    .a-D-B-WErN3d-j, .a-s-Ba-Ak {
+        border-bottom: 1px solid #1b1b1b;
+    }
+
     /* New button + text */
     button.RTMQvb {
         box-shadow: none !important;
@@ -625,6 +630,17 @@
     .ub-ml-Pr .USrqEe-ml-Pr-gi .Ea0cbb-hTVF2c-r, .ub-ml-Pr .USrqEe-ml-Pr-gi .cr-hTVF2c-r {
         color: #8e8e8e !important;
     }
+
+    /* Tasks/Keep/Calendar sidebar */
+    #Layer_1, .Kk7lMc-Yb-Il-j, .Kk7lMc-QWPxkf-d, .Kk7lMc-Ku9FSb-Yb-Il, .Yb-Il-d-c-Nd-Wg, .Yb-Il-d-c-j {
+        background: #252525;
+    }
+    /* disable white border */
+    .Kk7lMc-Yb-Il-j, .a-Kk7lMc-ae3xF-j {
+        border-left: 0;
+    }
+
+
     /* Details */
     .a-Ra-Qc .y-C-Ed-V, .a-nEbBXb .a-ub-ra-B > .h-ra-B, .a-nEbBXb .a-ub-sc-oa, .a-nEbBXb .a-t-cb, .a-Ra-Qc.a-nEbBXb .a-t-D, .y-C-je {
         border-color: #333 !important;
