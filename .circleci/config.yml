@@ -1,0 +1,7 @@
+version: 2.1
+workflows:
+  build-css:
+    only: 
+      - master
+    jobs:
+      - welcome/run
