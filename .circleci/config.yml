@@ -3,9 +3,9 @@ workflows:
   build-css:
     jobs:
       - build-css:
-        filter:
-          branches:
-            only: master
+          filter:
+            branches:
+              only: master
 
 jobs:
   build-css:
@@ -14,8 +14,8 @@ jobs:
     steps:
       - checkout
       - add_ssh_keys:
-        fingerprints:
-          - "a9:0d:0e:63:91:80:1b:45:74:fa:3c:25:2a:3e:61:c2"
+          fingerprints:
+            - "a9:0d:0e:63:91:80:1b:45:74:fa:3c:25:2a:3e:61:c2"
       - run:
           name: Build CSS file
           command: python ./build.py
