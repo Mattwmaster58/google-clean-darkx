@@ -517,6 +517,7 @@
     /*** Activity ***/
     .a-nEbBXb .a-ub-D, .y-C, .a-nEbBXb .a-ub-oa {
         background-color: #1b1b1b !important;
+        border-bottom: 1px solid #333;
     }
 
     .a-nEbBXb .a-Mg-V-T {
@@ -632,7 +633,7 @@
     }
 
     /* Tasks/Keep/Calendar sidebar */
-    #Layer_1, .Kk7lMc-Yb-Il-j, .Kk7lMc-QWPxkf-d, .Kk7lMc-Ku9FSb-Yb-Il, .Yb-Il-d-c-Nd-Wg, .Yb-Il-d-c-j {
+    #Layer_1, .Kk7lMc-Yb-Il-j, .Kk7lMc-Ku9FSb-Yb-Il, .Yb-Il-d-c-Nd-Wg, .Yb-Il-d-c-j {
         background: #252525;
     }
     /* disable white border */
