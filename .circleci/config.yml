@@ -22,11 +22,8 @@ jobs:
       - run:
         name: Push built CSS file to GitHub
         command: |
-          if [[ $(git log -1 --pretty=%B | grep -v 'Build from CI') ]]
-          then
             git config user.email "circlecibuilder@circleci.com"
             git config user.name "CircleCI Builder"
             git add google-clean-darkx.user.css
-            git commit -m 'Build from CI @'`date '+%F_%H:%M:%S'`
+            git commit -m 'Build from CI @'`date '+%F_%H:%M:%S'` [skip ci]
             git push
-          fi
