@@ -10,8 +10,8 @@ This theme is a continuation of [this](https://userstyles.org/styles/144028/goog
 
 This repo is always accepting pull requests, but please follow some guidelines:
  - Modify the relevant file:
-   - Don't modify [/google-clean-darkx.user.css], that's the built file. Instead, modify the appropriate file in [./css]
- - There is no need to run [/build.py] before submitting a PR
+   - Don't modify [][/google-clean-darkx.user.css], that's the built file. Instead, modify the appropriate file in [][./css]
+ - There is no need to run [][/build.py] before submitting a PR
  - Please include a short description of the results of the change, as well as a before/after screenshot
 
 ## Future Potential Improvements
