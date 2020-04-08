@@ -1,10 +1,11 @@
 /* ==UserStyle==
 @name         Google - Clean Dark Extended
-@namespace    _GCDE_
+@namespace    Mattwmaster58
 @updateURL    https://raw.githubusercontent.com/Mattwmaster58/google-clean-darkx/master/google-clean-darkx.min.user.css
 @homepageURL  https://github.com/Mattwmaster58/google-clean-darkx
 @version      1.0.7
+@supportULR   https://github.com/Mattwmaster58/google-clean-darkx/issues
 @license      CC-NC-SA
-@description  Theme everything google
+@description  Dark theme for almost every Google product on the web
 @author       Mattwmaster58 et al.
 ==/UserStyle== */
