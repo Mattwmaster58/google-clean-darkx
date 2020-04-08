@@ -1,3 +1,5 @@
+import re
+from argparse import ArgumentParser
 from datetime import datetime
 from pathlib import Path
 from textwrap import dedent
@@ -5,25 +7,41 @@ from textwrap import dedent
 try:
     from csscompressor import compress
 except ImportError:
+
+    print('warning: csscompressor not installed')
+
     def compress(*__, **_):
         return __[0]
+
 
 try:
     from pyperclip import copy
 except ImportError:
+    print('warning: pyperclip not installed')
 
     def copy(_):
         pass
 
 
-"""
-For building main theme
-"""
-
-OUTPUT_FILE_NAME = 'google-clean-darkx.min.user.css'
+OUTPUT_FILE_NAME = Path('google-clean-darkx.min.user.css')
+METADATA_FILE = Path('metadata.inf')
 
 
-def main():
+def main(version_bump):
+    metadata_content = METADATA_FILE.read_text()
+    version = dict(
+        zip(['major', 'minor', 'patch'], re.search(r'@version\s*(\d+)\.(\d+)\.(\d+)', metadata_content).groups(),)
+    )
+    print(f'bumping {version_bump} component of version string ({version[version_bump]}+1)')
+    version[version_bump] = str(int(version[version_bump]) + 1)
+    metadata_content = re.sub(
+        r'@version(?P<whitespace>\s*)(\d+)\.(\d+)\.(\d+)',
+        fr'@version\g<whitespace>{".".join(version.values())}',
+        metadata_content,
+        re.MULTILINE,
+    )
+    with open(METADATA_FILE, 'w') as new_meta:
+        new_meta.write(metadata_content)
     to_write = ''
     # we want main and global styles to be overridden not the other way around
     for file in sorted(Path('./css').iterdir(), key=lambda f: 'main' in f.name or 'global' in f.name):
@@ -32,18 +50,10 @@ def main():
     to_write = compress(to_write, preserve_exclamation_comments=False)
     copy(to_write)
     with open(OUTPUT_FILE_NAME, 'w') as out:
+        out.write(metadata_content)
         out.write(
             dedent(
                 f'''\
-            /* ==UserStyle==
-            @name         Google - Clean Dark Extended
-            @namespace    _GCDE_
-            @homepageURL  https://github.com/Mattwmaster58/google-clean-darkx
-            @version      1.0.0
-            @license      CC-NC-SA
-            @description  Theme everything google
-            @author       Mattwmaster58 et al.
-            ==/UserStyle== */
             /*
             Built on {datetime.utcnow()}
             DO NOT MODIFY THIS FILE DIRECTLY! Instead, modify the appropriate CSS file in the ./css directory
@@ -54,4 +64,7 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    parser = ArgumentParser('build')
+    parser.add_argument('--bump', '-b', type=str, choices=['major', 'minor', 'patch'], default='patch')
+    parsed = parser.parse_args()
+    main(version_bump=parsed.bump)
