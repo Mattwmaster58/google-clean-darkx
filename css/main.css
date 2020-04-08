@@ -1,8 +1,12 @@
 @-moz-document url-prefix("https://translate.google."), url-prefix("https://images.google."), url-prefix("https://photos.google."), url-prefix("https://books.google."), url-prefix("https://scholar.google."), url-prefix("https://accounts.google."), url-prefix("https://www.google."), url-prefix("https://mail.google."), url-prefix("https://drive.google."), url-prefix("https://calendar.google"), url-prefix("https://docs.google."), url-prefix("https://news.google."), url-prefix("https://keep.google."), url-prefix("https://play.google."), domain("notifications.google.com") {
     /* Account info & settings */
-    .gb_ga, .gb_Mb, .gb_Kb, .gb_aa, .gb_Hb, .gb_3b, .gb_Ob, .gb_4b, .gb_ba, .gb_qe, .gb_fa, .gb_ue, .gb_Xb, .gb_Nb, .gb_dc, .gb_Nb:hover, .gb_ve {
+    .gb_ga, .gb_Mb, .gb_Kb, .gb_aa, .gb_Hb, .gb_3b, .gb_Ob, .gb_4b, .gb_ba, .gb_fa, .gb_ue, .gb_Xb, .gb_Nb, .gb_dc, .gb_Nb:hover, .gb_ve {
         background-color: #252525 !important;
         color: #e8e8e8 !important;
+    }
+
+    .gb_qe {
+        background-color: #252525;
     }
 
     .gb_ra, .gb_0b, .N9rVke, .N9rVke:active, .N9rVke:focus, .gb_1b, .gb_fa, .gb_7b, .gb_Z, .gb_Wa svg, .gb_vc svg, .gb_ac, .gb_Je {
