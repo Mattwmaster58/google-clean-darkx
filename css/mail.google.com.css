@@ -4,7 +4,7 @@
         background: #252525 !important;
     }
 
-    /* Gmail has a dark theme, we allow it to style the header */
+    /* GMail has a dark theme, we allow it to style the header */
     .gb_8d {
         background: inherit !important;
     }
