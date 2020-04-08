@@ -2030,8 +2030,12 @@
         background-color: #1b1b1b !important;
     }
 
-    .language-list, .language_list_item_wrapper, .language_list_sl_list, .language_list_tl_list, .language_list_section, .phrasebook-container .search-box, .phrasebook-delete-all-dialog, .gb_qe, .gb_vc, .gb_yc, .gt-lc.gt-lc-mobile .gt-cc-r-i, .gt-lc-mobile .gt-baf-hl, .gt-lc-mobile .gt-baf-word-clickable:hover, .gb_Fc {
+    .language-list, .language_list_item_wrapper, .language_list_sl_list, .language_list_tl_list, .language_list_section, .phrasebook-container .search-box, .phrasebook-delete-all-dialog, .gb_vc, .gb_yc, .gt-lc.gt-lc-mobile .gt-cc-r-i, .gt-lc-mobile .gt-baf-hl, .gt-lc-mobile .gt-baf-word-clickable:hover, .gb_Fc {
         background-color: #252525 !important;
+    }
+
+    .gb_qe {
+        background-color: #252525;
     }
 
     .source-input, .orig, .source-wrap, .results-container, .result, .gt-edit, .gt-lc.gt-lc-mobile .gt-cd, .select-file-page, .epu-dt .history-top-header, .epu-dt .history-container .info-bar, .epu-dt .history-container, .epu-dt.displaying-history-page .history-page, .phrasebook-container, .phrasebook-top-header, .phrasebook-container .nav-bar, .displaying-saved-page .phrasebook-page, .phrasebook-container .search-bar, .phrasebook-container:not(.empty-search-query) .phrasebook-entry.browsed, .phrasebook-entry.focus-within, .phrasebook-entry:focus-within, .epu-dt .history-entry.browsed, .epu-dt .history-entry:focus-within, .gt-related-suggest-message, .gt-spell-correct-message, .results-container, .result, .gt-edit, .contribute-target, .epu-dt .st-stp1-epu-text, .epu-dt .gt-lc.gt-lc-mobile.show-as-one-card, .epu-dt .gt-cc-t, .history-container, .history-container .info-bar, .history-top-header, body.displaying-history-page .history-page, .gt-lc.gt-lc-mobile.show-as-one-card, .gt-cc-t {

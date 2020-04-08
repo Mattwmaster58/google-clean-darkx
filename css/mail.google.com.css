@@ -8,14 +8,16 @@
     .gb_8d {
         background: inherit !important;
     }
-	/* Don't invert GMail logo */
-	.gb_4c.gb_5c { 
-		filter: none !important;
-	}
+
+    img.gb_ua {
+        filter: invert(1) !important;
+    }
+
 	/* Don't set background for GMail logo */
 	.gb_qe {
 		background: transparent !important;
 	}
+
 
     .msgb {
         color: #ccc !important;
