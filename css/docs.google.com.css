@@ -243,7 +243,7 @@
         color: #666 !important;
     }
 
-    body, .goog-option-selected .goog-menuitem-content, .apc-name, .apps-share-chips-input, .jfk-bubble.jfk-bubble-promo.waffle-promo-bubble, .jfk-button.waffle-promo-bubble-close, .docs-promo-title, .dcs-a, .dcs-cc-dcs-bf-dcs-dc-dcs-bb, .dcs-cc-dcs-uc-dcs-qb .dcs-cc-dcs-gf-dcs-c, .dcs-cc-dcs-gf, .dcs-cc-dcs-tk, .dcs-cc-dcs-uk, .dcs-cc-dcs-gf-dcs-me .dcs-cc-dcs-gf-dcs-c, .dcs-cc-dcs-gf-dcs-ke .dcs-cc-dcs-gf-dcs-c, .ita-cp-input, .nh-yq-Zb-Ge-Yb-Sk .a-Ge-w, .Gd-Je, .docs-mic-palette .goog-flat-menu-button-caption, .docs-voice-mic-bubble, .docs-voice-activity-bubble, .docs-spellcheckslidingdialog-title-text, .docs-spellcheckslidingdialog-replacement-input, .docs-spellcheckslidingdialog-replacement-input:focus, .docs-explore-dictionaryentry-sensefamily-morphunits, .docs-explore-dictionaryentry-sense-synonym-prefix, .docs-explore-dictionaryentry-sense-antonym-prefix, .docs-promo-header, .docs-revisions-tile-selected .docs-revisions-tile-text-box, .docs-revisions-tile-text-box:disabled, .pGOlGd .eizQhe-ObfsIf-mJRMzd:not(.eizQhe-ObfsIf-gk6SMd) .eizQhe-mJRMzd-V1ur5d-fmcmS {
+    body, .goog-option-selected .goog-menuitem-content, .apc-name, .apps-share-chips-input, .jfk-bubble.jfk-bubble-promo.waffle-promo-bubble, .jfk-button.waffle-promo-bubble-close, .docs-promo-title, .dcs-a, .dcs-cc-dcs-bf-dcs-dc-dcs-bb, .dcs-cc-dcs-uc-dcs-qb .dcs-cc-dcs-gf-dcs-c, .dcs-cc-dcs-gf, .dcs-cc-dcs-tk, .dcs-cc-dcs-uk, .dcs-cc-dcs-gf-dcs-me .dcs-cc-dcs-gf-dcs-c, .dcs-cc-dcs-gf-dcs-ke .dcs-cc-dcs-gf-dcs-c, .ita-cp-input, .nh-yq-Zb-Ge-Yb-Sk .a-Ge-w, .Gd-Je, .docs-mic-palette .goog-flat-menu-button-caption, .docs-voice-mic-bubble, .docs-voice-activity-bubble, .docs-spellcheckslidingdialog-title-text, .docs-spellcheckslidingdialog-replacement-input, .docs-spellcheckslidingdialog-replacement-input:focus, .docs-explore-dictionaryentry-sensefamily-morphunits, .docs-explore-dictionaryentry-sense-synonym-prefix, .docs-explore-dictionaryentry-sense-antonym-prefix, .docs-promo-header, .docs-revisions-tile-selected .docs-revisions-tile-text-box, .docs-revisions-tile-text-box:disabled, .pGOlGd .eizQhe-ObfsIf-mJRMzd:not(.eizQhe-ObfsIf-gk6SMd) .eizQhe-mJRMzd-V1ur5d-fmcmS, .modal-dialog-content > label {
         color: #ccc !important;
     }
 
@@ -1366,7 +1366,7 @@
         border-color: #555 !important;
     }
 
-    .docs-gm-dialogs .modal-dialog-title-text, .docs-gm-sidebars .waffle-gm-sidebar .docs-charteditor-control-label, .docs-gm-sidebars .waffle-gm-sidebar .waffle-charteditor-data-constraint-name, .waffle-charteditor-annotation-chip-label, .waffle-charteditor-sort-button-label {
+    .modal-dialog-title-text, .docs-gm-sidebars .waffle-gm-sidebar .docs-charteditor-control-label, .docs-gm-sidebars .waffle-gm-sidebar .waffle-charteditor-data-constraint-name, .waffle-charteditor-annotation-chip-label, .waffle-charteditor-sort-button-label {
         color: #fff !important;
     }
 
