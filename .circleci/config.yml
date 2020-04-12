@@ -21,7 +21,7 @@ jobs:
           command: pip install csscompressor
       - run:
           name: Build CSS file
-          command: python ./build.py
+          command: python ./build.py -p patch
       - run:
           name: Push built CSS file to GitHub
           command: |

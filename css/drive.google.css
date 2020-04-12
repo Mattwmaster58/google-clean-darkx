@@ -577,17 +577,8 @@
     }
 
     #gb > .gb_yd.gb_4d > .gb_rb.gb_f.gb_g > .gb_Eb > div:nth-child(1) > a, #gb_71, .g-d-fa, .a-D-gc-wKOTTc .a-ec-Gd button.RTMQvb, .jfk-button-standard {
-        background-image: -moz-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* FF3.6+ */
-        background-image: -webkit-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* IE10+ */
         background-image: linear-gradient(top, #3a3a3a, #313131) !important;
-        /* W3C */
-        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
+
         border: none !important;
         color: #8a8a8a !important;
         cursor: pointer !important;

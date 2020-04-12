@@ -1,0 +1,36 @@
+@-moz-document url-prefix("https://accounts.google") {
+    .N3Hzgf .snByac {
+        background: transparent !important;
+    }
+
+    #headingText {
+        color: #ccc;
+    }
+
+    /* account selector items */
+    .lCoei.YZVTmd.SmR8:hover {
+        background: #1b1b1b !important;
+    }
+
+    .whsOnd {
+        background: #252525;
+    }
+
+    #initialView, .N3Hzgf .snByac, .AxOyFc.snByac {
+        background: #252525 !important;
+    }
+
+    #headingSubtext, .BHzsHc, #identifierId, .whsOnd.zHQkBf, #profileIdentifier {
+        color: #8e8e8e;
+    }
+
+    .w1I7fb, .kHn9Lb, .ze9ebf .zHQkBf {
+        color: #8e8e8e !important;
+    }
+
+    /* account item seperators */
+    .OVnw0d > .SmR8:only-child::before, .ZxXxWb {
+        border-bottom: 1px solid #8e8e8e !important;
+    }
+
+}

@@ -11,17 +11,7 @@
     }
     /* Buttons */
     .jhp input[type="submit"], .sbdd_a input, .gbqfba, .gb_Fa, .ab_button, #smb, #gbw > div > div > .gb_yc.gb_xg.gb_R > .gb_hb.gb_3c.gb_xg.gb_R.gb_g > .gb_rb.gb_f.gb_g > .gb_Eb > div:nth-child(1) > a, #gb_71, .gb_Fa, #gb .gb_Fa.gb_Fa, .gb_Ha {
-        background-image: -moz-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* FF3.6+ */
-        background-image: -webkit-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* IE10+ */
         background-image: linear-gradient(top, #3a3a3a, #313131) !important;
-        /* W3C */
-        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
         background-color: transparent !important;
         border: none !important;
         color: #8a8a8a !important;
@@ -193,7 +183,7 @@
         filter: invert(1) !important;
     }
 
-    .gb_ga, .dU0W2d, .FPFGmf > .znIWoc:only-child:before, .FPFGmf > .znIWoc:after {
+    .gb_ga, .dU0W2d, .FPFGmf > .znIWoc:only-child:before, .FPFGmf > .znIWoc:after, .gb_9f.gb_Ib, .gb_Lb.gb_Ob {
         border-color: #333 !important;
     }
 
@@ -395,7 +385,7 @@
         background-color: #252525 !important;
     }
 
-    .V7X3Je {
+    .V7X3Je, .gb_Ub > .gb_6b {
         color: #ccc !important;
     }
     /*** Image search ***/
@@ -465,7 +455,7 @@
         color: #8e8e8e !important;
     }
 
-    .qbtbha .qbtbtxt.qbclr, #qbp {
+    .qbtbha .qbtbtxt.qbclr, #qbp, #gb_71 {
         color: #8e8e8e !important;
     }
 
@@ -1724,8 +1714,7 @@
         background-image: -ms-linear-gradient(top, #313131, #3a3a3a) !important;
         /* IE10+ */
         background-image: linear-gradient(top, #313131, #3a3a3a) !important;
-        /* W3C */
-        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
+
         background-color: transparent !important;
         border: none !important;
         color: #8a8a8a !important;
@@ -1733,17 +1722,8 @@
     }
 
     .jfk-button-standard, .goog-flat-menu-button {
-        background-image: -moz-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* FF3.6+ */
-        background-image: -webkit-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* IE10+ */
         background-image: linear-gradient(top, #3a3a3a, #313131) !important;
-        /* W3C */
-        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
+
         background-color: transparent !important;
         border: none !important;
         color: #8a8a8a !important;
@@ -2108,32 +2088,14 @@
     }
 
     .ls-wrap {
-        background-image: -moz-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* FF3.6+ */
-        background-image: -webkit-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* IE10+ */
         background-image: linear-gradient(top, #3a3a3a, #313131) !important;
-        /* W3C */
-        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
+
         background-color: transparent !important;
     }
 
     .select-file-page .select-file-section .button, .swap-wrap, .ls-wrap .sugg-fade {
-        background-image: -moz-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* FF3.6+ */
-        background-image: -webkit-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* IE10+ */
         background-image: linear-gradient(top, #3a3a3a, #313131) !important;
-        /* W3C */
-        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
+
         background-color: transparent !important;
         border: none !important;
         color: #8a8a8a !important;
@@ -2228,17 +2190,8 @@
     }
 
     .cwdgb-tpl {
-        background-image: -moz-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* FF3.6+ */
-        background-image: -webkit-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* IE10+ */
         background-image: linear-gradient(top, #3a3a3a, #313131) !important;
-        /* W3C */
-        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
+
         border: none !important;
         color: #8a8a8a !important;
         cursor: pointer !important;
@@ -2260,17 +2213,8 @@
     }
 
     .cwlgb-tpl {
-        background-image: -moz-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* FF3.6+ */
-        background-image: -webkit-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* IE10+ */
         background-image: linear-gradient(top, #3a3a3a, #313131) !important;
-        /* W3C */
-        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
+
         border: none !important;
         color: #8a8a8a !important;
         cursor: pointer !important;
@@ -2907,7 +2851,7 @@
         color: #75ff39 !important;
     }
 
-    .imspo_mff__mff, .ci5JwCXEOqA__menu-item, .ci5JwCXEOqA__menu-item:visited {
+    .imspo_mff__mff, .ci5JwCXEOqA__menu-item, .ci5JwCXEOqA__menu-item:visited, .gb_xb.gb_cg.gbp1.gb_Ve.gb_1c {
         background-color: #252525 !important;
         color: #ccc !important;
     }
@@ -3439,17 +3383,8 @@
     }
 
     .fE5Rge, .Ak3kIe {
-        background-image: -moz-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* FF3.6+ */
-        background-image: -webkit-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top, #3a3a3a, #313131) !important;
-        /* IE10+ */
         background-image: linear-gradient(top, #3a3a3a, #313131) !important;
-        /* W3C */
-        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
+
         border: none !important;
         color: #8a8a8a !important;
         cursor: pointer !important;
@@ -3473,10 +3408,7 @@
     .BwGU8e:focus {
         box-shadow: none !important;
     }
-    /* Login */
-    .whsOnd {
-        color: #ccc !important;
-    }
+
 
     .fKz7Od {
         filter: invert(.9) !important;
@@ -3524,6 +3456,7 @@
     .signature-wrapper {
         display: none !important;
     }
+
     /* Remove */
     .sbdd_a[dir=ltr] .sbsb_j, .sbdd_a[dir=ltr] .sbpqs_b, .sbsb_c[dir=ltr] .sbfl_a, ._hWr, .irc_ft, .rmd_ft, td:last-of-type .irc_but, #ab_ctls, .exycls, .cdr_cls, .cdr_ttl, #_x9b, .nwd, ._vOc, .kno-ftr.rhsvw, .kno-ftr, #pnnext > span:nth-of-type(2), .duf3, ._vpj, ._jjk, #gt-ft-res, .gt-ft-promos, #select_document, #gt-res-edit, #gt-res-undo, #topstuff .sh-sp__list, .shpd, .stp, ._mCh, #irl_r_a, ._RWp, .gt-hats, .gsc_b, ._RMl .flt-actionblock, #topstuff .sh-sp__pswtr, ._Pdv, #rhs .commercial-unit-desktop-rhs.rhsvw, .gVqDn {
         display: none !important;
