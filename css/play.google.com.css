@@ -1,366 +1,530 @@
 @-moz-document url-prefix("https://play.google.com/") {
-    /* Header */
-    #gb > div {
-        background-color: #252525 !important;
-    }
-    /* Account settings icons */
-    #gbwa > div:nth-child(1) > a, #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(3) > div:nth-child(1) > a {
-        filter: invert(.9) !important;
-    }
-    /* Search */
-    .gbqfqw {
-        background: #1b1b1b !important;
-        border: 1px solid #1b1b1b !important;
-    }
-
-    .gbqfif, .gbqfsf, .hNW13c, .ac-row {
-        color: #ccc !important;
-    }
-
-    .qZxJ9, .ac-renderer {
-        background: #252525 !important;
-        border-top: 1px solid !important;
-        border-color: #333 !important;
-    }
-
-    .eOnYEd, .ac-active {
-        background: #333 !important;
-    }
-    /* Main */
-    body, .cluster, .cluster-container {
-        background-color: #1b1b1b !important;
-        color: #aaa !important;
-    }
-
-    .action-bar, .t5eBue, .qAAUy:hover, body:not(.phone-optimized) .card-cluster .card-list {
-        background-color: #2a2a2a !important;
-    }
-
-    .action-bar-dropdown-top:hover {
-        background: transparent !important;
-    }
-
-    .action-bar-link .anchor:hover, .jGu02 .uJjCzb:hover {
-        background: #444 !important;
-    }
-
-    .action-bar-spacer, .JvjCjf {
-        background: #444 !important;
-    }
-
-    h1 > a, h2 > a, h2 {
-        color: #fff !important;
-    }
-
-    .cluster-heading .subtitle, .action-bar-dropdown, .action-bar-link, .action-bar-link .anchor, .action-bar-link .anchor:visited, .jGu02 .uJjCzb, .jGu02 .uJjCzb:visited, .qAAUy, .editors-choice-card .editorial-page-title, .II4YWb {
-        color: #ccc !important;
-    }
-
-    a {
-        color: #ccc;
-    }
-    /* Popup */
-    .dropdown-submenu, .dropdown-sub-submenu {
-        background-color: #333 !important;
-        border-color: #333 !important;
-    }
-
-    .leaf-submenu-link:hover, .parent-submenu-link, .child-submenu-link:hover {
-        background-color: #444 !important;
-    }
-    /* Buttons */
-    .play-button.small, .b7cPmf:last-child .g3P27d, .LkLjZd, .LkLjZd:visited, button.id-write-button.play-button, button.expand-button.expand-next > .play-button, button.expand-button.expand-prev > .play-button, .expand-close.play-button {
-        background: #333 !important;
-        border: 1px solid #333 !important;
-    }
-
-    button.id-write-button.play-button:hover {
-        color: #fff !important;
-    }
-
-    #wrapper > .action-bar-container > div > .action-bar.movies > .action-bar-aux > .action-bar-item.settings-gear-menu.play-button.small > .action-bar-link.id-track-click.id-track-impression.id-action-bar-settings-button > a > div {
-        background: transparent !important;
-    }
-
-    .action-bar-help .action-bar-link-title, .action-bar-item.settings-gear-menu .dropdown-icon, .mZr3Me .pHFsbd, .CVBexe .L9ZZW, .expand-next .button-image, .expand-next .arrow-image, .expand-prev .button-image, .expand-prev .arrow-image, .spam-flag, .rate-review .icon, .expand-close .close-image {
-        filter: invert(.9) !important;
-    }
-
-    .boqPlaycardFloatinghighlightsrowScrollButton {
-        background-color: #000 !important;
-        color: #fff !important;
-    }
-
-    .U8Ww7d:hover, .VkbTne:hover, .CqJCxd:hover, .t2Y9uc:hover, .mgVrBf:hover, .xjAeve:hover, .IfEcue:hover {
-        box-shadow: none !important;
-        background-color: #444 !important;
-    }
-    /* Sidebar */
-    .nav .entertainment .sub-nav, .nav .store .sub-nav, .nav-container .shared-sub-nav, .nav .not-selected .hover-target, .nav, .k8Lt0 .CoKTif, .k8Lt0 .XBXPXc {
-        background-color: #2a2a2a !important;
-    }
-
-    .POfIAc {
-        background: #444 !important;
-    }
-
-    .nav .entertainment .sub-nav, .nav .store .sub-nav, .nav-container .shared-sub-nav, .k8Lt0 .CoKTif {
-        border-color: #333 !important;
-    }
-
-    .secondary-sub-nav-option .sub-nav-link, .nav .not-selected .title, .k8Lt0 .fle8Af .gm1qLe {
-        color: #aaa !important;
-    }
-
-    .nav .shop-link, .nav .library-link, .nav .wishlist-link, .WtH9qd, .iZhiic .pvVVcb {
-        color: #ccc;
-    }
-
-    #wrapper > div > div > ul > .nav-list-item.id-track-click.music.hidden-item > a > span > span,
-    #wrapper > div > div > ul > .nav-list-item.id-track-click.apps.hidden-item > a > span > span,
-    #wrapper > div > div > ul > .nav-list-item.id-track-click.movies-tv.hidden-item > a > span > span,
-    #wrapper > div > div > ul > .nav-list-item.id-track-click.books.hidden-item > a > span > span,
-    #wrapper > div > div > ul > .nav-list-item.id-track-click.devices.hidden-item > a > span > span,
-    #wrapper > div > div > ul > .nav-list-item.id-track-click.entertainment.hidden-item > a > span > span {
-        color: transparent !important;
-    }
-
-    #wrapper > div > div > ul > .nav-list-item.id-track-click.music.visible-item > a > span > span,
-    #wrapper > div > div > ul > .nav-list-item.id-track-click.apps.visible-item > a > span > span,
-    #wrapper > div > div > ul > .nav-list-item.id-track-click.movies-tv.visible-item > a > span > span,
-    #wrapper > div > div > ul > .nav-list-item.id-track-click.books.visible-item > a > span > span,
-    #wrapper > div > div > ul > .nav-list-item.id-track-click.devices.visible-item > a > span > span,
-    #wrapper > div > div > ul > .nav-list-item.id-track-click.entertainment.visible-item > a > span > span {
-        color: #fff !important;
-    }
-
-    .show-all-hover-zone, .k8Lt0 .znPNx {
-        background-color: #444 !important;
-    }
-
-    .sub-nav-divider {
-        background: #333 !important;
-    }
-    /* Cards */
-    .card-content, .card .reason-set, .card .price-container .price {
-        background: #252525 !important;
-    }
-
-    .paragraph-end {
-        background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, #252525)) !important;
-        background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #252525) !important;
-        background: linear-gradient(to right, rgba(255, 255, 255, 0), #252525) !important;
-    }
-
-    .card .cover {
-        background: transparent !important;
-    }
-
-    .card .title {
-        color: #fff !important;
-    }
-
-    .card .subtitle {
-        color: #ccc !important;
-    }
-
-    .tiny-star.star-rating-non-editable-container {
-        filter: brightness(1.5) !important;
-    }
-    /* Items */
-    .W4P4ne, .LXrl4c, .details-section, .userlist-yet-to-add.default, .userlist-adding.default, .userlist-added.default, .userlist-remove.default, .userlist-removing.default, .details-actions .play-button:first-child, .details-info, .details-wrapper, .main-content {
-        background-color: #252525 !important;
-    }
-
-    #body-content > .outer-container > div > .secondary-content > div > div {
-        background: transparent !important;
-    }
-
-    .f3Fr9d, .cqtbn {
-        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, #252525)) !important;
-        background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #252525) !important;
-        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #252525) !important;
-    }
-
-    .track-list-row:hover td, .track-list-row.playing td, .track-list-row.loading td {
-        background-color: #333 !important;
-    }
-
-    .Njo8s, .details-section-divider {
-        border-color: #333 !important;
-    }
-
-    .nP60O, .jdjqLd, .dNLKff, .UD7Dzf, .htlgb, .EymY4b, .track-list-row, .details-section.description.simple .text-body {
-        color: #aaa !important;
-    }
-
-    .DWPxHb, .mMF0fd, .X43Kjb, .IEFhEe, .BgcNfc, .info-container .document-subtitle, .main-content .details-section .heading, .meta-info .title, .featured-review .author-name, .score-container .score, .rating-box .rating-bar-container {
-        color: #ccc !important;
-    }
-
-    .AHFaub, .BHMmbe, .info-container .document-title, .rating-box .bar-number {
-        color: #fff !important;
-    }
-
-    .L0jl5e, .vQHuPe, .NVmCwd, .BGNhFb, .clock, .playback-button.playing {
-        filter: invert(.9) !important;
-    }
-
-    .Nywl9c {
-        box-shadow: none !important;
-    }
-    /***/
-    /* Music */
-    .card.music .consume-link, .card.music .price {
-        color: #fb8e35 !important;
-    }
-
-    .albums-secondary-color button, .albums-secondary-color a, .albums-secondary-color a:visited {
-        color: #f76b40 !important;
-    }
-
-    .censor-sticker {
-        color: #f76b40 !important;
-        border-color: #f76b40 !important;
-    }
-
-    .music .userlist-yet-to-add .wishlist-icon {
-        filter: brightness(2) !important;
-    }
-    /* Apps */
-    .drrice .hrTbp, .drrice .hrTbp:visited, .drrice .nSYH7e, .drrice .VmgRE, .drrice .n9lfJ .snByac, .drrice .JHTxhe a, .drrice .JHTxhe a:visited {
-        color: #59fb59 !important;
-    }
-
-    .drrice .r1Rcnb {
-        filter: brightness(1.8) !important;
-    }
-    /* Movies - TV */
-    .card.movies .consume-link, .card.movies .price, .card.tv .price {
-        color: #e65656 !important;
-    }
-
-    .q9QOMe .hrTbp, .q9QOMe .hrTbp:visited, .q9QOMe .JHTxhe a, .q9QOMe .JHTxhe a:visited, .q9QOMe .nSYH7e, .q9QOMe .VmgRE, .q9QOMe .n9lfJ .snByac, .q9QOMe .i5DZme {
-        color: #ff5137 !important;
-    }
-
-    .q9QOMe .r1Rcnb {
-        filter: brightness(1.5) !important;
-    }
-    /* Books */
-    .card.books .consume-link, .card.books .price, .K1b9Kc .i5DZme {
-        color: #55c7ff !important;
-    }
-
-    .K1b9Kc .hrTbp, .K1b9Kc .hrTbp:visited, .K1b9Kc .JHTxhe a, .K1b9Kc .JHTxhe a:visited, .K1b9Kc .nSYH7e, .K1b9Kc .VmgRE, .K1b9Kc .n9lfJ .snByac {
-        color: #3fa6f7 !important;
-    }
-
-    .K1b9Kc .r1Rcnb, .EIekTb {
-        filter: brightness(2) !important;
-    }
-    /***/
-    /* Similar */
-    .uMConb {
-        background-color: #252525 !important;
-    }
-    /* Popups */
-    .JAPqpe {
-        background-color: #333 !important;
-    }
-
-    .z80M1.FwR7Pc {
-        background-color: #444 !important;
-    }
-
-    .jO7h3c {
-        color: #ccc !important;
-    }
-    /* Comments */
-    .LVQB0b {
-        background-color: #252525 !important;
-    }
-
-    .QoPmEb {
-        border-bottom: 10px solid #252525 !important;
-    }
-    /* Footer */
-    .footer {
-        background: #1b1b1b !important;
-        color: #aaa !important;
-    }
-
-    .footer-item {
-        color: #ccc !important;
-    }
-    /* Settings */
-    .rymPhb-oKdM2c:hover {
-        background-color: #333 !important;
-    }
-
-    .LS81yb-Ud7fr {
-        color: #ccc !important;
-    }
-
-    .Lr18sf, .rymPhb-jyrRxf-tJHJj th, .rymPhb-oKdM2c td {
-        color: #aaa !important;
-    }
-
-    .rymPhb-oKdM2c {
-        border-color: #333 !important;
-    }
-    /* Overlay */
-    .body-content-loading-overlay {
-        background: #000 !important;
-    }
-
-    .body-content-loading-spinner {
-        filter: invert(1) !important;
-    }
-    /* Remove */
-    .k8Lt0 .y089Ob {
-        display: none !important;
-    }
-    /* Scrollbar */
-    ::-webkit-scrollbar {
-        width: 10px;
-        height: 10px;
-    }
-
-    ::-webkit-scrollbar-button {
-        width: 0px;
-        height: 0px;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background: #ffffff1f;
-        border: none;
-        border-radius: 0px;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-        background: #fff3;
-    }
-
-    ::-webkit-scrollbar-thumb:active {
-        background: #fff3;
-    }
-
-    ::-webkit-scrollbar-track {
-        background: #0000004d;
-        border: none;
-        border-radius: 0px;
-    }
-
-    ::-webkit-scrollbar-track:hover {
-        background: #0000004d;
-    }
-
-    ::-webkit-scrollbar-track:active {
-        background: #0000004d;
-    }
-
-    ::-webkit-scrollbar-corner {
-        background: #0000004d;
-    }
+  #gb > div {
+    background-color: #252525 !important;
+  }
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div
+    > div:nth-child(3)
+    > div:nth-child(1)
+    > a,
+  #gbwa > div:nth-child(1) > a {
+    filter: invert(0.9) !important;
+  }
+  .gbqfqw {
+    background: #1b1b1b !important;
+    border: 1px solid #1b1b1b !important;
+  }
+  .ac-row,
+  .gbqfif,
+  .gbqfsf,
+  .hNW13c {
+    color: #ccc !important;
+  }
+  .ac-renderer,
+  .qZxJ9 {
+    background: #252525 !important;
+    border-top: 1px solid !important;
+    border-color: #333 !important;
+  }
+  .ac-active,
+  .eOnYEd {
+    background: #333 !important;
+  }
+  .cluster,
+  .cluster-container,
+  body {
+    background-color: #1b1b1b !important;
+    color: #aaa !important;
+  }
+  .action-bar,
+  .qAAUy:hover,
+  .t5eBue,
+  body:not(.phone-optimized) .card-cluster .card-list {
+    background-color: #2a2a2a !important;
+  }
+  #wrapper
+    > .action-bar-container
+    > div
+    > .action-bar.movies
+    > .action-bar-aux
+    > .action-bar-item.settings-gear-menu.play-button.small
+    > .action-bar-link.id-track-click.id-track-impression.id-action-bar-settings-button
+    > a
+    > div,
+  .action-bar-dropdown-top:hover {
+    background: 0 0 !important;
+  }
+  .JvjCjf,
+  .action-bar-link .anchor:hover,
+  .action-bar-spacer,
+  .jGu02 .uJjCzb:hover {
+    background: #444 !important;
+  }
+  button.id-write-button.play-button:hover,
+  h1 > a,
+  h2,
+  h2 > a {
+    color: #fff !important;
+  }
+  .II4YWb,
+  .action-bar-dropdown,
+  .action-bar-link,
+  .action-bar-link .anchor,
+  .action-bar-link .anchor:visited,
+  .cluster-heading .subtitle,
+  .editors-choice-card .editorial-page-title,
+  .jGu02 .uJjCzb,
+  .jGu02 .uJjCzb:visited,
+  .qAAUy {
+    color: #ccc !important;
+  }
+  a {
+    color: #ccc;
+  }
+  .dropdown-sub-submenu,
+  .dropdown-submenu {
+    background-color: #333 !important;
+    border-color: #333 !important;
+  }
+  .child-submenu-link:hover,
+  .leaf-submenu-link:hover,
+  .parent-submenu-link {
+    background-color: #444 !important;
+  }
+  .LkLjZd,
+  .LkLjZd:visited,
+  .b7cPmf:last-child .g3P27d,
+  .expand-close.play-button,
+  .play-button.small,
+  button.expand-button.expand-next > .play-button,
+  button.expand-button.expand-prev > .play-button,
+  button.id-write-button.play-button {
+    background: #333 !important;
+    border: 1px solid #333 !important;
+  }
+  .CVBexe .L9ZZW,
+  .action-bar-help .action-bar-link-title,
+  .action-bar-item.settings-gear-menu .dropdown-icon,
+  .expand-close .close-image,
+  .expand-next .arrow-image,
+  .expand-next .button-image,
+  .expand-prev .arrow-image,
+  .expand-prev .button-image,
+  .mZr3Me .pHFsbd,
+  .rate-review .icon,
+  .spam-flag {
+    filter: invert(0.9) !important;
+  }
+  .boqPlaycardFloatinghighlightsrowScrollButton {
+    background-color: #000 !important;
+    color: #fff !important;
+  }
+  .CqJCxd:hover,
+  .IfEcue:hover,
+  .U8Ww7d:hover,
+  .VkbTne:hover,
+  .mgVrBf:hover,
+  .t2Y9uc:hover,
+  .xjAeve:hover {
+    box-shadow: none !important;
+    background-color: #444 !important;
+  }
+  .k8Lt0 .CoKTif,
+  .k8Lt0 .XBXPXc,
+  .nav,
+  .nav .entertainment .sub-nav,
+  .nav .not-selected .hover-target,
+  .nav .store .sub-nav,
+  .nav-container .shared-sub-nav {
+    background-color: #2a2a2a !important;
+  }
+  .POfIAc {
+    background: #444 !important;
+  }
+  .k8Lt0 .CoKTif,
+  .nav .entertainment .sub-nav,
+  .nav .store .sub-nav,
+  .nav-container .shared-sub-nav {
+    border-color: #333 !important;
+  }
+  .k8Lt0 .fle8Af .gm1qLe,
+  .nav .not-selected .title,
+  .secondary-sub-nav-option .sub-nav-link {
+    color: #aaa !important;
+  }
+  .WtH9qd,
+  .iZhiic .pvVVcb,
+  .nav .library-link,
+  .nav .shop-link,
+  .nav .wishlist-link {
+    color: #ccc;
+  }
+  #wrapper
+    > div
+    > div
+    > ul
+    > .nav-list-item.id-track-click.apps.hidden-item
+    > a
+    > span
+    > span,
+  #wrapper
+    > div
+    > div
+    > ul
+    > .nav-list-item.id-track-click.books.hidden-item
+    > a
+    > span
+    > span,
+  #wrapper
+    > div
+    > div
+    > ul
+    > .nav-list-item.id-track-click.devices.hidden-item
+    > a
+    > span
+    > span,
+  #wrapper
+    > div
+    > div
+    > ul
+    > .nav-list-item.id-track-click.entertainment.hidden-item
+    > a
+    > span
+    > span,
+  #wrapper
+    > div
+    > div
+    > ul
+    > .nav-list-item.id-track-click.movies-tv.hidden-item
+    > a
+    > span
+    > span,
+  #wrapper
+    > div
+    > div
+    > ul
+    > .nav-list-item.id-track-click.music.hidden-item
+    > a
+    > span
+    > span {
+    color: transparent !important;
+  }
+  #wrapper
+    > div
+    > div
+    > ul
+    > .nav-list-item.id-track-click.apps.visible-item
+    > a
+    > span
+    > span,
+  #wrapper
+    > div
+    > div
+    > ul
+    > .nav-list-item.id-track-click.books.visible-item
+    > a
+    > span
+    > span,
+  #wrapper
+    > div
+    > div
+    > ul
+    > .nav-list-item.id-track-click.devices.visible-item
+    > a
+    > span
+    > span,
+  #wrapper
+    > div
+    > div
+    > ul
+    > .nav-list-item.id-track-click.entertainment.visible-item
+    > a
+    > span
+    > span,
+  #wrapper
+    > div
+    > div
+    > ul
+    > .nav-list-item.id-track-click.movies-tv.visible-item
+    > a
+    > span
+    > span,
+  #wrapper
+    > div
+    > div
+    > ul
+    > .nav-list-item.id-track-click.music.visible-item
+    > a
+    > span
+    > span {
+    color: #fff !important;
+  }
+  .k8Lt0 .znPNx,
+  .show-all-hover-zone {
+    background-color: #444 !important;
+  }
+  .sub-nav-divider {
+    background: #333 !important;
+  }
+  .card .price-container .price,
+  .card .reason-set,
+  .card-content {
+    background: #252525 !important;
+  }
+  .paragraph-end {
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(0%, rgba(255, 255, 255, 0)),
+      color-stop(100%, #252525)
+    ) !important;
+    background-image: -webkit-linear-gradient(
+      left,
+      rgba(255, 255, 255, 0),
+      #252525
+    ) !important;
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      #252525
+    ) !important;
+  }
+  #body-content > .outer-container > div > .secondary-content > div > div,
+  .card .cover {
+    background: 0 0 !important;
+  }
+  .card .title {
+    color: #fff !important;
+  }
+  .card .subtitle {
+    color: #ccc !important;
+  }
+  .tiny-star.star-rating-non-editable-container {
+    filter: brightness(1.5) !important;
+  }
+  .LXrl4c,
+  .W4P4ne,
+  .details-actions .play-button:first-child,
+  .details-info,
+  .details-section,
+  .details-wrapper,
+  .main-content,
+  .userlist-added.default,
+  .userlist-adding.default,
+  .userlist-remove.default,
+  .userlist-removing.default,
+  .userlist-yet-to-add.default {
+    background-color: #252525 !important;
+  }
+  .cqtbn,
+  .f3Fr9d {
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0%, rgba(255, 255, 255, 0)),
+      color-stop(100%, #252525)
+    ) !important;
+    background-image: -webkit-linear-gradient(
+      top,
+      rgba(255, 255, 255, 0),
+      #252525
+    ) !important;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      #252525
+    ) !important;
+  }
+  .track-list-row.loading td,
+  .track-list-row.playing td,
+  .track-list-row:hover td {
+    background-color: #333 !important;
+  }
+  .Njo8s,
+  .details-section-divider {
+    border-color: #333 !important;
+  }
+  .EymY4b,
+  .UD7Dzf,
+  .dNLKff,
+  .details-section.description.simple .text-body,
+  .htlgb,
+  .jdjqLd,
+  .nP60O,
+  .track-list-row {
+    color: #aaa !important;
+  }
+  .BgcNfc,
+  .DWPxHb,
+  .IEFhEe,
+  .X43Kjb,
+  .featured-review .author-name,
+  .info-container .document-subtitle,
+  .mMF0fd,
+  .main-content .details-section .heading,
+  .meta-info .title,
+  .rating-box .rating-bar-container,
+  .score-container .score {
+    color: #ccc !important;
+  }
+  .AHFaub,
+  .BHMmbe,
+  .info-container .document-title,
+  .rating-box .bar-number {
+    color: #fff !important;
+  }
+  .BGNhFb,
+  .L0jl5e,
+  .NVmCwd,
+  .clock,
+  .playback-button.playing,
+  .vQHuPe {
+    filter: invert(0.9) !important;
+  }
+  .Nywl9c {
+    box-shadow: none !important;
+  }
+  .card.music .consume-link,
+  .card.music .price {
+    color: #fb8e35 !important;
+  }
+  .albums-secondary-color a,
+  .albums-secondary-color a:visited,
+  .albums-secondary-color button,
+  .censor-sticker {
+    color: #f76b40 !important;
+  }
+  .censor-sticker {
+    border-color: #f76b40 !important;
+  }
+  .music .userlist-yet-to-add .wishlist-icon {
+    filter: brightness(2) !important;
+  }
+  .drrice .JHTxhe a,
+  .drrice .JHTxhe a:visited,
+  .drrice .VmgRE,
+  .drrice .hrTbp,
+  .drrice .hrTbp:visited,
+  .drrice .n9lfJ .snByac,
+  .drrice .nSYH7e {
+    color: #59fb59 !important;
+  }
+  .drrice .r1Rcnb {
+    filter: brightness(1.8) !important;
+  }
+  .card.movies .consume-link,
+  .card.movies .price,
+  .card.tv .price {
+    color: #e65656 !important;
+  }
+  .q9QOMe .JHTxhe a,
+  .q9QOMe .JHTxhe a:visited,
+  .q9QOMe .VmgRE,
+  .q9QOMe .hrTbp,
+  .q9QOMe .hrTbp:visited,
+  .q9QOMe .i5DZme,
+  .q9QOMe .n9lfJ .snByac,
+  .q9QOMe .nSYH7e {
+    color: #ff5137 !important;
+  }
+  .q9QOMe .r1Rcnb {
+    filter: brightness(1.5) !important;
+  }
+  .K1b9Kc .i5DZme,
+  .card.books .consume-link,
+  .card.books .price {
+    color: #55c7ff !important;
+  }
+  .K1b9Kc .JHTxhe a,
+  .K1b9Kc .JHTxhe a:visited,
+  .K1b9Kc .VmgRE,
+  .K1b9Kc .hrTbp,
+  .K1b9Kc .hrTbp:visited,
+  .K1b9Kc .n9lfJ .snByac,
+  .K1b9Kc .nSYH7e {
+    color: #3fa6f7 !important;
+  }
+  .EIekTb,
+  .K1b9Kc .r1Rcnb {
+    filter: brightness(2) !important;
+  }
+  .uMConb {
+    background-color: #252525 !important;
+  }
+  .JAPqpe {
+    background-color: #333 !important;
+  }
+  .z80M1.FwR7Pc {
+    background-color: #444 !important;
+  }
+  .jO7h3c {
+    color: #ccc !important;
+  }
+  .LVQB0b {
+    background-color: #252525 !important;
+  }
+  .QoPmEb {
+    border-bottom: 10px solid #252525 !important;
+  }
+  .footer {
+    background: #1b1b1b !important;
+    color: #aaa !important;
+  }
+  .LS81yb-Ud7fr,
+  .footer-item {
+    color: #ccc !important;
+  }
+  .rymPhb-oKdM2c:hover {
+    background-color: #333 !important;
+  }
+  .Lr18sf,
+  .rymPhb-jyrRxf-tJHJj th,
+  .rymPhb-oKdM2c td {
+    color: #aaa !important;
+  }
+  .rymPhb-oKdM2c {
+    border-color: #333 !important;
+  }
+  .body-content-loading-overlay {
+    background: #000 !important;
+  }
+  .body-content-loading-spinner {
+    filter: invert(1) !important;
+  }
+  .k8Lt0 .y089Ob {
+    display: none !important;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff1f;
+    border: 0;
+    border-radius: 0;
+  }
+  ::-webkit-scrollbar-thumb:active,
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff3;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0000004d;
+    border: 0;
+    border-radius: 0;
+  }
+  ::-webkit-scrollbar-track:active,
+  ::-webkit-scrollbar-track:hover {
+    background: #0000004d;
+  }
+  ::-webkit-scrollbar-corner {
+    background: #0000004d;
+  }
 }

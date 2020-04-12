@@ -1,51 +1,38 @@
 @-moz-document url-prefix("https://mail.google.com/mail/") {
-    /* Make the loading screen dark */
-    #loading {
-        background: #252525 !important;
-    }
-
-    /* GMail has a dark theme, we allow it to style the header */
-    .gb_8d {
-        background: inherit !important;
-    }
-
-    img.gb_ua {
-        filter: invert(1) !important;
-    }
-
-	/* Don't set background for GMail logo */
-	.gb_qe {
-		background: transparent !important;
-	}
-
-
-    .msgb {
-        color: #ccc !important;
-    }
-
-    #bhlf > input.submit_as_link {
-        color: #00adee !important;
-    }
-
-    .z0 > .L3 {
-        box-shadow: none !important;
-        background-color: #555 !important;
-        color: #ccc !important;
-    }
-
-    .z0 > .L3:hover {
-        background-color: #777 !important;
-    }
-    /* Calendar menu */
-    .brC-brG-Jz-bBA, .brC-brG-avC {
-        background: #1b1b1b !important;
-    }
-
-    .brC-brG-avC {
-        border-color: #333 !important;
-    }
-
-    .brC-brG-avC-bBo-JX {
-        fill: #ccc !important;
-    }
+  #loading {
+    background: #252525 !important;
+  }
+  .gb_8d {
+    background: inherit !important;
+  }
+  img.gb_ua {
+    filter: invert(1) !important;
+  }
+  .gb_qe {
+    background: 0 0 !important;
+  }
+  .msgb,
+  .z0 > .L3 {
+    color: #ccc !important;
+  }
+  #bhlf > input.submit_as_link {
+    color: #00adee !important;
+  }
+  .z0 > .L3 {
+    box-shadow: none !important;
+    background-color: #555 !important;
+  }
+  .z0 > .L3:hover {
+    background-color: #777 !important;
+  }
+  .brC-brG-Jz-bBA,
+  .brC-brG-avC {
+    background: #1b1b1b !important;
+  }
+  .brC-brG-avC {
+    border-color: #333 !important;
+  }
+  .brC-brG-avC-bBo-JX {
+    fill: #ccc !important;
+  }
 }

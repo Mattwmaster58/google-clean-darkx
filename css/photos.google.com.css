@@ -1,361 +1,483 @@
 @-moz-document url-prefix("https://photos.google.com/") {
-    /* Main */
-    .uGCjIb, .YisXab, .YisXab::after, .gN5aAe, .n4Bzf, .ajQY2 {
-        background-color: #1b1b1b !important;
-    }
-
-    .GJuUre {
-        background-color: transparent !important;
-    }
-
-    .Y596od, .nUvEGb, .Qizfvf, .eLFytf, .vUbGoc, .gb_Ta svg, .gb_lc svg, .GJuUre, .YHjolb, .aDUoef, .CqtWH, .G7ubtf {
-        color: #ccc !important;
-    }
-
-    .zKT0yd, .bCPWJc, .SqxZMb, .k4Or1e, .ZEmz6b, .hcClrf {
-        color: #8e8e8e !important;
-    }
-
-    .d1Z6ve, .lDDKpd .GJuUre {
-        border-color: #333 !important;
-    }
-
-    .y4CbTd {
-        filter: invert(.8) brightness(1.25) !important;
-    }
-
-    .XKNPOc, .ZgMovb {
-        filter: invert(.92) grayscale(1) !important;
-    }
-    /* Search */
-    .dVHaXd {
-        fill: #ccc !important;
-    }
-
-    .R4HkWb .orgUxc, .DOAbib .HLOCEe {
-        fill: #8e8e8e !important;
-    }
-
-    .obNJBf.wH28vf > .lEclge {
-        color: #ccc !important;
-    }
-
-    .obNJBf.wH28vf, .DOAbib .HLOCEe {
-        color: #8e8e8e !important;
-    }
-
-    .yUnLie .HPN91c {
-        background-color: #121212 !important;
-    }
-
-    .yUnLie .ifyeLb {
-        background-color: #1b1b1b !important;
-    }
-
-    .WjwBXd, .Vskceb {
-        background-color: #333 !important;
-    }
-
-    .SUBPBe {
-        fill: #000 !important;
-    }
-    /* Albums */
-    .rtIMgb.WjVZdb {
-        background-color: #333 !important;
-    }
-
-    .mIszjc .up0e5, .UzoGpd .up0e5, .AR12ke .up0e5, .qyRYS .up0e5, .nHTGHe .up0e5, .KfmeTb .up0e5 {
-        background-color: #ddd !important;
-    }
-
-    .HrGXnb {
-        background-color: #333;
-        color: #ccc;
-    }
-
-    .pbgrIf {
-        background: #ffffff4d !important;
-    }
-
-    .JUQOtc > path:nth-of-type(2) {
-        fill: #444 !important;
-    }
-
-    .qjYJaf > .JUQOtc > circle:nth-of-type(3), .mKslXd {
-        fill: #ccc !important;
-    }
-
-    .NLiuKe, .WLLPqb, .VwKkye .Ax4B8, .VwKkye .yNVtPc, .VwKkye .MkjOTb, .VOEIyf .jBmls, .qYQJEe, .WLLPqb, .Fmedib, .biyFUd, .Ax4B8 {
-        background-color: #1b1b1b !important;
-    }
-
-    .WLLPqb, .VwKkye .Ax4B8, .VwKkye .yNVtPc, .VwKkye .MkjOTb, .cV5sed, .Fmedib, .biyFUd, .q20Fs, .uzZVYe .ZAGvjd, .qJ3sed, .sRtKQc, .o7Osof .oJeWuf {
-        color: #ccc !important;
-    }
-
-    .bArwR, .CMRsVd, .FtiXNe, .FJuSM, .egWY1b, .LzExud, .vVyGvc {
-        color: #8e8e8e !important;
-    }
-
-    .lDDKpd .hi7xwe .Fmedib::after, .lDDKpd .hi7xwe .biyFUd::after, .VOEIyf .jBmls {
-        border-color: rgba(255, 255, 255, .06) !important;
-    }
-
-    .oKubKe[aria-selected="true"] {
-        background-color: #333 !important;
-    }
-
-    .lEnAO .Vm8UPe:nth-child(2) {
-        border-color: #bbb !important;
-    }
-
-    .uzZVYe, .ajQY2:hover {
-        border-color: #333 !important;
-    }
-
-    .Vm8UPe .jBOzbf:nth-child(2), .H6CuKe, .b98gu {
-        border-color: #444 !important;
-    }
-
-    .PcxEPe .o11zad.QuQCEd {
-        background-color: #ddd !important;
-    }
-
-    .jBOzbf, .QuQCEd {
-        filter: invert(1) !important;
-    }
-
-    .yUnLie .QuQCEd {
-        filter: invert(0) !important;
-    }
-
-    .SUBPBe {
-        fill: #fff !important;
-    }
-    /* Settings */
-    .w1zVpf {
-        background-color: #252525 !important;
-    }
-
-    .IGdgBf, .UtdETd {
-        color: #ccc !important;
-    }
-
-    .X0f2Ie, .QfyHQc {
-        border-color: #333 !important;
-    }
-    /* Photobook */
-    .fJdjDd {
-        background-color: #00000080;
-    }
-
-    .z80M1.qs41qe > .aBBjbd {
-        background-image: radial-gradient(circle farthest-side, #444, #333 80%, rgba(0, 0, 0, 0) 100%);
-    }
-
-    .zn4jxc {
-        background-color: #ffffff40 !important;
-    }
-
-    .zn4jxc.auswjd {
-        background-color: #ffffff80 !important;
-    }
-
-    .fL7mK, .uzZVYe .ZAGvjd, .eIXhfb, .l3VoRe {
-        background-color: #1b1b1b !important;
-    }
-
-    .rPYW7c, .vOSR6b {
-        background-color: #212121 !important;
-    }
-
-    .xaNQyd.kOygNb .FIroPe, .xaNQyd.QWDSNc .FIroPe, .xaNQyd, .DDjkec, .ux71Ae, .EloWjf, .YD532b, .ux71Ae .zgKCg, .RDcEuc {
-        background-color: #252525 !important;
-    }
-
-    .fT2itf, .CJS7t {
-        background-color: #333 !important;
-    }
-
-    .tRTVSe, .aizgoc, .URCQde, .xaNQyd.kOygNb .FIroPe, .xaNQyd.QWDSNc .FIroPe, .GYJCSd, .hAt1wf, .cgzas, .ycKFmf, .FfYVOe, .sd2Ow, .aP5QJc, .lY31xf, .sWtJyb, .uIkos {
-        color: #ccc !important;
-    }
-
-    .NYjpld, .MrNxgf, .B4aYDd, .jMchje, .b25S2, .yfPIJb, .c74zIe, .p4Vk3b {
-        color: #8e8e8e !important;
-    }
-
-    .saCYpf, .uAJfId .tEQo7b, .yMuq9d {
-        border-color: #333 !important;
-    }
-
-    .ZCdsle .JUQOtc {
-        background-color: #000 !important;
-    }
-
-    .IobPkb {
-        border-color: #000 !important;
-    }
-
-    .XpJyv .JUQOtc, .URCQde .JUQOtc, .k5gjFc .JUQOtc {
-        fill: #ccc !important;
-    }
-
-    .O0WRkf.RDPZE {
-        color: #ccc !important;
-        fill: #ccc !important;
-    }
-
-    .eXETU {
-        color: #333 !important;
-        fill: #333 !important;
-    }
-
-    .eXETU:hover {
-        color: #000 !important;
-        fill: #000 !important;
-    }
-    /* Sidebar */
-    .wDSX5e {
-        background-color: #1b1b1b !important;
-    }
-
-    .w8iOwc {
-        color: #ccc !important;
-    }
-
-    .wDSX5e .DOAbib:not(.Mph3Hc):hover, .wDSX5e .ixImeb {
-        background-color: #333 !important;
-    }
-
-    .R4TmW {
-        border-color: #333 !important;
-    }
-    /* Popups */
-    .J9Ecvd, .g3VIld, .uj0V6, .YmYVQb, .JPdR6b, .Q77Pt, .tn9hcb, .uFjcbe, .MJbBo, .VXm1O, .oIsNpe, .rfwMZb, .AALQVb .qRUolc, .HO7xJe .tOrNgd {
-        background-color: #1b1b1b !important;
-    }
-
-    .KefOhc {
-        border-bottom-color: #1b1b1b !important;
-    }
-
-    .hUsHhf, .hi7xwe.hmrFhe.hi7xwe .I6u9xf::after {
-        background-color: #252525 !important;
-    }
-
-    .hi7xwe .I6u9xf {
-        background-color: #1b1b1b !important;
-    }
-
-    .Gsdthc, .QYqedb, .z80M1, .WUbige, .R9U8ab, .AJM7gb, .UE0Rp, .z7JNmd, .mfQCMe, .QehGzf, .Y95CAf, .WBfbmd, .nzRLqf, .AhOMTc, .y3l11d, .ajkHac, .eSqCae, .x1LMef, .LAL5ie .ZAGvjd, .mplJGb, .pRVpNc, .Z9Az9, .CBDf0d, .Yzdhqd {
-        color: #e8e8e8 !important;
-    }
-
-    .xMZSRb, .CgsFie, .DBqj8c, .nNzTX, .wiOkb, .oBMhZb, .nAfFgf, .UV4Xae, .HNIQU .KHxj8b, .LGbbwe .fROdt, .wjDi1d, .NW8xMc, .BnQsec {
-        color: #8e8e8e !important;
-    }
-
-    .fKz7Od, .Y0p3Ue, .F6wuZ, .pUgVcb .ry3kXd .ynCJHe, .ynCJHe.pGuBYc, .HCTovb {
-        fill: #ccc !important;
-    }
-
-    .fKz7Od {
-        filter: invert(0) !important;
-    }
-
-    .PCdOIb {
-        filter: invert(.9) !important;
-    }
-
-    .z80M1.FwR7Pc, .Kd04rd:hover, .IBP7ye, .UABzH:not(.sMVRZe) .Grpoof:hover > .ZFr60d, .UABzH.sMVRZe:before, .UABzH.sMVRZe:after, .uOat3d .iO7J1d:focus, .iO7J1d:hover, .AhOMTc, .aHPraf {
-        background-color: #333 !important;
-    }
-
-    .M1aIec {
-        border-bottom-color: #1b1b1b !important;
-    }
-
-    .uFjcbe, .oIsNpe, .yPBite, .hi7xwe .I6u9xf::before {
-        border-color: #333 !important;
-    }
-
-    .e2CuFe {
-        border-color: rgb(122, 122, 122) transparent !important;
-    }
-    /* Loading */
-    .Cv8Rjc {
-        background: transparent !important;
-    }
-
-    .vI9sif {
-        background: rgba(0, 0, 0, 0.8) !important;
-    }
-
-    .O1Wnce {
-        background-color: #252525;
-        background-image: linear-gradient(90deg, #333 0, transparent 0, transparent 294px, #333 294px, #333), linear-gradient(0deg, #333 0, transparent 0, transparent 220px, #333 220px, #333);
-    }
-    /* Remove photobook banner */
-    .nCD66e {
-        display: none !important;
-    }
-    /* Activity log */
-    .zEszRd {
-        background-color: #252525 !important;
-    }
-    /* Assistant */
-    .VfPpkd-WsjYwc {
-        background-color: #252525 !important;
-    }
-
-    .mSbCD, .Ja4Wfd, .Yyy4Hc {
-        color: #ccc !important;
-    }
-
-    .Usd1Ac, .lDDKpd .ajQY2, .CrDAje {
-        border-color: #333 !important;
-    }
-    /*** Remnant ***/
-    .xA0gfb, .Aul2T .cI2tlc .ZAGvjd, .fl9QFd, .rWyLGb, .Xedy9e, .SHkfld {
-        color: #e8e8e8 !important;
-    }
-
-    .EIug8e, .RwVyJb, .HiceN, .KmTyub, .P72lEd, .USUr0d, .C96I0d {
-        color: #8e8e8e !important;
-    }
-
-    .QtDoYb, .FBoeXc.vOSR6b, .RJMJ9b {
-        background: #252525 !important;
-    }
-
-    .PpML1d, .xoqcGf.DKHcHb .Aul2T, .B6Rt6d, .Aul2T, .ZMOaid.uGCjIb {
-        background: #1b1b1b !important;
-    }
-
-    .AAF8rf {
-        filter: invert(1) !important;
-    }
-
-    .DOAbib .xMAzlb {
-        color: rgba(255, 255, 255, 0.44) !important;
-        font-size: 11px !important;
-    }
-
-    .DOAbib .JUQOtc, .G6iPcb .JUQOtc, .ZSB8G, .UcZrVc, .Afhsje, .UcZrVc .w9e2Mc, .UcZrVc .OLQnJe, .C96I0d .JUQOtc {
-        fill: rgba(255, 255, 255, 0.54) !important;
-    }
-
-    .UcZrVc .Qfrpne {
-        stroke: rgba(255, 255, 255, 0.54) !important;
-    }
-
-    .ixImeb .JUQOtc, .ixImeb .xMAzlb {
-        fill: #4285f4 !important;
-        color: #4285f4 !important;
-    }
-
-    .cJzOGc, .cJzOGc.Fuybue:visited {
-        color: #30b35a !important;
-    }
+  .YisXab,
+  .YisXab::after,
+  .ajQY2,
+  .gN5aAe,
+  .n4Bzf,
+  .uGCjIb {
+    background-color: #1b1b1b !important;
+  }
+  .GJuUre {
+    background-color: transparent !important;
+  }
+  .CqtWH,
+  .G7ubtf,
+  .GJuUre,
+  .Qizfvf,
+  .Y596od,
+  .YHjolb,
+  .aDUoef,
+  .eLFytf,
+  .gb_Ta svg,
+  .gb_lc svg,
+  .nUvEGb,
+  .obNJBf.wH28vf > .lEclge,
+  .vUbGoc {
+    color: #ccc !important;
+  }
+  .SqxZMb,
+  .ZEmz6b,
+  .bCPWJc,
+  .hcClrf,
+  .k4Or1e,
+  .zKT0yd {
+    color: #8e8e8e !important;
+  }
+  .d1Z6ve,
+  .lDDKpd .GJuUre {
+    border-color: #333 !important;
+  }
+  .y4CbTd {
+    filter: invert(0.8) brightness(1.25) !important;
+  }
+  .XKNPOc,
+  .ZgMovb {
+    filter: invert(0.92) grayscale(1) !important;
+  }
+  .dVHaXd {
+    fill: #ccc !important;
+  }
+  .DOAbib .HLOCEe,
+  .R4HkWb .orgUxc {
+    fill: #8e8e8e !important;
+  }
+  .DOAbib .HLOCEe,
+  .obNJBf.wH28vf {
+    color: #8e8e8e !important;
+  }
+  .yUnLie .HPN91c {
+    background-color: #121212 !important;
+  }
+  .yUnLie .ifyeLb {
+    background-color: #1b1b1b !important;
+  }
+  .Vskceb,
+  .WjwBXd,
+  .rtIMgb.WjVZdb {
+    background-color: #333 !important;
+  }
+  .AR12ke .up0e5,
+  .KfmeTb .up0e5,
+  .UzoGpd .up0e5,
+  .mIszjc .up0e5,
+  .nHTGHe .up0e5,
+  .qyRYS .up0e5 {
+    background-color: #ddd !important;
+  }
+  .HrGXnb {
+    background-color: #333;
+    color: #ccc;
+  }
+  .pbgrIf {
+    background: #ffffff4d !important;
+  }
+  .JUQOtc > path:nth-of-type(2) {
+    fill: #444 !important;
+  }
+  .mKslXd,
+  .qjYJaf > .JUQOtc > circle:nth-of-type(3) {
+    fill: #ccc !important;
+  }
+  .Ax4B8,
+  .Fmedib,
+  .NLiuKe,
+  .VOEIyf .jBmls,
+  .VwKkye .Ax4B8,
+  .VwKkye .MkjOTb,
+  .VwKkye .yNVtPc,
+  .WLLPqb,
+  .biyFUd,
+  .qYQJEe {
+    background-color: #1b1b1b !important;
+  }
+  .Fmedib,
+  .VwKkye .Ax4B8,
+  .VwKkye .MkjOTb,
+  .VwKkye .yNVtPc,
+  .WLLPqb,
+  .biyFUd,
+  .cV5sed,
+  .o7Osof .oJeWuf,
+  .q20Fs,
+  .qJ3sed,
+  .sRtKQc,
+  .uzZVYe .ZAGvjd {
+    color: #ccc !important;
+  }
+  .CMRsVd,
+  .FJuSM,
+  .FtiXNe,
+  .LzExud,
+  .bArwR,
+  .egWY1b,
+  .vVyGvc {
+    color: #8e8e8e !important;
+  }
+  .VOEIyf .jBmls,
+  .lDDKpd .hi7xwe .Fmedib::after,
+  .lDDKpd .hi7xwe .biyFUd::after {
+    border-color: rgba(255, 255, 255, 0.06) !important;
+  }
+  .oKubKe[aria-selected="true"] {
+    background-color: #333 !important;
+  }
+  .lEnAO .Vm8UPe:nth-child(2) {
+    border-color: #bbb !important;
+  }
+  .ajQY2:hover,
+  .uzZVYe {
+    border-color: #333 !important;
+  }
+  .H6CuKe,
+  .Vm8UPe .jBOzbf:nth-child(2),
+  .b98gu {
+    border-color: #444 !important;
+  }
+  .PcxEPe .o11zad.QuQCEd {
+    background-color: #ddd !important;
+  }
+  .QuQCEd,
+  .jBOzbf {
+    filter: invert(1) !important;
+  }
+  .yUnLie .QuQCEd {
+    filter: invert(0) !important;
+  }
+  .SUBPBe {
+    fill: #fff !important;
+  }
+  .w1zVpf {
+    background-color: #252525 !important;
+  }
+  .IGdgBf,
+  .UtdETd {
+    color: #ccc !important;
+  }
+  .QfyHQc,
+  .X0f2Ie {
+    border-color: #333 !important;
+  }
+  .fJdjDd {
+    background-color: #00000080;
+  }
+  .z80M1.qs41qe > .aBBjbd {
+    background-image: radial-gradient(
+      circle farthest-side,
+      #444,
+      #333 80%,
+      transparent 100%
+    );
+  }
+  .zn4jxc {
+    background-color: #ffffff40 !important;
+  }
+  .zn4jxc.auswjd {
+    background-color: #ffffff80 !important;
+  }
+  .eIXhfb,
+  .fL7mK,
+  .l3VoRe,
+  .uzZVYe .ZAGvjd {
+    background-color: #1b1b1b !important;
+  }
+  .rPYW7c,
+  .vOSR6b {
+    background-color: #212121 !important;
+  }
+  .DDjkec,
+  .EloWjf,
+  .RDcEuc,
+  .YD532b,
+  .ux71Ae,
+  .ux71Ae .zgKCg,
+  .xaNQyd,
+  .xaNQyd.QWDSNc .FIroPe,
+  .xaNQyd.kOygNb .FIroPe {
+    background-color: #252525 !important;
+  }
+  .CJS7t,
+  .fT2itf {
+    background-color: #333 !important;
+  }
+  .FfYVOe,
+  .GYJCSd,
+  .URCQde,
+  .aP5QJc,
+  .aizgoc,
+  .cgzas,
+  .hAt1wf,
+  .lY31xf,
+  .sWtJyb,
+  .sd2Ow,
+  .tRTVSe,
+  .uIkos,
+  .xaNQyd.QWDSNc .FIroPe,
+  .xaNQyd.kOygNb .FIroPe,
+  .ycKFmf {
+    color: #ccc !important;
+  }
+  .B4aYDd,
+  .MrNxgf,
+  .NYjpld,
+  .b25S2,
+  .c74zIe,
+  .jMchje,
+  .p4Vk3b,
+  .yfPIJb {
+    color: #8e8e8e !important;
+  }
+  .saCYpf,
+  .uAJfId .tEQo7b,
+  .yMuq9d {
+    border-color: #333 !important;
+  }
+  .ZCdsle .JUQOtc {
+    background-color: #000 !important;
+  }
+  .IobPkb {
+    border-color: #000 !important;
+  }
+  .O0WRkf.RDPZE,
+  .URCQde .JUQOtc,
+  .XpJyv .JUQOtc,
+  .k5gjFc .JUQOtc {
+    fill: #ccc !important;
+  }
+  .O0WRkf.RDPZE {
+    color: #ccc !important;
+  }
+  .eXETU {
+    color: #333 !important;
+    fill: #333 !important;
+  }
+  .eXETU:hover {
+    color: #000 !important;
+    fill: #000 !important;
+  }
+  .wDSX5e {
+    background-color: #1b1b1b !important;
+  }
+  .w8iOwc {
+    color: #ccc !important;
+  }
+  .wDSX5e .DOAbib:not(.Mph3Hc):hover,
+  .wDSX5e .ixImeb {
+    background-color: #333 !important;
+  }
+  .R4TmW {
+    border-color: #333 !important;
+  }
+  .AALQVb .qRUolc,
+  .HO7xJe .tOrNgd,
+  .J9Ecvd,
+  .JPdR6b,
+  .MJbBo,
+  .Q77Pt,
+  .VXm1O,
+  .YmYVQb,
+  .g3VIld,
+  .hi7xwe .I6u9xf,
+  .oIsNpe,
+  .rfwMZb,
+  .tn9hcb,
+  .uFjcbe,
+  .uj0V6 {
+    background-color: #1b1b1b !important;
+  }
+  .KefOhc {
+    border-bottom-color: #1b1b1b !important;
+  }
+  .hUsHhf,
+  .hi7xwe.hmrFhe.hi7xwe .I6u9xf::after {
+    background-color: #252525 !important;
+  }
+  .AJM7gb,
+  .AhOMTc,
+  .CBDf0d,
+  .Gsdthc,
+  .LAL5ie .ZAGvjd,
+  .QYqedb,
+  .QehGzf,
+  .R9U8ab,
+  .UE0Rp,
+  .WBfbmd,
+  .WUbige,
+  .Y95CAf,
+  .Yzdhqd,
+  .Z9Az9,
+  .ajkHac,
+  .eSqCae,
+  .mfQCMe,
+  .mplJGb,
+  .nzRLqf,
+  .pRVpNc,
+  .x1LMef,
+  .y3l11d,
+  .z7JNmd,
+  .z80M1 {
+    color: #e8e8e8 !important;
+  }
+  .BnQsec,
+  .CgsFie,
+  .DBqj8c,
+  .HNIQU .KHxj8b,
+  .LGbbwe .fROdt,
+  .NW8xMc,
+  .UV4Xae,
+  .nAfFgf,
+  .nNzTX,
+  .oBMhZb,
+  .wiOkb,
+  .wjDi1d,
+  .xMZSRb {
+    color: #8e8e8e !important;
+  }
+  .F6wuZ,
+  .HCTovb,
+  .Y0p3Ue,
+  .fKz7Od,
+  .pUgVcb .ry3kXd .ynCJHe,
+  .ynCJHe.pGuBYc {
+    fill: #ccc !important;
+  }
+  .fKz7Od {
+    filter: invert(0) !important;
+  }
+  .PCdOIb {
+    filter: invert(0.9) !important;
+  }
+  .AhOMTc,
+  .IBP7ye,
+  .Kd04rd:hover,
+  .UABzH.sMVRZe:after,
+  .UABzH.sMVRZe:before,
+  .UABzH:not(.sMVRZe) .Grpoof:hover > .ZFr60d,
+  .aHPraf,
+  .iO7J1d:hover,
+  .uOat3d .iO7J1d:focus,
+  .z80M1.FwR7Pc {
+    background-color: #333 !important;
+  }
+  .M1aIec {
+    border-bottom-color: #1b1b1b !important;
+  }
+  .hi7xwe .I6u9xf::before,
+  .oIsNpe,
+  .uFjcbe,
+  .yPBite {
+    border-color: #333 !important;
+  }
+  .e2CuFe {
+    border-color: #7a7a7a transparent !important;
+  }
+  .Cv8Rjc {
+    background: 0 0 !important;
+  }
+  .vI9sif {
+    background: rgba(0, 0, 0, 0.8) !important;
+  }
+  .O1Wnce {
+    background-color: #252525;
+    background-image: linear-gradient(
+        90deg,
+        #333 0,
+        transparent 0,
+        transparent 294px,
+        #333 294px,
+        #333
+      ),
+      linear-gradient(
+        0deg,
+        #333 0,
+        transparent 0,
+        transparent 220px,
+        #333 220px,
+        #333
+      );
+  }
+  .nCD66e {
+    display: none !important;
+  }
+  .VfPpkd-WsjYwc,
+  .zEszRd {
+    background-color: #252525 !important;
+  }
+  .Ja4Wfd,
+  .Yyy4Hc,
+  .mSbCD {
+    color: #ccc !important;
+  }
+  .CrDAje,
+  .Usd1Ac,
+  .lDDKpd .ajQY2 {
+    border-color: #333 !important;
+  }
+  .Aul2T .cI2tlc .ZAGvjd,
+  .SHkfld,
+  .Xedy9e,
+  .fl9QFd,
+  .rWyLGb,
+  .xA0gfb {
+    color: #e8e8e8 !important;
+  }
+  .C96I0d,
+  .EIug8e,
+  .HiceN,
+  .KmTyub,
+  .P72lEd,
+  .RwVyJb,
+  .USUr0d {
+    color: #8e8e8e !important;
+  }
+  .FBoeXc.vOSR6b,
+  .QtDoYb,
+  .RJMJ9b {
+    background: #252525 !important;
+  }
+  .Aul2T,
+  .B6Rt6d,
+  .PpML1d,
+  .ZMOaid.uGCjIb,
+  .xoqcGf.DKHcHb .Aul2T {
+    background: #1b1b1b !important;
+  }
+  .AAF8rf {
+    filter: invert(1) !important;
+  }
+  .DOAbib .xMAzlb {
+    color: rgba(255, 255, 255, 0.44) !important;
+    font-size: 11px !important;
+  }
+  .Afhsje,
+  .C96I0d .JUQOtc,
+  .DOAbib .JUQOtc,
+  .G6iPcb .JUQOtc,
+  .UcZrVc,
+  .UcZrVc .OLQnJe,
+  .UcZrVc .w9e2Mc,
+  .ZSB8G {
+    fill: rgba(255, 255, 255, 0.54) !important;
+  }
+  .UcZrVc .Qfrpne {
+    stroke: rgba(255, 255, 255, 0.54) !important;
+  }
+  .ixImeb .JUQOtc,
+  .ixImeb .xMAzlb {
+    fill: #4285f4 !important;
+    color: #4285f4 !important;
+  }
+  .cJzOGc,
+  .cJzOGc.Fuybue:visited {
+    color: #30b35a !important;
+  }
 }
