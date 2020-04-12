@@ -10,15 +10,29 @@ This theme is a continuation of [this](https://userstyles.org/styles/144028/goog
 
 ## Contributing
 
-This repo is always accepting pull requests, but please follow some guidelines:
+### Recommended Workflow
+
+The Stylus extension doesn't deal nicely with 200kb styles, so we need to work around that. Here's what I've found works
+nicely:
+- Start a HTTP server with `python -m http.server` in the root of the project dir
+- Make any changes in your browser's dev tools
+- Modify the appropriate file(s)
+- Run `./build.py`
+- Install the UserStyle from http://localhost:8000/google-clean-darkx.min.user.css
+- Observe that it works (hopefully)
+
+### Contributing Guidelines
+
+This repo is always accepting pull requests and it will go a lot smoother if you follow these guidelines:
  - Modify the relevant file:
    - Don't modify [google-clean-darkx.min.user.css](/google-clean-darkx.min.user.css), that's the built file. Instead, modify the appropriate file in [./css](/css)
- - There is no need to run [/build.py](/build.py) before submitting a PR
+ - Don't change the version, the CI will do that automatically
  - Please include a short description of the results of the change, as well as a before/after screenshot
 
-## Future Potential Improvements
-In order of descending importance. When I have the time + feel like it
+## Future Potential Improvements/TODO
+###### When I have the time + feel like it
+In order of descending importance.
  - Use CSS Color variables
  - Merge in better looking google search styles
- - Autodeploy to userstyles
+ - Deploy to [userstyles.org](https://userstyles.org)
 
