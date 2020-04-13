@@ -213,11 +213,8 @@
   .dU0W2d,
   .gb_9f.gb_Ib,
   .gb_Lb.gb_Ob,
-  .gb_ga {
+  .gb_ga, .ll0QOb, .gb_Lb.gb_Ob, .gb_Ib {
     border-color: #333 !important;
-  }
-  .gb_lb {
-    border-bottom-color: #333 !important;
   }
   .b5sWd,
   .gb_ka {
@@ -419,7 +416,7 @@
     background-color: #252525 !important;
   }
   .V7X3Je,
-  .gb_Ub > .gb_6b {
+  .gb_Ub > .gb_6b, #gb_71 {
     color: #ccc !important;
   }
   .irc_rimask.irc_rist {
@@ -516,9 +513,6 @@
   .irc_c,
   .ll0QOb {
     background-color: #333 !important;
-  }
-  .ll0QOb {
-    border-color: #333 !important;
   }
   .THL2l {
     background-color: transparent !important;
