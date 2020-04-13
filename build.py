@@ -14,15 +14,6 @@ except ImportError:
         return __[0]
 
 
-try:
-    from pyperclip import copy
-except ImportError:
-    print('warning: pyperclip not installed')
-
-    def copy(_):
-        pass
-
-
 OUTPUT_FILE_NAME = Path('google-clean-darkx.min.user.css')
 METADATA_FILE = Path('metadata.inf')
 
@@ -57,7 +48,6 @@ def main(version_bump):
         with open(file) as inf:
             css_main += inf.read()
     to_write += compress(css_main, preserve_exclamation_comments=False)
-    copy(to_write)
     with open(OUTPUT_FILE_NAME, 'w') as out:
         out.write(to_write)
 
