@@ -687,7 +687,7 @@
   .a-D-gc-wKOTTc .a-ec-Gd button.RTMQvb,
   .g-d-fa,
   .jfk-button-standard {
-    background-image: linear-gradient(top, #3a3a3a, #313131) !important;
+    background-image: linear-gradient(to top, #3a3a3a, #313131) !important;
     border: 0 !important;
     color: #8a8a8a !important;
     cursor: pointer !important;
@@ -697,11 +697,7 @@
   .a-D-gc-wKOTTc .a-ec-Gd button.RTMQvb:hover,
   .g-d-fa:hover,
   .jfk-button-standard:hover {
-    background-image: -moz-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -webkit-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -o-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -ms-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: linear-gradient(top, #313131, #3a3a3a) !important;
+    background-image: linear-gradient(to top, #313131, #3a3a3a) !important;
     cursor: pointer !important;
   }
   .a-D-B-WErN3d-j,

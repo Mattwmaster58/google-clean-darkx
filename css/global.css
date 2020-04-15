@@ -26,7 +26,7 @@
   .gbqfba,
   .jhp input[type="submit"],
   .sbdd_a input {
-    background-image: linear-gradient(top, #3a3a3a, #313131) !important;
+    background-image: linear-gradient(to top, #3a3a3a, #313131) !important;
     background-color: transparent !important;
     border: 0 !important;
     color: #8a8a8a !important;
@@ -50,11 +50,11 @@
   .gbqfba:hover,
   .jhp input[type="submit"]:hover,
   .sbdd_a input:hover {
-    background-image: -moz-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -webkit-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -o-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -ms-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: linear-gradient(top, #313131, #3a3a3a) !important;
+    background-image: (top, #313131, #3a3a3a) !important;
+    background-image: -webkit-linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: -o-linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: -ms-linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: linear-gradient(to top, #313131, #3a3a3a) !important;
     cursor: pointer !important;
   }
   .ddl-melies-b,
@@ -608,11 +608,11 @@
     color: #ababab !important;
   }
   .ksb {
-    background-image: -moz-linear-gradient(top, #444, #383838) !important;
-    background-image: -webkit-linear-gradient(top, #444, #383838) !important;
-    background-image: -o-linear-gradient(top, #444, #383838) !important;
-    background-image: -ms-linear-gradient(top, #444, #383838) !important;
-    background-image: linear-gradient(top, #444, #383838) !important;
+    background-image: -moz-linear-gradient(to top, #444, #383838) !important;
+    background-image: -webkit-linear-gradient(to top, #444, #383838) !important;
+    background-image: -o-linear-gradient(to top, #444, #383838) !important;
+    background-image: -ms-linear-gradient(to top, #444, #383838) !important;
+    background-image: linear-gradient(to top, #444, #383838) !important;
     cursor: pointer !important;
     border: 1px solid #333 !important;
   }
@@ -1770,11 +1770,7 @@
   .jfk-button-standard.jfk-button-checked,
   .jfk-button-standard.jfk-button-clear-outline.jfk-button-checked,
   .stt__tool ._ahq {
-    background-image: -moz-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -webkit-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -o-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -ms-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: linear-gradient(top, #313131, #3a3a3a) !important;
+    background-image: linear-gradient(to top, #313131, #3a3a3a) !important;
     background-color: transparent !important;
     border: 0 !important;
     color: #8a8a8a !important;
@@ -1782,7 +1778,7 @@
   }
   .goog-flat-menu-button,
   .jfk-button-standard {
-    background-image: linear-gradient(top, #3a3a3a, #313131) !important;
+    background-image: linear-gradient(to top, #3a3a3a, #313131) !important;
     background-color: transparent !important;
     border: 0 !important;
     color: #8a8a8a !important;
@@ -1790,11 +1786,7 @@
   }
   .jfk-button-standard.jfk-button-clear-outline.jfk-button-hover,
   .jfk-button-standard.jfk-button-hover {
-    background-image: -moz-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -webkit-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -o-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -ms-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: linear-gradient(top, #313131, #3a3a3a) !important;
+    background-image: linear-gradient(to top, #313131, #3a3a3a) !important;
     background-color: transparent !important;
     cursor: pointer !important;
   }
@@ -2249,7 +2241,7 @@
   .ls-wrap .sugg-fade,
   .select-file-page .select-file-section .button,
   .swap-wrap {
-    background-image: linear-gradient(top, #3a3a3a, #313131) !important;
+    background-image: linear-gradient(to top, #3a3a3a, #313131) !important;
     background-color: transparent !important;
   }
   .ls-wrap .sugg-fade,
@@ -2261,11 +2253,11 @@
   }
   .select-file-page .select-file-section .button:hover,
   .swap-wrap:hover {
-    background-image: -moz-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -webkit-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -o-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -ms-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: linear-gradient(top, #313131, #3a3a3a) !important;
+    background-image: -moz-linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: -webkit-linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: -o-linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: -ms-linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: linear-gradient(to top, #313131, #3a3a3a) !important;
     background-color: transparent !important;
     cursor: pointer !important;
   }
@@ -2343,18 +2335,18 @@
   }
   .cwdgb-tpl,
   .cwlgb-tpl {
-    background-image: linear-gradient(top, #3a3a3a, #313131) !important;
+    background-image: linear-gradient(to top, #3a3a3a, #313131) !important;
     border: 0 !important;
     color: #8a8a8a !important;
     cursor: pointer !important;
   }
   .cwdgb-tpl:hover,
   .cwlgb-tpl:hover {
-    background-image: -moz-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -webkit-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -o-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -ms-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: linear-gradient(top, #313131, #3a3a3a) !important;
+    background-image: -moz-linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: -webkit-linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: -o-linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: -ms-linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: linear-gradient(to top, #313131, #3a3a3a) !important;
     cursor: pointer !important;
   }
   .lr-fy-eq-elem {
@@ -3575,18 +3567,18 @@
   }
   .Ak3kIe,
   .fE5Rge {
-    background-image: linear-gradient(top, #3a3a3a, #313131) !important;
+    background-image: linear-gradient(to top, #3a3a3a, #313131) !important;
     border: 0 !important;
     color: #8a8a8a !important;
     cursor: pointer !important;
   }
   .Ak3kIe:hover,
   .fE5Rge:hover {
-    background-image: -moz-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -webkit-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -o-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: -ms-linear-gradient(top, #313131, #3a3a3a) !important;
-    background-image: linear-gradient(top, #313131, #3a3a3a) !important;
+    background-image: -moz-linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: -webkit-linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: -o-linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: -ms-linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: linear-gradient(to top, #313131, #3a3a3a) !important;
     cursor: pointer !important;
   }
   .BwGU8e:focus {

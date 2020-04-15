@@ -216,7 +216,7 @@
   .gb_Fa,
   .gb_Ha,
   .gb_Kb .gb_Jb {
-    background-image: linear-gradient(top, #3a3a3a, #313131) !important;
+    background-image: linear-gradient(to top, #3a3a3a, #313131) !important;
     border: 0 !important;
     color: #8a8a8a !important;
     cursor: pointer !important;
@@ -229,7 +229,7 @@
   }
   #gb .gb_za.gb_za,
   .gb_Nb .gb_Mb {
-    background-image: linear-gradient(top, #3a3a3a, #313131) !important;
+    background-image: linear-gradient(to top, #3a3a3a, #313131) !important;
     cursor: pointer !important;
   }
   #gb .gb_Fa.gb_Fa:hover,
@@ -240,14 +240,14 @@
   .gb_Kb .gb_Jb:hover,
   .gb_Nb .gb_Mb:hover,
   .gb_za {
-    background-image: linear-gradient(top, #313131, #3a3a3a) !important;
+    background-image: linear-gradient(to top, #313131, #3a3a3a) !important;
     cursor: pointer !important;
   }
   #gb .gb_Cb .gb_Jb.gb_Jb,
   #gb .gb_yb .gb_Eb.gb_Eb,
   .gb_Ba,
   .gb_Cb .gb_Mb {
-    background-image: linear-gradient(top, #4d90fe, #3069c7) !important;
+    background-image: linear-gradient(to top, #4d90fe, #3069c7) !important;
     border: 0 !important;
     color: #fff !important;
     cursor: pointer !important;
@@ -257,7 +257,7 @@
   #gb .gb_yb .gb_Eb.gb_Eb:hover,
   .gb_Ba:hover,
   .gb_Cb .gb_Mb:hover {
-    background-image: linear-gradient(top, #3069c7, #4d90fe) !important;
+    background-image: linear-gradient(to top, #3069c7, #4d90fe) !important;
     cursor: pointer !important;
   }
   .pbLXBd {
@@ -508,7 +508,7 @@
     > div:nth-child(4)
     > div
     > a {
-    background-image: linear-gradient(top, #3a3a3a, #313131) !important;
+    background-image: linear-gradient(to top, #3a3a3a, #313131) !important;
     background-color: transparent !important;
     border: 0 !important;
     color: #8a8a8a !important;
@@ -551,7 +551,7 @@
     > div:nth-child(4)
     > div
     > a:hover {
-    background-image: linear-gradient(top, #313131, #3a3a3a) !important;
+    background-image: linear-gradient(to top, #313131, #3a3a3a) !important;
     cursor: pointer !important;
   }
   #gb
