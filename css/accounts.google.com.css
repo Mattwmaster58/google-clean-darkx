@@ -6,30 +6,30 @@
     color: #ccc;
   }
   .lCoei.YZVTmd.SmR8:hover {
-    background: #1b1b1b !important;
+    background: #111 !important;
   }
   .whsOnd {
-    background: #252525;
+    background: #222;
   }
   #initialView,
   .AxOyFc.snByac,
   .N3Hzgf .snByac {
-    background: #252525 !important;
+    background: #222 !important;
   }
   #headingSubtext,
   #identifierId,
   #profileIdentifier,
   .BHzsHc,
   .whsOnd.zHQkBf {
-    color: #8e8e8e;
+    color: #999;
   }
   .kHn9Lb,
   .w1I7fb,
   .ze9ebf .zHQkBf {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .OVnw0d > .SmR8:only-child::before,
   .ZxXxWb {
-    border-bottom: 1px solid #8e8e8e !important;
+    border-bottom: 1px solid #999 !important;
   }
 }

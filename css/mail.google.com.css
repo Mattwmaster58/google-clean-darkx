@@ -1,6 +1,6 @@
 @-moz-document url-prefix("https://mail.google.com/mail/") {
   #loading {
-    background: #252525 !important;
+    background: #222 !important;
   }
   .gb_8d {
     background: inherit !important;
@@ -16,7 +16,7 @@
     color: #ccc !important;
   }
   #bhlf > input.submit_as_link {
-    color: #00adee !important;
+    color: #00aeee !important;
   }
   .z0 > .L3 {
     box-shadow: none !important;
@@ -27,7 +27,7 @@
   }
   .brC-brG-Jz-bBA,
   .brC-brG-avC {
-    background: #1b1b1b !important;
+    background: #111 !important;
   }
   .brC-brG-avC {
     border-color: #333 !important;

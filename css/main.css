@@ -4,37 +4,37 @@
   .gb_Mb,
   .gb_aa,
   .gb_ga {
-    background-color: #252525 !important;
-    color: #e8e8e8 !important;
+    background-color: #222 !important;
+    color: #ddd !important;
   }
   .gb_3b {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .gb_4b,
   .gb_Ob,
   .gb_ba,
   .gb_fa,
   .gb_ue {
-    background-color: #252525 !important;
-    color: #e8e8e8 !important;
+    background-color: #222 !important;
+    color: #ddd !important;
   }
   .gb_Nb,
   .gb_Nb:hover,
   .gb_Xb,
   .gb_dc,
   .gb_ve {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .gb_Nb,
   .gb_Nb:hover,
   .gb_dc,
   .gb_ve {
-    color: #e8e8e8 !important;
+    color: #ddd !important;
   }
   .gb_6a.gb_F.gb_l.gb_7a.gb_na,
   .gb_Bb.gb_8f,
   .gb_qe {
-    background-color: #252525;
+    background-color: #222;
   }
   .N9rVke,
   .N9rVke:active,
@@ -103,7 +103,7 @@
   .gb_3b,
   .gb_Xb,
   .gb_Zb {
-    color: #e8e8e8 !important;
+    color: #ddd !important;
   }
   #gb .gb_ea,
   #gb .gb_ja,
@@ -112,14 +112,14 @@
   #gb .gb_ka,
   #gb .gb_ka:visited,
   .gb_bc {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .gb_Ib,
   .gb_Jb,
   .gb_Pb,
   .gb_ia,
   .gb_yb {
-    background: #252525 !important;
+    background: #222 !important;
   }
   .gb_Fb {
     background: 0 0 !important;
@@ -131,27 +131,27 @@
   .gb_sb,
   .gb_ub,
   .gb_vb {
-    border-bottom-color: #252525 !important;
+    border-bottom-color: #222 !important;
   }
   #gbwa > .gb_Oc > .gb_rb,
   #gbwa > .gb_Pc > .gb_sb {
-    border-bottom-color: #1b1b1b !important;
+    border-bottom-color: #111 !important;
   }
   .gb_tb,
   .gb_wb {
     border-bottom-color: #333 !important;
   }
   .gb_ja {
-    background: #252525 !important;
+    background: #222 !important;
   }
   #gbsfw.gb_Sc {
-    border-color: #252525 !important;
+    border-color: #222 !important;
   }
   #gb .gb_ea,
   .gb_da,
   .gb_ea,
   .gb_ka {
-    background: #1b1b1b !important;
+    background: #111 !important;
   }
   .gb_Z:hover .gb_3 {
     background: #333 !important;
@@ -168,7 +168,7 @@
     color: #3296c8;
   }
   .gb_la {
-    border-bottom: 1px solid #3a3a3a !important;
+    border-bottom: 1px solid #333 !important;
   }
   #gbw > div > div > div > .gb_Wc.gb_id.gb_R.gb_Xc > .gb_0c,
   #gbwa > .gb_0c,
@@ -216,20 +216,20 @@
   .gb_Fa,
   .gb_Ha,
   .gb_Kb .gb_Jb {
-    background-image: linear-gradient(to top, #3a3a3a, #313131) !important;
+    background-image: linear-gradient(to top, #333, #333) !important;
     border: 0 !important;
-    color: #8a8a8a !important;
+    color: #999 !important;
     cursor: pointer !important;
   }
   #gb .gb_za.gb_za,
   .gb_Nb .gb_Mb,
   .gb_za {
     border: 0 !important;
-    color: #8a8a8a !important;
+    color: #999 !important;
   }
   #gb .gb_za.gb_za,
   .gb_Nb .gb_Mb {
-    background-image: linear-gradient(to top, #3a3a3a, #313131) !important;
+    background-image: linear-gradient(to top, #333, #333) !important;
     cursor: pointer !important;
   }
   #gb .gb_Fa.gb_Fa:hover,
@@ -240,7 +240,7 @@
   .gb_Kb .gb_Jb:hover,
   .gb_Nb .gb_Mb:hover,
   .gb_za {
-    background-image: linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: linear-gradient(to top, #333, #333) !important;
     cursor: pointer !important;
   }
   #gb .gb_Cb .gb_Jb.gb_Jb,
@@ -264,12 +264,12 @@
     background: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0) 0,
-      #252525 50%,
-      #252525 100%
+      #222 50%,
+      #222 100%
     ) !important;
   }
   .gV6pJf {
-    background: #252525 !important;
+    background: #222 !important;
   }
   .Vz68Kb,
   .gMG7Fd,
@@ -281,16 +281,16 @@
     fill: rgba(255, 255, 255, 0.54) !important;
   }
   .fEjTrb {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
   }
   .gb_X {
     color: #ccc !important;
   }
   ::placeholder {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .gs_hdr_act_am:link {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .gs_hdr_act_am:link:hover {
     background-color: #333 !important;
@@ -380,7 +380,7 @@
     > div:nth-child(4)
     > div:nth-child(2)
     > div:nth-child(4) {
-    background: #252525 !important;
+    background: #222 !important;
   }
   #gb
     > div:nth-child(1)
@@ -499,10 +499,10 @@
     > div:nth-child(4)
     > div
     > a {
-    background-image: linear-gradient(to top, #3a3a3a, #313131) !important;
+    background-image: linear-gradient(to top, #333, #333) !important;
     background-color: transparent !important;
     border: 0 !important;
-    color: #8a8a8a !important;
+    color: #999 !important;
     cursor: pointer !important;
   }
   #gb
@@ -542,7 +542,7 @@
     > div:nth-child(4)
     > div
     > a:hover {
-    background-image: linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: linear-gradient(to top, #333, #333) !important;
     cursor: pointer !important;
   }
   #gb
@@ -626,6 +626,6 @@
   }
   * {
     scrollbar-width: thin !important;
-    scrollbar-color: #333 #1b1b1b !important;
+    scrollbar-color: #333 #111 !important;
   }
 }

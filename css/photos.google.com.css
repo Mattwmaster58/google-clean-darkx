@@ -5,7 +5,7 @@
   .gN5aAe,
   .n4Bzf,
   .uGCjIb {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
   }
   .GJuUre {
     background-color: transparent !important;
@@ -31,7 +31,7 @@
   .hcClrf,
   .k4Or1e,
   .zKT0yd {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .d1Z6ve,
   .lDDKpd .GJuUre {
@@ -49,17 +49,17 @@
   }
   .DOAbib .HLOCEe,
   .R4HkWb .orgUxc {
-    fill: #8e8e8e !important;
+    fill: #999 !important;
   }
   .DOAbib .HLOCEe,
   .obNJBf.wH28vf {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .yUnLie .HPN91c {
-    background-color: #121212 !important;
+    background-color: #111 !important;
   }
   .yUnLie .ifyeLb {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
   }
   .Vskceb,
   .WjwBXd,
@@ -98,7 +98,7 @@
   .WLLPqb,
   .biyFUd,
   .qYQJEe {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
   }
   .Fmedib,
   .VwKkye .Ax4B8,
@@ -121,7 +121,7 @@
   .bArwR,
   .egWY1b,
   .vVyGvc {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .VOEIyf .jBmls,
   .lDDKpd .hi7xwe .Fmedib::after,
@@ -157,7 +157,7 @@
     fill: #fff !important;
   }
   .w1zVpf {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .IGdgBf,
   .UtdETd {
@@ -188,11 +188,11 @@
   .fL7mK,
   .l3VoRe,
   .uzZVYe .ZAGvjd {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
   }
   .rPYW7c,
   .vOSR6b {
-    background-color: #212121 !important;
+    background-color: #222 !important;
   }
   .DDjkec,
   .EloWjf,
@@ -203,7 +203,7 @@
   .xaNQyd,
   .xaNQyd.QWDSNc .FIroPe,
   .xaNQyd.kOygNb .FIroPe {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .CJS7t,
   .fT2itf {
@@ -234,7 +234,7 @@
   .jMchje,
   .p4Vk3b,
   .yfPIJb {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .saCYpf,
   .uAJfId .tEQo7b,
@@ -265,7 +265,7 @@
     fill: #000 !important;
   }
   .wDSX5e {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
   }
   .w8iOwc {
     color: #ccc !important;
@@ -292,14 +292,14 @@
   .tn9hcb,
   .uFjcbe,
   .uj0V6 {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
   }
   .KefOhc {
-    border-bottom-color: #1b1b1b !important;
+    border-bottom-color: #111 !important;
   }
   .hUsHhf,
   .hi7xwe.hmrFhe.hi7xwe .I6u9xf::after {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .AJM7gb,
   .AhOMTc,
@@ -325,7 +325,7 @@
   .y3l11d,
   .z7JNmd,
   .z80M1 {
-    color: #e8e8e8 !important;
+    color: #ddd !important;
   }
   .BnQsec,
   .CgsFie,
@@ -340,7 +340,7 @@
   .wiOkb,
   .wjDi1d,
   .xMZSRb {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .F6wuZ,
   .HCTovb,
@@ -369,7 +369,7 @@
     background-color: #333 !important;
   }
   .M1aIec {
-    border-bottom-color: #1b1b1b !important;
+    border-bottom-color: #111 !important;
   }
   .hi7xwe .I6u9xf::before,
   .oIsNpe,
@@ -378,7 +378,7 @@
     border-color: #333 !important;
   }
   .e2CuFe {
-    border-color: #7a7a7a transparent !important;
+    border-color: #777 transparent !important;
   }
   .Cv8Rjc {
     background: 0 0 !important;
@@ -387,7 +387,7 @@
     background: rgba(0, 0, 0, 0.8) !important;
   }
   .O1Wnce {
-    background-color: #252525;
+    background-color: #222;
     background-image: linear-gradient(
         90deg,
         #333 0,
@@ -410,7 +410,7 @@
   }
   .VfPpkd-WsjYwc,
   .zEszRd {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .Ja4Wfd,
   .Yyy4Hc,
@@ -428,7 +428,7 @@
   .fl9QFd,
   .rWyLGb,
   .xA0gfb {
-    color: #e8e8e8 !important;
+    color: #ddd !important;
   }
   .C96I0d,
   .EIug8e,
@@ -437,19 +437,19 @@
   .P72lEd,
   .RwVyJb,
   .USUr0d {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .FBoeXc.vOSR6b,
   .QtDoYb,
   .RJMJ9b {
-    background: #252525 !important;
+    background: #222 !important;
   }
   .Aul2T,
   .B6Rt6d,
   .PpML1d,
   .ZMOaid.uGCjIb,
   .xoqcGf.DKHcHb .Aul2T {
-    background: #1b1b1b !important;
+    background: #111 !important;
   }
   .AAF8rf {
     filter: invert(1) !important;
@@ -473,8 +473,8 @@
   }
   .ixImeb .JUQOtc,
   .ixImeb .xMAzlb {
-    fill: #4285f4 !important;
-    color: #4285f4 !important;
+    fill: #3883ff !important;
+    color: #3883ff !important;
   }
   .cJzOGc,
   .cJzOGc.Fuybue:visited {

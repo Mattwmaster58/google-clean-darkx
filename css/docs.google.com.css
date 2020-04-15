@@ -11,7 +11,7 @@
   .nh-Et-gt-xj,
   .scope-icon-holder,
   .vpc-icon-holder {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
   }
   #docs-chrome,
   #docs-toolbar-wrapper.docs-material,
@@ -36,7 +36,7 @@
   .modal-dialog-title,
   .nh-Xh-Gd-xi,
   .nh-xq-Xh .nh-Gd-ht-it {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .Gd-Je-Be-nk:focus,
   .Gd-Je-Be-nk:hover,
@@ -80,12 +80,12 @@
     cursor: pointer !important;
   }
   .gssb_e {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
     border-color: #333 !important;
   }
   .gssb_m {
-    color: #8e8e8e;
-    background: #1b1b1b;
+    color: #999;
+    background: #111;
   }
   .a-s-yd-J.a-s-yd-Sa > *,
   .gssb_i,
@@ -96,54 +96,54 @@
     background: 0 0 !important;
   }
   .a-s-yd-Zj {
-    background: #1b1b1b !important;
+    background: #111 !important;
     border-color: #333 !important;
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .a-s-yd-J > * {
-    border-left: 2px solid #1b1b1b;
+    border-left: 2px solid #111;
   }
   .a-jn-Ma-nb-J {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
     border-color: #333 !important;
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .h-uj {
-    background: #1b1b1b !important;
+    background: #111 !important;
   }
   .a-nEbBXb .a-Va-Zb-ga,
   .a-nEbBXb .a-Va-Zb-vb,
   .a-nEbBXb .h-R-w-d.g-Qb,
   .docos-replyview-timestamp {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .a-nEbBXb .h-R-w-d-Re {
-    border-color: #8e8e8e transparent !important;
+    border-color: #999 transparent !important;
   }
   polygon.a-s-fa-Ha-pa {
-    fill: #e8e8e8 !important;
+    fill: #ddd !important;
   }
   .gb_Te,
   .gb_ie.gb_ne,
   .gb_xc {
-    color: #e8e8e8 !important;
+    color: #ddd !important;
   }
   .a-nEbBXb .g-d-wd:not(.g-d-db),
   .a-nEbBXb .g-d-wd:not(.g-d-db).g-d-Pb,
   .a-nEbBXb .g-d-wd:not(.g-d-db):focus,
   .gb_He {
-    color: #e8e8e8 !important;
+    color: #ddd !important;
   }
   .gb_Be.gb_Se,
   .gb_Ed.gb_Qd .gb_Bd .gb_pe,
   .gb_pe.gb_Fe {
-    background: #252525 !important;
+    background: #222 !important;
   }
   .gb_xe.gb_Oe {
     background: #333 !important;
   }
   .gb_xe.gb_Oe .gb_Pe {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .a-D-gc-wKOTTc .a-s-Ba-Ak {
     border-color: transparent !important;
@@ -153,7 +153,7 @@
     filter: invert(0.9) !important;
   }
   #aso_search_form_anchor {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
   }
   #aso_search_form_anchor > div > input,
   .docs-gm-dialogs .kix-header-footer-bubble-description,
@@ -169,7 +169,7 @@
     background-color: transparent !important;
   }
   .goog-menuitem-highlight {
-    background-color: #252525 !important;
+    background-color: #222 !important;
     border-color: transparent !important;
   }
   .Cn-Bq-Zb-Xh-Yb-to .a-Xh,
@@ -263,10 +263,10 @@
   }
   .kix-equation-toolbar-palette-icon:hover {
     filter: invert(1) !important;
-    background-color: #eee !important;
+    background-color: #ddd !important;
   }
   .goog-menuseparator {
-    border-color: #252525 !important;
+    border-color: #222 !important;
   }
   .ita-cp-hwt {
     background: #333 !important;
@@ -274,8 +274,8 @@
   }
   .docs-ruler-contributed-dragger-container,
   .ndfHFb-ObfsIf-haAclf {
-    background-color: #1b1b1b !important;
-    border-color: #1b1b1b !important;
+    background-color: #111 !important;
+    border-color: #111 !important;
   }
   .docs-ruler-contributed-dragger .docs-icon-col-dragger {
     filter: invert(1) !important;
@@ -283,7 +283,7 @@
   .docs-material-appbar .docs-presence-plus-collab-widget-color-block,
   .docs-material-appbar.docs-presence-plus-widget-overflow-menu
     .docs-presence-plus-collab-widget-color-block {
-    border-color: #1b1b1b !important;
+    border-color: #111 !important;
   }
   .jfk-tooltip-arrowleft .jfk-tooltip-arrowimplbefore,
   .jfk-tooltip-arrowright .jfk-tooltip-arrowimplbefore {
@@ -307,7 +307,7 @@
   .navigation-item .navigation-item-level-0,
   .uc-error-caption,
   .uc-warning-caption {
-    color: #e8e8e8 !important;
+    color: #ddd !important;
   }
   .apc-detail,
   .apc-email-contents,
@@ -324,10 +324,10 @@
   .modal-dialog,
   .navigation-item .navigation-item-level-1,
   .navigation-widget-hat-title {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .goog-menuitem-disabled .goog-menuitem-content {
-    color: #666 !important;
+    color: #777 !important;
   }
   .Gd-Je,
   .apc-name,
@@ -419,7 +419,7 @@
   .docs-mic-palette .goog-flat-menu-button,
   .docs-palette-body,
   .docs-palette-title-bar {
-    background: #252525 !important;
+    background: #222 !important;
     border-color: #333 !important;
   }
   .docs-mic-palette-body-hover {
@@ -435,10 +435,10 @@
   .jfk-bubble.jfk-bubble-promo.docs-promo-bubble
     .jfk-bubble-arrowright
     .jfk-bubble-arrowimplafter {
-    border-color: transparent #252525 !important;
+    border-color: transparent #222 !important;
   }
   .docs-revisions-sidebar-date-group {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
     border-color: #333 !important;
     color: #ccc !important;
   }
@@ -469,7 +469,7 @@
     color: #fff !important;
   }
   .docs-bubble {
-    background-color: #252525 !important;
+    background-color: #222 !important;
     border-color: #333 !important;
     color: #ccc !important;
   }
@@ -488,13 +488,13 @@
     filter: invert(0.8) !important;
   }
   .goog-flat-menu-button {
-    background: #1b1b1b;
+    background: #111;
     border-color: #333;
   }
   .goog-flat-menu-button:active,
   .goog-flat-menu-button:focus,
   .goog-flat-menu-button:hover {
-    background: #252525;
+    background: #222;
     border-color: #333;
   }
   .docs-link-infilelinksuggestiongroup-cb-keyboardfocus,
@@ -509,7 +509,7 @@
   .docs-sheet-active-tab,
   .docs-sheet-tab {
     color: #ccc !important;
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
     border-color: #333 !important;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
   }
@@ -525,10 +525,10 @@
   .dcs-a-dcs-b-dcs-bg .dcs-f-dcs-bb-dcs-ke,
   .dcs-cc-dcs-gf-dcs-ke,
   .dcs-cc-dcs-gf-dcs-me {
-    background: #1b1b1b !important;
+    background: #111 !important;
     background-image: none !important;
     color: #fff !important;
-    border-color: #1b1b1b !important;
+    border-color: #111 !important;
   }
   #uc-download-link {
     cursor: pointer !important;
@@ -553,7 +553,7 @@
     border-color: #555 !important;
   }
   .goog-slider-horizontal .goog-slider-scale {
-    border-color: #666 !important;
+    border-color: #777 !important;
   }
   .docs-sidebar-tile-label {
     color: #ccc !important;
@@ -568,7 +568,7 @@
   }
   .docs-gm-sidebars .waffle-named-ranges-promo-example,
   .gb_oc {
-    background-color: #252525 !important;
+    background-color: #222 !important;
     color: #ccc !important;
   }
   .Bn-Eq-aj,
@@ -577,7 +577,7 @@
   .docs-homescreen-material-bar-enabled .docs-homescreen-item-container,
   .docs-homescreen-openfile-button,
   body {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
   }
   .Bn-Bq-rl .Bn-Vi-lt-mt,
   .Bn-rl-Vi-Rl,
@@ -589,7 +589,7 @@
   .companion-theme-light
     .companion-collapser-button.app-switcher-button-checked
     .app-switcher-button-icon-container {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .Bn-mc-mp,
   .a-kb {
@@ -599,7 +599,7 @@
   .Vi-ai,
   .Vi-ai-Kc .Vi-Mn-Ln-Sh,
   .docs-homescreen-list-header {
-    background: #2b2b2b !important;
+    background: #333 !important;
     color: #ccc !important;
   }
   .docs-homescreen-grid-header {
@@ -613,7 +613,7 @@
   .Bn-mc-mp,
   .Bn-mc-mp .Bn-kc-sb,
   .docs-hs-tmp-common-separator {
-    border-color: #212123 !important;
+    border-color: #222 !important;
   }
   .Bn-Bq-rl .Bn-Cq-Zb-aj,
   .Bn-Bq-rl .Bn-Vi-lt-mt .Bn-eb-Kc,
@@ -654,7 +654,7 @@
     color: #fff !important;
   }
   .docs-homescreen-list-item {
-    background-color: #252525 !important;
+    background-color: #222 !important;
     border-bottom-color: #333 !important;
     color: #ccc !important;
   }
@@ -663,10 +663,10 @@
     filter: invert(0.9) !important;
   }
   .docs-homescreen-floater-header-shadow {
-    box-shadow: 1px 2px 1px #0c0c0c !important;
+    box-shadow: 1px 2px 1px #111 !important;
   }
   .docs-homescreen-grid-item {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
     color: #fff !important;
     border-color: #333 !important;
   }
@@ -675,14 +675,14 @@
     box-shadow: 0 1px 0 #3883ff !important;
   }
   .docs-homescreen-openfile {
-    box-shadow: #252525 0 1px 0 inset, rgba(0, 0, 0, 0.03) 0 -1px 0 inset,
+    box-shadow: #222 0 1px 0 inset, rgba(0, 0, 0, 0.03) 0 -1px 0 inset,
       rgba(0, 0, 0, 0.15) 0 15px 10px, rgba(0, 0, 0, 0.3) 0 8px 36px;
   }
   .docs-homescreen-freeze-el {
     background-color: #000 !important;
   }
   .Vi-Ll-Kc {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .Bn-Bq-rl .Bn-Cq-Zb-aj {
     box-shadow: none !important;
@@ -696,7 +696,7 @@
   .Vi-Fi-wk-xk,
   .Vi-ai-Sh,
   .d-Rb {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
     border-color: #333 !important;
     color: #ccc !important;
   }
@@ -742,8 +742,8 @@
   }
   .jfk-bubble,
   .jfk-button.docs-submenuitem-splitbutton {
-    background: #252525 !important;
-    border-color: #252525 !important;
+    background: #222 !important;
+    border-color: #222 !important;
   }
   .docs-link-linksuggestioncontentbox-explore:focus,
   .docs-link-linksuggestioncontentbox-explore:hover,
@@ -763,7 +763,7 @@
     color: #000 !important;
   }
   .script-promo-menu-item-description {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .docs-horizontal-ruler,
   .docs-title-input:hover,
@@ -785,7 +785,7 @@
     border-color: #444 !important;
   }
   .waffle-range-selection-container {
-    background: #252525 !important;
+    background: #222 !important;
     border-color: #444 !important;
   }
   .docos-icon-img:before,
@@ -808,7 +808,7 @@
   }
   .jfk-bubble-arrowdown .jfk-bubble-arrowimplafter,
   .jfk-bubble-arrowup .jfk-bubble-arrowimplafter {
-    border-color: #252525 transparent !important;
+    border-color: #222 transparent !important;
   }
   .docs-ruler-context-menu-arrow-horizontal
     .docs-ruler-context-menu-arrow-after,
@@ -820,7 +820,7 @@
   }
   .docs-link-urlinput-url,
   .docs-link-urlinput-url-container {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
     color: #ccc !important;
   }
   .docs-link-urlinput-url-container,
@@ -835,7 +835,7 @@
     border-color: #333 !important;
   }
   .docs-link-linksuggestiongroup {
-    border-color: #252525 !important;
+    border-color: #222 !important;
   }
   .docs-link-linksuggestion:focus,
   .docs-link-linksuggestion:hover,
@@ -850,7 +850,7 @@
     color: #ccc !important;
   }
   .gb_fa {
-    background-color: #252525 !important;
+    background-color: #222 !important;
     color: #ccc !important;
   }
   #kix-vertical-ruler {
@@ -864,7 +864,7 @@
   .grid-shim-bottom,
   .grid-shim-end-ltr,
   .row-freezebar-extension {
-    background-color: #252525 !important;
+    background-color: #222 !important;
     border-color: #333 !important;
   }
   .native-scrollbar-x,
@@ -879,7 +879,7 @@
   }
   #formula-bar,
   .cell-input {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
   }
   #waffle-rich-text-editor {
     background-color: transparent !important;
@@ -892,12 +892,12 @@
   }
   .waffle-arguments-help-code,
   .waffle-arguments-help-title {
-    background-color: #252525 !important;
+    background-color: #222 !important;
     color: #ccc !important;
   }
   .waffle-formula-autocomplete-renderer .waffle-ac-active {
-    background-color: #252525 !important;
-    border-color: #252525 !important;
+    background-color: #222 !important;
+    border-color: #222 !important;
   }
   .waffle-formula-preview-decorator,
   .waffle-formula-preview-decorator.waffle-formula-preview-equals-aligned::before,
@@ -945,14 +945,14 @@
   .dcs-a .dcs-f-dcs-bb,
   .jfk-button-standard,
   .modal-dialog-buttons button {
-    background-image: linear-gradient(to top, #3a3a3a, #313131) !important;
+    background-image: linear-gradient(to top, #333, #333) !important;
     border: 0 !important;
-    color: #8a8a8a !important;
+    color: #999 !important;
     cursor: pointer !important;
     background-color: transparent !important;
   }
   .dcs-a-dcs-b-dcs-eg .dcs-dc-dcs-ef-dcs-ec-dcs-bb {
-    color: #8a8a8a !important;
+    color: #999 !important;
     background-color: transparent !important;
   }
   .dcs-a-dcs-b-dcs-eg .dcs-f-dcs-bb,
@@ -971,9 +971,9 @@
   .docs-gm-dialogs .modal-dialog button,
   .docs-gm-sidebars
     .docs-image-effect-adjustment-reset-button.jfk-button-standard {
-    background-image: linear-gradient(to top, #3a3a3a, #313131) !important;
+    background-image: linear-gradient(to top, #333, #333) !important;
     border: 0 !important;
-    color: #8a8a8a !important;
+    color: #999 !important;
     cursor: pointer !important;
     background-color: transparent !important;
   }
@@ -990,7 +990,7 @@
   .jfk-button-standard:hover,
   .modal-dialog-buttons button:active,
   .modal-dialog-buttons button:hover {
-    background-image: linear-gradient(to top, #313131, #3a3a3a) !important;
+    background-image: linear-gradient(to top, #333, #333) !important;
     cursor: pointer !important;
     border: 0 !important;
   }
@@ -999,10 +999,10 @@
   .quantumWizMenuPaperselectEl,
   body:not([style-scope]):not(.style-scope).freebirdLightBackground,
   html:not([style-scope]):not(.style-scope).freebird {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
   }
   .freebirdFormeditorViewResponsesSwitch {
-    background-color: #1b1b1b;
+    background-color: #111;
   }
   .freebirdFormeditorDialogFeedbackFooterFooter,
   .freebirdUltraLightBackgrouand,
@@ -1012,7 +1012,7 @@
   .freebirdFormeditorViewAssessmentFeedbackFeedbackBox,
   .freebirdFormviewerViewItemsItemGradingGradingBox,
   .freebirdLightBackground {
-    background-color: #2c2c2c !important;
+    background-color: #333 !important;
   }
   .freebirdFormeditorViewAssessmentAnswersListItem.freebirdFormeditorViewAssessmentAnswersListIsCorrect {
     background-color: rgba(50, 250, 50, 0.05) !important;
@@ -1047,7 +1047,7 @@
   .freebirdMaterialScalecontentColumn .freebirdMaterialScalecontentInput,
   .freebirdThemedDarkTab .freebirdThemedDarkTabContent,
   .iph-dialog {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .Nf-ri-Kf-cb-Kc,
   .Nf-ri-Kf-f-Kc,
@@ -1134,11 +1134,11 @@
   .nh-yq-Zb-Ge-Yb-Sk .a-kb-u,
   .quantumWizMenuPaperselectOption,
   .quantumWizTextinputPapertextareaPlaceholder {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .freebirdDisclaimerColor,
   .freebirdDisclaimerColor a {
-    color: #8e8e8e;
+    color: #999;
   }
   .docssharedWizToggleLabeledContainer.isDisabled
     .docssharedWizToggleLabeledLabelText,
@@ -1233,7 +1233,7 @@
     .docssharedWizToggleLabeledTooltip
     svg,
   .docssharedWizToggleLabeledHelpIcon {
-    fill: #666 !important;
+    fill: #777 !important;
   }
   .quantumWizMenuPapermenuMenuItem.isChecked::before {
     border-right-color: #ccc !important;
@@ -1251,13 +1251,13 @@
     filter: brightness(1.4) !important;
   }
   .quantumWizTogglePapertoggleTrack {
-    border-color: #1b1b1b !important;
+    border-color: #111 !important;
   }
   .quantumWizTogglePapertoggleThumb {
-    border-color: #666;
+    border-color: #777;
   }
   .nh-fr-Qc {
-    background: #252525 !important;
+    background: #222 !important;
     border-color: #333 !important;
     color: #ccc !important;
   }
@@ -1271,14 +1271,14 @@
     .freebirdFormviewerViewItemsGridCell:first-child,
   .freebirdFormviewerViewItemsGridScrollingData
     .freebirdFormviewerViewItemsGridUngraded:nth-child(even) {
-    background-color: #232323 !important;
+    background-color: #222 !important;
   }
   .freebirdFormviewerViewItemsGridPinnedHeader
     .freebirdFormviewerViewItemsGridUngraded:nth-child(odd)
     .freebirdFormviewerViewItemsGridCell:first-child,
   .freebirdFormviewerViewItemsGridScrollingData
     .freebirdFormviewerViewItemsGridUngraded:nth-child(odd) {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .freebirdAnalyticsViewAnalyticsContainer > div > div > div > div > svg > rect,
   .freebirdFormeditorViewResponsesSummaryInsightsHistogramContainer
@@ -1288,7 +1288,7 @@
     > div
     > svg
     > rect {
-    fill: #252525 !important;
+    fill: #222 !important;
   }
   .freebirdAnalyticsViewAnalyticsContainer
     > div
@@ -1306,7 +1306,7 @@
     > svg
     > g
     > path {
-    stroke: #252525 !important;
+    stroke: #222 !important;
   }
   #ResponsesView
     > div
@@ -1348,7 +1348,7 @@
     > g
     > g
     > text {
-    stroke: #252525 !important;
+    stroke: #222 !important;
     fill: #ccc !important;
   }
   .freebirdAnalyticsViewAnalyticsContainer
@@ -1426,7 +1426,7 @@
   .docs-chat-edit-container,
   .docs-chat-messages,
   .docs-homescreen-empty-section-notice {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   #docs-chat {
     background-color: transparent !important;
@@ -1465,7 +1465,7 @@
   .punch-sidebar-tile-header,
   .punch-theme-sidebar,
   .punch-transition-tile .punch-sidebar-tile-options {
-    background-color: #252525 !important;
+    background-color: #222 !important;
     border-color: #333 !important;
   }
   .docs-explore-sidebar,
@@ -1503,14 +1503,14 @@
   .goog-palette-cell-selected .punch-layouts-palette-label,
   .grid-view .punch-filmstrip-scroll,
   .punch-filmstrip-controls-size-buttons {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
   }
   #speakernotes,
   .docs-explore-searchbar-ac-renderer,
   .filmstrip,
   .punch-filmstrip-controls-view-tab-bar .goog-tab,
   .punch-sidebar-tile-options {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   #speakernotes-dragger,
   .dcs-a-dcs-lb-dcs-db-dcs-eb .dcs-a-dcs-db-dcs-ue {
@@ -1536,7 +1536,7 @@
     background: #ccc !important;
   }
   #speakernotes-dragger {
-    background-color: #1e1e1e !important;
+    background-color: #222 !important;
   }
   [id^="speakernotes"] > g > g.sketchy-text-content > g > text {
     fill: #ccc !important;
@@ -1549,7 +1549,7 @@
   .docs-explore-serp-webresultsview-card-container,
   .pGOlGd,
   .punch-animation-sidebar {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .dcs-a-dcs-b-dcs-cg .dcs-cc-dcs-cf-dcs-dc-dcs-bb-dcs-gb,
   .dcs-a-dcs-b-dcs-cg .dcs-cc-dcs-cf-dcs-dc-dcs-bb-dcs-gh,
@@ -1562,8 +1562,8 @@
   .dcs-cc-dcs-hf-dcs-le,
   .dcs-cc-dcs-hf-dcs-ne,
   .goog-slider-thumb {
-    background: #666 !important;
-    border-color: #666 !important;
+    background: #777 !important;
+    border-color: #777 !important;
   }
   .docs-dictionary-sidebar,
   .docs-docos-activitybox {
@@ -1588,7 +1588,7 @@
     .docs-explore-serp-webresultscard-allresults-text,
   .docs-explore-serp-webresultscard-header-text:link,
   .docs-explore-serp-webresultscard-header-text:visited {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .GtrNOb {
     border-bottom: none !important;
@@ -1607,11 +1607,11 @@
     stroke: #000;
   }
   .punch-filmstrip-thumbnail-background {
-    fill: #252525 !important;
+    fill: #222 !important;
   }
   .dcs-a-dcs-cb .dcs-a-dcs-z-dcs-ce.dcs-a-dcs-nc,
   .dcs-a-dcs-q-dcs-gb.dcs-a-dcs-cb .dcs-a-dcs-cb-dcs-db-dcs-eb {
-    background: #252525 !important;
+    background: #222 !important;
   }
   .dcs-a-dcs-nc .dcs-a-dcs-nc-dcs-qe,
   .dcs-a-dcs-nc-dcs-eg .dcs-a-dcs-nc-dcs-ld,
@@ -1642,13 +1642,13 @@
     background: #222 !important;
   }
   .dcs-a-dcs-vf-dcs-wf .dcs-a-dcs-cb .dcs-a-dcs-cb-dcs-ud-dcs-vd {
-    border-right-color: #252525 !important;
+    border-right-color: #222 !important;
   }
   .dcs-a-dcs-cb .dcs-a-dcs-cb-dcs-db-dcs-eb .dcs-a-dcs-db-dcs-ue,
   .dcs-a-dcs-db-dcs-rg > .dcs-a-dcs-db-dcs-ue,
   .dcs-a-dcs-nc .dcs-a-dcs-nc-dcs-qe .dcs-a-dcs-nc-dcs-ch {
     color: #ccc !important;
-    background: #1b1b1b !important;
+    background: #111 !important;
     border-color: #333 !important;
   }
   .dcs-dc-dcs-jf-dcs-me,
@@ -1661,7 +1661,7 @@
   }
   .companion-shell-content-component,
   .companion-shell-header {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
   }
   .companion-shell-header,
   .docs-slidingdialog {
@@ -1671,10 +1671,10 @@
     fill: #fff !important;
   }
   .docs-slidingdialog {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .docs-findinput-container {
-    background: #1b1b1b !important;
+    background: #111 !important;
     border-color: #333 !important;
   }
   .docs-findinput-input,
@@ -1753,7 +1753,7 @@
   }
   .dcs-dc-dcs-lf-dcs-oe,
   .dcs-dc-dcs-lf-dcs-qe {
-    background-color: #252525 !important;
+    background-color: #222 !important;
     border-color: transparent !important;
   }
   .dcs-dc-dcs-ei-dcs-xb,
@@ -1768,13 +1768,13 @@
   .dcs-dc-dcs-ei,
   .dcs-s-dcs-t,
   .dcs-s-dcs-t-dcs-m {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .dcs-s-dcs-t-dcs-m {
     color: #ccc !important;
   }
   .Cn-Aq-sl .Cn-Bq-Zb-aj {
-    box-shadow: 0 1px 5px 1px #272727 !important;
+    box-shadow: 0 1px 5px 1px #222 !important;
     border-color: #333 !important;
   }
   .Cn-Dq-aj {
@@ -1782,7 +1782,7 @@
   }
   .Cn-qs-cq-cb,
   .Cn-sr-sn {
-    color: #666 !important;
+    color: #777 !important;
   }
   .Bn-Bq-Zb-Yh-Yb-so .a-Yh-w,
   .docs-homescreen-settings-itemlabel {
@@ -1795,7 +1795,7 @@
   .docs-homescreen-modaldialog .modal-dialog-content,
   .docs-offline-welcomepromo .modal-dialog-content,
   .qj-Rl-cb {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .docs-homescreen-settings a {
     color: #3296c8 !important;
@@ -1810,12 +1810,12 @@
   .Bn-Aq-xl .Bn-Wi-lt-mt,
   .Bn-xl-Wi-Xl,
   .Wi-Rl-Kc {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .Bn-Dq-bj,
   .Wi-bi-Kc .Wi-Mn-Ln-Th,
   .Wi-bi-Th {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
   }
   .Wi-bi-Th-Pn:focus,
   .Wi-bi-Th-Pn:hover,
@@ -1839,12 +1839,12 @@
     border-color: #333 !important;
   }
   .Bn-Aq-xl .Bn-Bq-Zb-bj {
-    box-shadow: 0 1px 5px 1px #1b1b1b !important;
+    box-shadow: 0 1px 5px 1px #111 !important;
   }
   .Bn-Aq-xl .Bn-Wi-lt-mt .Bn-jt-kt,
   .Bn-xl-Wi-Xl .Bn-jt-kt {
     background-color: #234173 !important;
-    border-color: #234172 !important;
+    border-color: #234173 !important;
   }
   .Bn-Yr-db-Yh,
   .Bn-mr-db-qb-os-Pj,
@@ -1854,10 +1854,10 @@
   }
   .Wi-Gi-Kc,
   .Wi-bi-nc {
-    background-color: #212121 !important;
+    background-color: #222 !important;
   }
   .Wi-bi-nc:nth-child(odd) {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   #waffle-rich-text-editor > bdo > span > span.default-formula-text-color,
   .comment-attribution-rebranded span {
@@ -1873,7 +1873,7 @@
   .yn-Gu-bp .yn-mr-bp,
   .yn-ot-tc,
   .yn-yr-oi {
-    color: #8e8e8e !important;
+    color: #999 !important;
   }
   .yn-mu-aq-mu-ro,
   .yn-vq-xl .yn-wq-Zb-Md {
@@ -1887,7 +1887,7 @@
     filter: invert(0.9) !important;
   }
   .yn-yq-Md {
-    background-color: #252525 !important;
+    background-color: #222 !important;
     border-color: #333 !important;
   }
   .yn-mu-aq-mu-ro {
@@ -1901,7 +1901,7 @@
   }
   .companion-app-switcher-container,
   .docs-companion-app-switcher-container {
-    background-color: #252525 !important;
+    background-color: #222 !important;
     border-color: #333 !important;
   }
   .agca-gab-button-hover .agca-gab-icon-container,
@@ -2044,8 +2044,8 @@
   }
   .docs-gm-dialogs .docs-link-insertlinkbubble-text-label,
   .docs-gm-dialogs .docs-link-insertlinkbubble-url-label {
-    background-color: #1b1b1b;
-    box-shadow: 5px 0 0 #1b1b1b, -5px 0 0 #1b1b1b;
+    background-color: #111;
+    box-shadow: 5px 0 0 #111, -5px 0 0 #111;
     color: #ccc;
   }
   .docs-material #punch-start-presentation-right.goog-flat-menu-button {

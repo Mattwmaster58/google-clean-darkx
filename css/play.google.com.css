@@ -1,6 +1,6 @@
 @-moz-document url-prefix("https://play.google.com/") {
   #gb > div {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   #gb
     > div:nth-child(1)
@@ -13,8 +13,8 @@
     filter: invert(0.9) !important;
   }
   .gbqfqw {
-    background: #1b1b1b !important;
-    border: 1px solid #1b1b1b !important;
+    background: #111 !important;
+    border: 1px solid #111 !important;
   }
   .WtH9qd,
   .ac-row,
@@ -25,7 +25,7 @@
   }
   .ac-renderer,
   .qZxJ9 {
-    background: #252525 !important;
+    background: #222 !important;
     border-top: 1px solid !important;
     border-color: #333 !important;
   }
@@ -36,14 +36,14 @@
   .cluster,
   .cluster-container,
   body {
-    background-color: #1b1b1b !important;
+    background-color: #111 !important;
     color: #aaa !important;
   }
   .action-bar,
   .qAAUy:hover,
   .t5eBue,
   body:not(.phone-optimized) .card-cluster .card-list {
-    background-color: #2a2a2a !important;
+    background-color: #333 !important;
   }
   #wrapper
     > .action-bar-container
@@ -139,7 +139,7 @@
   .nav .not-selected .hover-target,
   .nav .store .sub-nav,
   .nav-container .shared-sub-nav {
-    background-color: #2a2a2a !important;
+    background-color: #333 !important;
   }
   .POfIAc {
     background: #444 !important;
@@ -272,13 +272,13 @@
   .card .price-container .price,
   .card .reason-set,
   .card-content {
-    background: #252525 !important;
+    background: #222 !important;
   }
   .paragraph-end {
     background: linear-gradient(
       to right,
       rgba(255, 255, 255, 0),
-      #252525
+      #222
     ) !important;
   }
   #body-content > .outer-container > div > .secondary-content > div > div,
@@ -306,14 +306,14 @@
   .userlist-remove.default,
   .userlist-removing.default,
   .userlist-yet-to-add.default {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .cqtbn,
   .f3Fr9d {
     background: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0),
-      #252525
+      #222
     ) !important;
   }
   .track-list-row.loading td,
@@ -388,7 +388,7 @@
   .drrice .hrTbp:visited,
   .drrice .n9lfJ .snByac,
   .drrice .nSYH7e {
-    color: #59fb59 !important;
+    color: #6cff6c !important;
   }
   .drrice .r1Rcnb {
     filter: brightness(1.8) !important;
@@ -414,7 +414,7 @@
   .K1b9Kc .i5DZme,
   .card.books .consume-link,
   .card.books .price {
-    color: #55c7ff !important;
+    color: #35c7ff !important;
   }
   .K1b9Kc .JHTxhe a,
   .K1b9Kc .JHTxhe a:visited,
@@ -430,7 +430,7 @@
     filter: brightness(2) !important;
   }
   .uMConb {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .JAPqpe {
     background-color: #333 !important;
@@ -442,13 +442,13 @@
     color: #ccc !important;
   }
   .LVQB0b {
-    background-color: #252525 !important;
+    background-color: #222 !important;
   }
   .QoPmEb {
-    border-bottom: 10px solid #252525 !important;
+    border-bottom: 10px solid #222 !important;
   }
   .footer {
-    background: #1b1b1b !important;
+    background: #111 !important;
     color: #aaa !important;
   }
   .LS81yb-Ud7fr,
