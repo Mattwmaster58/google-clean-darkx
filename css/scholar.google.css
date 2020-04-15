@@ -1,186 +1,123 @@
 @-moz-document url-prefix("https://scholar.google") {
-  #gs_bdy,
-  #gs_ftr,
-  #gs_hdr_drw,
-  #gs_top {
-    background: #222 !important;
-  }
-  #gs_ab,
-  #gs_hdr {
-    background: #111 !important;
-  }
-  #gs_ab,
-  #gs_ftr {
-    border: 0 !important;
-  }
-  #gs_lnv .gs_hr,
-  *,
-  .gs_bdy_sb_sec:before,
-  .gs_hdr_drw_sec:before {
-    border-color: #333 !important;
-  }
-  #gs_hdr_drs {
-    background-color: #000 !important;
-  }
-  body {
-    color: #999 !important;
-  }
-  .gs_md_ac[dir="ltr"] .gs_md_ac_lh .gs_ico_X {
-    filter: invert(1);
-  }
-  #gsc_napb_hdrb,
-  #gsc_napb_hdrg,
-  .gs_eml_sd,
-  .gs_md_ac li {
-    background: #222 !important;
-  }
-  .gs_eml_gy,
-  .gsc_oic_cb {
-    background: #111;
-  }
-  .gs_eml_star > svg,
-  .gs_or_svg {
-    stroke: #3296c8 !important;
-  }
-  #gs_eml_lcb,
-  #gs_eml_lra,
-  #gs_ftr a:link,
-  #gs_n a:link,
-  .gs_ctc,
-  .gs_fl a:link,
-  .gs_fl:link,
-  .gs_pda > a[href^="/scholar"]:nth-of-type(1),
-  .gs_pda > a[href^="/scholar_settings"],
-  .gs_rt a:link,
-  .gs_rt a:link b,
-  .gs_rt2 a:link,
-  .gs_rt2 a:link b,
-  .gsc_oict_all[data-a],
-  a:link {
-    color: #3296c8 !important;
-  }
-  #gs_ftr a:visited,
-  #gs_n a:visited,
-  .gs_rt a:visited,
-  .gs_rt a:visited b,
-  .gs_rt2 a:visited,
-  .gs_rt2 a:visited b,
-  a:visited {
-    color: #9558d6 !important;
-  }
-  .gs_md_ac li,
-  .gs_rs {
-    color: #999 !important;
-  }
-  b {
-    color: rgba(234, 234, 234, 0.87) !important;
-  }
-  .gs_rs b {
-    color: #aaa !important;
-  }
-  .gs_a,
-  .gs_a a:link {
-    color: #ddd !important;
-  }
-  .gs_ri {
-    padding-bottom: 10px !important;
-  }
-  #gs_lnv a:link,
-  #gs_lnv a:visited {
-    color: #ddd;
-  }
-  .gs_alrt_btm > .gs_in_ib.gs_btnM > .gs_ico,
-  .gs_in_cb input:checked ~ .gs_chk,
-  .gs_in_cb.gs_sel .gs_chk,
-  div:nth-of-type(2) > .gs_in_ib.gs_btnM > .gs_ico {
-    filter: invert(0.8) !important;
-  }
-  #gs_lnv_pri a:focus,
-  #gs_lnv_pri a:hover {
-    background: #333;
-  }
-  .gs_in_txt {
-    color: #ddd !important;
-    background: #111 !important;
-    border: 0 !important;
-  }
-  .gs_in_txt:active,
-  .gs_in_txt:focus,
-  .gs_in_txt:hover {
-    box-shadow: 1px 0 2px 1px rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08) !important;
-    transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1) !important;
-  }
-  #gs_hdr_advx,
-  .gs_btnAD .gs_ico {
-    filter: invert(1) !important;
-  }
-  #gs_hdr_adv {
-    background: #222 !important;
-    color: #999 !important;
-  }
-  #gs_hdr_advx {
-    background-color: #ddd !important;
-  }
-  .gs_md_ac li:hover {
-    background: #333 !important;
-  }
-  .gs_btnLSG .gs_ico,
-  .gs_btnLSI .gs_ico,
-  .gs_btnSB .gs_ico,
-  .gs_icm,
-  .gs_in_ib .gs_ico {
-    filter: invert(0.9) !important;
-  }
-  .gs_in_cb,
-  .gs_in_ib .gs_lbl,
-  .gs_in_ra {
-    color: #999 !important;
-  }
-  .gs_in_ra .gs_cbx {
-    border-color: #444;
-  }
-  #gs_ab_rt button,
-  .gs_el_sm #gs_ab_rt button,
-  button {
-    background-image: linear-gradient(to top, #333, #333) !important;
-    border: 0 !important;
-    color: #999 !important;
-    cursor: pointer !important;
-  }
-  #gs_ab_rt button:hover,
-  .gs_el_sm #gs_ab_rt button:hover,
-  button:hover {
-    background-image: linear-gradient(to top, #333, #333) !important;
-    cursor: pointer !important;
-  }
-  #gs_a_adv > .gs_ico,
-  .gs_in_ib.gs_btnC > .gs_wr > .gs_ico,
-  .gs_md_.gs_in_ib.gs_btnJ > .gs_ico,
-  .gs_md_.gs_in_ib.gs_btnP > .gs_ico {
-    filter: invert(0.8) !important;
-  }
-  .gs_md_li,
-  .gs_md_li:link,
-  .gs_md_li:visited,
-  .gs_md_se li {
-    color: #ddd !important;
-    background: #222 !important;
-  }
-  .gs_md_li:hover {
-    background: #333 !important;
-  }
-  .gs_md_wn {
-    border-color: #333 !important;
-  }
-  .gs_md_d {
-    background: #222 !important;
-  }
-  #gs_hdr_act_ab {
-    background: #111 !important;
-  }
-  #gs_hdr_act_a1,
-  #gs_hdr_act_a2,
-  td:nth-of-type(12) > a[href^="/scholar"] > b {
-    display: none !important;
-  }
+    #gs_bdy, #gs_ftr, #gs_hdr_drw, #gs_top {
+        background: #222 !important
+    }
+    #gs_ab, #gs_hdr {
+        background: #111 !important
+    }
+    #gs_ab, #gs_ftr {
+        border: 0 !important
+    }
+    #gs_lnv .gs_hr, *, .gs_bdy_sb_sec:before, .gs_hdr_drw_sec:before {
+        border-color: #333 !important
+    }
+    #gs_hdr_drs {
+        background-color: #000 !important
+    }
+    body {
+        color: #999 !important
+    }
+    .gs_md_ac[dir=ltr] .gs_md_ac_lh .gs_ico_X {
+        filter: invert(1)
+    }
+    #gsc_napb_hdrb, #gsc_napb_hdrg, .gs_eml_sd, .gs_md_ac li {
+        background: #222 !important
+    }
+    .gs_eml_gy, .gsc_oic_cb {
+        background: #111
+    }
+    .gs_eml_star > svg, .gs_or_svg {
+        stroke: #3296c8 !important
+    }
+    #gs_eml_lcb, #gs_eml_lra, #gs_ftr a:link, #gs_n a:link, .gs_ctc, .gs_fl a:link, .gs_fl:link, .gs_pda > a[href^="/scholar"]:nth-of-type(1), .gs_pda > a[href^="/scholar_settings"], .gs_rt a:link, .gs_rt a:link b, .gs_rt2 a:link, .gs_rt2 a:link b, .gsc_oict_all[data-a], a:link {
+        color: #3296c8 !important
+    }
+    #gs_ftr a:visited, #gs_n a:visited, .gs_rt a:visited, .gs_rt a:visited b, .gs_rt2 a:visited, .gs_rt2 a:visited b, a:visited {
+        color: #9558d6 !important
+    }
+    .gs_md_ac li, .gs_rs {
+        color: #999 !important
+    }
+    b {
+        color: rgba(234, 234, 234, .87) !important
+    }
+    .gs_rs b {
+        color: #aaa !important
+    }
+    .gs_a, .gs_a a:link {
+        color: #ddd !important
+    }
+    .gs_ri {
+        padding-bottom: 10px !important
+    }
+    #gs_lnv a:link, #gs_lnv a:visited {
+        color: #ddd
+    }
+    .gs_alrt_btm > .gs_in_ib.gs_btnM > .gs_ico, .gs_in_cb input:checked ~ .gs_chk, .gs_in_cb.gs_sel .gs_chk, div:nth-of-type(2) > .gs_in_ib.gs_btnM > .gs_ico {
+        filter: invert(.8) !important
+    }
+    #gs_lnv_pri a:focus, #gs_lnv_pri a:hover {
+        background: #333
+    }
+    .gs_in_txt {
+        color: #ddd !important;
+        background: #111 !important;
+        border: 0 !important
+    }
+    .gs_in_txt:active, .gs_in_txt:focus, .gs_in_txt:hover {
+        box-shadow: 1px 0 2px 1px rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08) !important;
+        transition: box-shadow 200ms cubic-bezier(.4, 0, .2, 1) !important
+    }
+    #gs_hdr_advx, .gs_btnAD .gs_ico {
+        filter: invert(1) !important
+    }
+    #gs_hdr_adv {
+        background: #222 !important;
+        color: #999 !important
+    }
+    #gs_hdr_advx {
+        background-color: #ddd !important
+    }
+    .gs_md_ac li:hover {
+        background: #333 !important
+    }
+    .gs_btnLSG .gs_ico, .gs_btnLSI .gs_ico, .gs_btnSB .gs_ico, .gs_icm, .gs_in_ib .gs_ico {
+        filter: invert(.9) !important
+    }
+    .gs_in_cb, .gs_in_ib .gs_lbl, .gs_in_ra {
+        color: #999 !important
+    }
+    .gs_in_ra .gs_cbx {
+        border-color: #444
+    }
+    #gs_ab_rt button, .gs_el_sm #gs_ab_rt button, button {
+        border: 0 !important;
+        color: #999 !important
+    }
+    #gs_ab_rt button, #gs_ab_rt button:hover, .gs_el_sm #gs_ab_rt button, .gs_el_sm #gs_ab_rt button:hover, button, button:hover {
+        background-image: linear-gradient(to top, #333, #333) !important;
+        cursor: pointer !important
+    }
+    #gs_a_adv > .gs_ico, .gs_in_ib.gs_btnC > .gs_wr > .gs_ico, .gs_md_.gs_in_ib.gs_btnJ > .gs_ico, .gs_md_.gs_in_ib.gs_btnP > .gs_ico {
+        filter: invert(.8) !important
+    }
+    .gs_md_li, .gs_md_li:link, .gs_md_li:visited, .gs_md_se li {
+        color: #ddd !important;
+        background: #222 !important
+    }
+    .gs_md_li:hover {
+        background: #333 !important
+    }
+    .gs_md_wn {
+        border-color: #333 !important
+    }
+    .gs_md_d {
+        background: #222 !important
+    }
+    #gs_hdr_act_ab {
+        background: #111 !important
+    }
+    #gs_hdr_act_a1, #gs_hdr_act_a2, td:nth-of-type(12) > a[href^="/scholar"] > b {
+        display: none !important
+    }
 }
