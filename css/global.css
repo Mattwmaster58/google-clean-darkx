@@ -50,10 +50,6 @@
   .gbqfba:hover,
   .jhp input[type="submit"]:hover,
   .sbdd_a input:hover {
-    background-image: (top, #313131, #3a3a3a) !important;
-    background-image: -webkit-linear-gradient(to top, #313131, #3a3a3a) !important;
-    background-image: -o-linear-gradient(to top, #313131, #3a3a3a) !important;
-    background-image: -ms-linear-gradient(to top, #313131, #3a3a3a) !important;
     background-image: linear-gradient(to top, #313131, #3a3a3a) !important;
     cursor: pointer !important;
   }
@@ -608,10 +604,6 @@
     color: #ababab !important;
   }
   .ksb {
-    background-image: -moz-linear-gradient(to top, #444, #383838) !important;
-    background-image: -webkit-linear-gradient(to top, #444, #383838) !important;
-    background-image: -o-linear-gradient(to top, #444, #383838) !important;
-    background-image: -ms-linear-gradient(to top, #444, #383838) !important;
     background-image: linear-gradient(to top, #444, #383838) !important;
     cursor: pointer !important;
     border: 1px solid #333 !important;
@@ -2253,10 +2245,6 @@
   }
   .select-file-page .select-file-section .button:hover,
   .swap-wrap:hover {
-    background-image: -moz-linear-gradient(to top, #313131, #3a3a3a) !important;
-    background-image: -webkit-linear-gradient(to top, #313131, #3a3a3a) !important;
-    background-image: -o-linear-gradient(to top, #313131, #3a3a3a) !important;
-    background-image: -ms-linear-gradient(to top, #313131, #3a3a3a) !important;
     background-image: linear-gradient(to top, #313131, #3a3a3a) !important;
     background-color: transparent !important;
     cursor: pointer !important;
@@ -2342,10 +2330,6 @@
   }
   .cwdgb-tpl:hover,
   .cwlgb-tpl:hover {
-    background-image: -moz-linear-gradient(to top, #313131, #3a3a3a) !important;
-    background-image: -webkit-linear-gradient(to top, #313131, #3a3a3a) !important;
-    background-image: -o-linear-gradient(to top, #313131, #3a3a3a) !important;
-    background-image: -ms-linear-gradient(to top, #313131, #3a3a3a) !important;
     background-image: linear-gradient(to top, #313131, #3a3a3a) !important;
     cursor: pointer !important;
   }
@@ -3574,10 +3558,6 @@
   }
   .Ak3kIe:hover,
   .fE5Rge:hover {
-    background-image: -moz-linear-gradient(to top, #313131, #3a3a3a) !important;
-    background-image: -webkit-linear-gradient(to top, #313131, #3a3a3a) !important;
-    background-image: -o-linear-gradient(to top, #313131, #3a3a3a) !important;
-    background-image: -ms-linear-gradient(to top, #313131, #3a3a3a) !important;
     background-image: linear-gradient(to top, #313131, #3a3a3a) !important;
     cursor: pointer !important;
   }
@@ -3686,35 +3666,6 @@
   .stp,
   td:last-of-type .irc_but {
     display: none !important;
-  }
-  ::-webkit-scrollbar {
-    width: 10px !important;
-    height: 10px !important;
-  }
-  ::-webkit-scrollbar-button {
-    width: 0 !important;
-    height: 0 !important;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: #4b4b4b !important;
-    border: 0 !important;
-    border-radius: 0 !important;
-  }
-  ::-webkit-scrollbar-thumb:active,
-  ::-webkit-scrollbar-thumb:hover {
-    background: #5a5a5a !important;
-  }
-  ::-webkit-scrollbar-track {
-    background: #333 !important;
-    border: 0 !important;
-    border-radius: 0 !important;
-  }
-  ::-webkit-scrollbar-track:active,
-  ::-webkit-scrollbar-track:hover {
-    background: #333 !important;
-  }
-  ::-webkit-scrollbar-corner {
-    background: 0 0 !important;
   }
   * {
     scrollbar-width: thin;

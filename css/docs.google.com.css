@@ -675,11 +675,6 @@
     box-shadow: 0 1px 0 #3883ff !important;
   }
   .docs-homescreen-openfile {
-    -webkit-box-shadow: #252525 0 1px 0 inset,
-      rgba(0, 0, 0, 0.03) 0 -1px 0 inset, rgba(0, 0, 0, 0.15) 0 15px 10px,
-      rgba(0, 0, 0, 0.3) 0 8px 36px;
-    -moz-box-shadow: #252525 0 1px 0 inset, rgba(0, 0, 0, 0.03) 0 -1px 0 inset,
-      rgba(0, 0, 0, 0.15) 0 15px 10px, rgba(0, 0, 0, 0.3) 0 8px 36px;
     box-shadow: #252525 0 1px 0 inset, rgba(0, 0, 0, 0.03) 0 -1px 0 inset,
       rgba(0, 0, 0, 0.15) 0 15px 10px, rgba(0, 0, 0, 0.3) 0 8px 36px;
   }
@@ -1779,8 +1774,6 @@
     color: #ccc !important;
   }
   .Cn-Aq-sl .Cn-Bq-Zb-aj {
-    -moz-box-shadow: 0 1px 5px 1px #272727 !important;
-    -webkit-box-shadow: 0 1px 5px 1px #272727 !important;
     box-shadow: 0 1px 5px 1px #272727 !important;
     border-color: #333 !important;
   }
@@ -2060,34 +2053,5 @@
   }
   .docs-gm .punch-filmstrip-thumbnail-border {
     stroke: #00000080;
-  }
-  ::-webkit-scrollbar {
-    width: 10px !important;
-    height: 10px !important;
-  }
-  ::-webkit-scrollbar-button {
-    width: 0 !important;
-    height: 0 !important;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: #4b4b4b !important;
-    border: 0 !important;
-    border-radius: 0 !important;
-  }
-  ::-webkit-scrollbar-thumb:active,
-  ::-webkit-scrollbar-thumb:hover {
-    background: #5a5a5a !important;
-  }
-  ::-webkit-scrollbar-track {
-    background: #333 !important;
-    border: 0 !important;
-    border-radius: 0 !important;
-  }
-  ::-webkit-scrollbar-track:active,
-  ::-webkit-scrollbar-track:hover {
-    background: #333 !important;
-  }
-  ::-webkit-scrollbar-corner {
-    background: 0 0 !important;
   }
 }

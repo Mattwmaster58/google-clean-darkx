@@ -265,10 +265,6 @@
   .a-nEbBXb .l-t-T-c-j::before {
     background: 0 0 !important;
   }
-  .a-nEbBXb .a-t-j .a-s-oe:focus::-webkit-scrollbar-track,
-  .a-nEbBXb .a-t-j .a-s-oe:hover::-webkit-scrollbar-track {
-    background-color: #151515 !important;
-  }
   .lb-k,
   .lb-k-V,
   .lb-k-x {
@@ -876,14 +872,7 @@
   .z3cJ0e {
     filter: invert(1);
   }
-  ::-webkit-input-placeholder {
-    color: #8e8e8e !important;
-  }
-  :-moz-placeholder,
-  ::-moz-placeholder {
-    color: #8e8e8e !important;
-  }
-  :-ms-input-placeholder {
+  ::placeholder {
     color: #8e8e8e !important;
   }
   .uc-footer {

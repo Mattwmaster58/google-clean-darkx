@@ -275,18 +275,6 @@
     background: #252525 !important;
   }
   .paragraph-end {
-    background-image: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      color-stop(0%, rgba(255, 255, 255, 0)),
-      color-stop(100%, #252525)
-    ) !important;
-    background-image: -webkit-linear-gradient(
-      left,
-      rgba(255, 255, 255, 0),
-      #252525
-    ) !important;
     background: linear-gradient(
       to right,
       rgba(255, 255, 255, 0),
@@ -498,34 +486,5 @@
   }
   .k8Lt0 .y089Ob {
     display: none !important;
-  }
-  ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-  }
-  ::-webkit-scrollbar-button {
-    width: 0;
-    height: 0;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: #ffffff1f;
-    border: 0;
-    border-radius: 0;
-  }
-  ::-webkit-scrollbar-thumb:active,
-  ::-webkit-scrollbar-thumb:hover {
-    background: #fff3;
-  }
-  ::-webkit-scrollbar-track {
-    background: #0000004d;
-    border: 0;
-    border-radius: 0;
-  }
-  ::-webkit-scrollbar-track:active,
-  ::-webkit-scrollbar-track:hover {
-    background: #0000004d;
-  }
-  ::-webkit-scrollbar-corner {
-    background: #0000004d;
   }
 }
