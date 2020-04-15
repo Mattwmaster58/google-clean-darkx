@@ -1,1 +1,35 @@
-@-moz-document url-prefix("https://accounts.google"){.N3Hzgf .snByac{background:0 0!important}#headingText{color:#ccc}.lCoei.YZVTmd.SmR8:hover{background:#111!important}.whsOnd{background:#222}#initialView,.AxOyFc.snByac,.N3Hzgf .snByac{background:#222!important}#headingSubtext,#identifierId,#profileIdentifier,.BHzsHc,.whsOnd.zHQkBf{color:#999}.kHn9Lb,.w1I7fb,.ze9ebf .zHQkBf{color:#999!important}.OVnw0d>.SmR8:only-child::before,.ZxXxWb{border-bottom:1px solid #999!important}}
+@-moz-document url-prefix("https://accounts.google") {
+  .N3Hzgf .snByac {
+    background: 0 0 !important;
+  }
+  #headingText {
+    color: #ccc;
+  }
+  .lCoei.YZVTmd.SmR8:hover {
+    background: #111 !important;
+  }
+  .whsOnd {
+    background: #222;
+  }
+  #initialView,
+  .AxOyFc.snByac,
+  .N3Hzgf .snByac {
+    background: #222 !important;
+  }
+  #headingSubtext,
+  #identifierId,
+  #profileIdentifier,
+  .BHzsHc,
+  .whsOnd.zHQkBf {
+    color: #999;
+  }
+  .kHn9Lb,
+  .w1I7fb,
+  .ze9ebf .zHQkBf {
+    color: #999 !important;
+  }
+  .OVnw0d > .SmR8:only-child::before,
+  .ZxXxWb {
+    border-bottom: 1px solid #999;
+  }
+}

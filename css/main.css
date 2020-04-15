@@ -1,223 +1,625 @@
-@-moz-document url-prefix("https://translate.google."), url-prefix("https://images.google."), url-prefix("https://photos.google."), url-prefix("https://books.google."), url-prefix("https://scholar.google."), url-prefix("https://accounts.google."), url-prefix("https://www.google."), url-prefix("https://mail.google."), url-prefix("https://drive.google."), url-prefix("https://calendar.google"), url-prefix("https://docs.google."), url-prefix("https://news.google."), url-prefix("https://keep.google."), url-prefix("https://play.google."), domain("notifications.google.com") {
-    .gb_Hb, .gb_Kb, .gb_Mb, .gb_aa, .gb_ga {
-        background-color: #222 !important;
-        color: #ddd !important
-    }
-    .gb_3b {
-        background-color: #222 !important
-    }
-    .gb_4b, .gb_Ob, .gb_ba, .gb_fa, .gb_ue {
-        background-color: #222 !important;
-        color: #ddd !important
-    }
-    .gb_Nb, .gb_Nb:hover, .gb_Xb, .gb_dc, .gb_ve {
-        background-color: #222 !important
-    }
-    .gb_Nb, .gb_Nb:hover, .gb_dc, .gb_ve {
-        color: #ddd !important
-    }
-    .gb_6a.gb_F.gb_l.gb_7a.gb_na, .gb_Bb.gb_8f, .gb_qe {
-        background-color: #222
-    }
-    .N9rVke, .N9rVke:active, .N9rVke:focus, .gb_0b, .gb_1b, .gb_7b, .gb_Je, .gb_Wa svg, .gb_Z, .gb_ac, .gb_fa, .gb_ra, .gb_rb.gb_sb, .gb_vc svg {
-        color: #ccc !important
-    }
-    .gb_qa {
-        box-shadow: none !important
-    }
-    .gb_0b:hover, .gb_Ea, .gb_Qb:hover {
-        background: #333;
-        border-color: #333;
-        cursor: pointer !important
-    }
-    .gb_Ab .gb_Hb, .gb_Eb {
-        background: 0 0 !important
-    }
-    .RuaZWe, .gb_Pb:hover, .gb_Rb:hover, .gb_Sb:hover, .gb_Wb:hover {
-        background: #333 !important
-    }
-    #gb > .gb_Sd.gb_qe.gb_1d > .gb_wb.gb_b.gb_g, #gb > .gb_Sd.gb_qe > .gb_wb.gb_b.gb_g, #gb > div > div > .gb_hb.gb_id.gb_ah.gb_R.gb_Xf.gb_qb.gb_g > .gb_wb.gb_b.gb_g, #gbsfw.gb_4c, #gbsfw.gb_7c, #gbsfw.gb_Wc, #gbw > div > div > div > .gb_hb.gb_id.gb_ah.gb_R.gb_g > .gb_wb.gb_b.gb_g {
-        border-color: #333 !important
-    }
-    .gb_Jb .gb_Ib:hover, .gb_fa {
-        border-color: transparent !important
-    }
-    .gb_Eb .gb_Db:hover, .gb_T:hover .gb_X, .gb_T:hover .gb_Z, .gb_T:hover a {
-        background: #444 !important;
-        border-color: #444 !important;
-        cursor: pointer !important
-    }
-    #gb .gb_xb .gb_Db.gb_Db, .gb_Ta svg, .gb_mc svg {
-        color: #fff !important
-    }
-    .gb_2b, .gb_3b, .gb_Xb, .gb_Zb {
-        color: #ddd !important
-    }
-    #gb .gb_ea, #gb .gb_ja, #gb .gb_ja:active, #gb .gb_ja:visited, #gb .gb_ka, #gb .gb_ka:visited, .gb_bc {
-        color: #999 !important
-    }
-    .gb_Ib, .gb_Jb, .gb_Pb, .gb_ia, .gb_yb {
-        background: #222 !important
-    }
-    .gb_Fb {
-        background: 0 0 !important
-    }
-    .gb_aa, .gb_jb, .gb_kb, .gb_rb, .gb_sb, .gb_ub, .gb_vb {
-        border-bottom-color: #222 !important
-    }
-    #gbwa > .gb_Oc > .gb_rb, #gbwa > .gb_Pc > .gb_sb {
-        border-bottom-color: #111 !important
-    }
-    .gb_tb, .gb_wb {
-        border-bottom-color: #333 !important
-    }
-    .gb_ja {
-        background: #222 !important
-    }
-    #gbsfw.gb_Sc {
-        border-color: #222 !important
-    }
-    #gb .gb_ea, .gb_da, .gb_ea, .gb_ka {
-        background: #111 !important
-    }
-    .gb_Z:hover .gb_3 {
-        background: #333 !important
-    }
-    .gb_Z:hover a {
-        border: 1px solid #333 !important
-    }
-    .gb_3 {
-        color: #3296c8 !important
-    }
-    #gb#gb .gb_O, #gb#gb .gb_P, #gb#gb span.gb_P {
-        color: #3296c8
-    }
-    .gb_la {
-        border-bottom: 1px solid #333 !important
-    }
-    #gbw > div > div > div > .gb_Wc.gb_id.gb_R.gb_Xc > .gb_0c, #gbwa > .gb_0c, #gbwa > .gb_3c > a, #gbwa > .gb_Oc > a, .gb_4b.gb_Fc.gb_Ec, .gb_4b.gb_b, .gb_4c.gb_5c, .gb_8 .gb_b, .gb_Rc.gb_Sc, .gb_ec.gb_Rc.gb_Qc, .gb_ec.gb_b {
-        filter: invert(1) !important
-    }
-    #gbwa > div > a > svg {
-        color: #ccc !important
-    }
-    .gb_Pc {
-        background-color: transparent !important
-    }
-    #gbsfw.gb_Tc, #gbsfw.gb_Uc, #gbsfw.gb_Vc, .gb_ga {
-        border-color: #333 !important
-    }
-    .gb_lb {
-        border-bottom-color: #333 !important
-    }
-    .gb_Nb, .gb_ka, .pbLXBd:before {
-        border-color: #333 !important
-    }
-    .gb_ka {
-        background: #333 !important
-    }
-    #gb .gb_Ba.gb_Ba {
-        color: #fff !important
-    }
-    .ajgU6 {
-        fill: #ccc !important
-    }
-    #gb .gb_Fa.gb_Fa, .gb_Fa, .gb_Ha, .gb_Kb .gb_Jb {
-        background-image: linear-gradient(to top, #333, #333) !important;
-        border: 0 !important;
-        color: #999 !important;
-        cursor: pointer !important
-    }
-    #gb .gb_za.gb_za, .gb_Nb .gb_Mb, .gb_za {
-        border: 0 !important;
-        color: #999 !important
-    }
-    #gb .gb_Fa.gb_Fa:hover, #gb .gb_za.gb_za, #gb .gb_za.gb_za:hover, .gb_Fa:hover, .gb_Ha:hover, .gb_Jb .gb_Ib:hover, .gb_Kb .gb_Jb:hover, .gb_Nb .gb_Mb, .gb_Nb .gb_Mb:hover, .gb_za {
-        background-image: linear-gradient(to top, #333, #333) !important;
-        cursor: pointer !important
-    }
-    #gb .gb_Cb .gb_Jb.gb_Jb, #gb .gb_yb .gb_Eb.gb_Eb, .gb_Ba, .gb_Cb .gb_Mb {
-        background-image: linear-gradient(to top, #4d90fe, #3069c7) !important;
-        border: 0 !important;
-        color: #fff !important;
-        cursor: pointer !important;
-        text-shadow: 1px 1px 0 #000 !important
-    }
-    #gb .gb_Cb .gb_Jb.gb_Jb:hover, #gb .gb_yb .gb_Eb.gb_Eb:hover, .gb_Ba:hover, .gb_Cb .gb_Mb:hover {
-        background-image: linear-gradient(to top, #3069c7, #4d90fe) !important;
-        cursor: pointer !important
-    }
-    .pbLXBd {
-        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #222 50%, #222 100%) !important
-    }
-    .gV6pJf {
-        background: #222 !important
-    }
-    .Vz68Kb, .gMG7Fd, .wh73ab {
-        color: rgba(189, 189, 189, .87) !important
-    }
-    .XSVuue, .iWO9fc .mUbCce svg {
-        fill: rgba(255, 255, 255, .54) !important
-    }
-    .fEjTrb {
-        background-color: #111 !important
-    }
-    .gb_X {
-        color: #ccc !important
-    }
-    ::placeholder {
-        color: #999 !important
-    }
-    .gs_hdr_act_am:link {
-        background-color: #222 !important
-    }
-    .gs_hdr_act_am:link:hover {
-        background-color: #333 !important
-    }
-    #gb > .gb_Ld.gb_je > .gb_Dc.gb_5d.gb_Je > div:nth-child(1) > svg, #gb > .gb_Ld.gb_je > .gb_Ec.gb_kb.gb_Dc.gb_de > div > .gb_ee > .gb_Oc.gb_ad.gb_R.gb_Pc.gb_Qf > div > a > div > svg {
-        fill: #fff !important
-    }
-    .gb_Va svg, .gb_nc svg, .gb_pe, .gb_pe.gb_ue {
-        color: #ccc !important
-    }
-    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1), #gb > div:nth-child(2) > div:nth-child(5), #gbsfw {
-        border-color: #333 !important
-    }
-    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div, #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4), #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > a, #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(4), #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(2) > a:nth-child(2), #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(2) > div:nth-child(1), #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(4), #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > a, #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4), #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div, #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) {
-        background: #222 !important
-    }
-    #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a:hover, #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) > a:hover, #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > a:hover {
-        background: #333 !important
-    }
-    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a > div > div:nth-child(1), #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a > div > div:nth-child(1), #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) > a > div > div:nth-child(1), #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > a > div > div:nth-child(1), #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a > div > div:nth-child(1), #gbwa > div:nth-child(2) > div > div:nth-child(2) > div {
-        color: #ccc !important
-    }
-    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a, #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a, #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(4) > div > a, #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div > a, #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a {
-        background-image: linear-gradient(to top, #333, #333) !important;
-        background-color: transparent !important;
-        border: 0 !important;
-        color: #999 !important;
-        cursor: pointer !important
-    }
-    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a:hover, #gb > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a:hover, #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(4) > div > a:hover, #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div > a:hover, #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > a:hover {
-        background-image: linear-gradient(to top, #333, #333) !important;
-        cursor: pointer !important
-    }
-    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a, #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > a, #gbw > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > a, #gbw > div > div > div > div > div > a > div {
-        filter: invert(.9) !important
-    }
-    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a, #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div > a, #gbw > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(1) > div > a {
-        color: #fff !important;
-        cursor: pointer !important
-    }
-    #gb > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a:hover, #gbw > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > a:hover {
-        background: #333 !important
-    }
-    #gb > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div > a > span {
-        color: #fff !important
-    }
-    * {
-        scrollbar-width: thin !important;
-        scrollbar-color: #333 #111 !important
-    }
+@-moz-document url-prefix("https://translate.google."),url-prefix("https://images.google."),url-prefix("https://photos.google."),url-prefix("https://books.google."),url-prefix("https://scholar.google."),url-prefix("https://accounts.google."),url-prefix("https://www.google."),url-prefix("https://mail.google."),url-prefix("https://drive.google."),url-prefix("https://calendar.google"),url-prefix("https://docs.google."),url-prefix("https://news.google."),url-prefix("https://keep.google."),url-prefix("https://play.google."),domain("notifications.google.com") {
+  .gb_Hb,
+  .gb_Kb,
+  .gb_Mb,
+  .gb_aa,
+  .gb_ga {
+    background-color: #222 !important;
+    color: #ddd !important;
+  }
+  .gb_3b {
+    background-color: #222 !important;
+  }
+  .gb_4b,
+  .gb_Ob,
+  .gb_ba,
+  .gb_fa,
+  .gb_ue {
+    background-color: #222 !important;
+    color: #ddd !important;
+  }
+  .gb_Nb,
+  .gb_Nb:hover,
+  .gb_Xb,
+  .gb_dc,
+  .gb_ve {
+    background-color: #222 !important;
+  }
+  .gb_Nb,
+  .gb_Nb:hover,
+  .gb_dc,
+  .gb_ve {
+    color: #ddd !important;
+  }
+  .gb_6a.gb_F.gb_l.gb_7a.gb_na,
+  .gb_Bb.gb_8f,
+  .gb_qe {
+    background-color: #222;
+  }
+  .N9rVke,
+  .N9rVke:active,
+  .N9rVke:focus,
+  .gb_0b,
+  .gb_1b,
+  .gb_7b,
+  .gb_Je,
+  .gb_Wa svg,
+  .gb_Z,
+  .gb_ac,
+  .gb_fa,
+  .gb_ra,
+  .gb_rb.gb_sb,
+  .gb_vc svg {
+    color: #ccc !important;
+  }
+  .gb_qa {
+    box-shadow: none !important;
+  }
+  .gb_0b:hover,
+  .gb_Ea,
+  .gb_Qb:hover {
+    background: #333;
+    border-color: #333;
+    cursor: pointer !important;
+  }
+  .gb_Ab .gb_Hb,
+  .gb_Eb {
+    background: 0 0 !important;
+  }
+  .RuaZWe,
+  .gb_Pb:hover,
+  .gb_Rb:hover,
+  .gb_Sb:hover,
+  .gb_Wb:hover {
+    background: #333 !important;
+  }
+  #gb > .gb_Sd.gb_qe.gb_1d > .gb_wb.gb_b.gb_g,
+  #gb > .gb_Sd.gb_qe > .gb_wb.gb_b.gb_g,
+  #gb > div > div > .gb_hb.gb_id.gb_ah.gb_R.gb_Xf.gb_qb.gb_g > .gb_wb.gb_b.gb_g,
+  #gbsfw.gb_4c,
+  #gbsfw.gb_7c,
+  #gbsfw.gb_Wc,
+  #gbw > div > div > div > .gb_hb.gb_id.gb_ah.gb_R.gb_g > .gb_wb.gb_b.gb_g {
+    border-color: #333 !important;
+  }
+  .gb_Jb .gb_Ib:hover,
+  .gb_fa {
+    border-color: transparent !important;
+  }
+  .gb_Eb .gb_Db:hover,
+  .gb_T:hover .gb_X,
+  .gb_T:hover .gb_Z,
+  .gb_T:hover a {
+    background: #444 !important;
+    border-color: #444 !important;
+    cursor: pointer !important;
+  }
+  #gb .gb_xb .gb_Db.gb_Db,
+  .gb_Ta svg,
+  .gb_mc svg {
+    color: #fff !important;
+  }
+  .gb_2b,
+  .gb_3b,
+  .gb_Xb,
+  .gb_Zb {
+    color: #ddd !important;
+  }
+  #gb .gb_ea,
+  #gb .gb_ja,
+  #gb .gb_ja:active,
+  #gb .gb_ja:visited,
+  #gb .gb_ka,
+  #gb .gb_ka:visited,
+  .gb_bc {
+    color: #999 !important;
+  }
+  .gb_Ib,
+  .gb_Jb,
+  .gb_Pb,
+  .gb_ia,
+  .gb_yb {
+    background: #222 !important;
+  }
+  .gb_Fb {
+    background: 0 0 !important;
+  }
+  .gb_aa,
+  .gb_jb,
+  .gb_kb,
+  .gb_rb,
+  .gb_sb,
+  .gb_ub,
+  .gb_vb {
+    border-bottom-color: #222 !important;
+  }
+  #gbwa > .gb_Oc > .gb_rb,
+  #gbwa > .gb_Pc > .gb_sb {
+    border-bottom-color: #111 !important;
+  }
+  .gb_tb,
+  .gb_wb {
+    border-bottom-color: #333 !important;
+  }
+  .gb_ja {
+    background: #222 !important;
+  }
+  #gbsfw.gb_Sc {
+    border-color: #222 !important;
+  }
+  #gb .gb_ea,
+  .gb_da,
+  .gb_ea,
+  .gb_ka {
+    background: #111 !important;
+  }
+  .gb_Z:hover .gb_3 {
+    background: #333 !important;
+  }
+  .gb_Z:hover a {
+    border: 1px solid #333 !important;
+  }
+  .gb_3 {
+    color: #3296c8 !important;
+  }
+  #gb#gb .gb_O,
+  #gb#gb .gb_P,
+  #gb#gb span.gb_P {
+    color: #3296c8;
+  }
+  .gb_la {
+    border-bottom: 1px solid #333;
+  }
+  #gbw > div > div > div > .gb_Wc.gb_id.gb_R.gb_Xc > .gb_0c,
+  #gbwa > .gb_0c,
+  #gbwa > .gb_3c > a,
+  #gbwa > .gb_Oc > a,
+  .gb_4b.gb_Fc.gb_Ec,
+  .gb_4b.gb_b,
+  .gb_4c.gb_5c,
+  .gb_8 .gb_b,
+  .gb_Rc.gb_Sc,
+  .gb_ec.gb_Rc.gb_Qc,
+  .gb_ec.gb_b {
+    filter: invert(1) !important;
+  }
+  #gbwa > div > a > svg {
+    color: #ccc !important;
+  }
+  .gb_Pc {
+    background-color: transparent !important;
+  }
+  #gbsfw.gb_Tc,
+  #gbsfw.gb_Uc,
+  #gbsfw.gb_Vc,
+  .gb_ga {
+    border-color: #333 !important;
+  }
+  .gb_lb {
+    border-bottom-color: #333 !important;
+  }
+  .gb_Nb,
+  .gb_ka,
+  .pbLXBd:before {
+    border-color: #333 !important;
+  }
+  #gb .gb_Ba.gb_Ba {
+    color: #fff !important;
+  }
+  .ajgU6 {
+    fill: #ccc !important;
+  }
+  #gb .gb_Fa.gb_Fa,
+  .gb_Fa,
+  .gb_Ha,
+  .gb_Kb .gb_Jb {
+    background-image: linear-gradient(to top, #333, #333) !important;
+    border: 0 !important;
+    color: #999 !important;
+    cursor: pointer !important;
+  }
+  #gb .gb_za.gb_za,
+  .gb_Nb .gb_Mb,
+  .gb_za {
+    border: 0 !important;
+    color: #999 !important;
+  }
+  #gb .gb_Fa.gb_Fa:hover,
+  #gb .gb_za.gb_za,
+  #gb .gb_za.gb_za:hover,
+  .gb_Fa:hover,
+  .gb_Ha:hover,
+  .gb_Jb .gb_Ib:hover,
+  .gb_Kb .gb_Jb:hover,
+  .gb_Nb .gb_Mb,
+  .gb_Nb .gb_Mb:hover,
+  .gb_za {
+    background-image: linear-gradient(to top, #333, #333) !important;
+    cursor: pointer !important;
+  }
+  #gb .gb_Cb .gb_Jb.gb_Jb,
+  #gb .gb_yb .gb_Eb.gb_Eb,
+  .gb_Ba,
+  .gb_Cb .gb_Mb {
+    background-image: linear-gradient(to top, #4d90fe, #3069c7) !important;
+    border: 0 !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    text-shadow: 1px 1px 0 #000 !important;
+  }
+  #gb .gb_Cb .gb_Jb.gb_Jb:hover,
+  #gb .gb_yb .gb_Eb.gb_Eb:hover,
+  .gb_Ba:hover,
+  .gb_Cb .gb_Mb:hover {
+    background-image: linear-gradient(to top, #3069c7, #4d90fe) !important;
+    cursor: pointer !important;
+  }
+  .pbLXBd {
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 0,
+      #222 50%,
+      #222 100%
+    ) !important;
+  }
+  .gV6pJf {
+    background: #222 !important;
+  }
+  .Vz68Kb,
+  .gMG7Fd,
+  .wh73ab {
+    color: rgba(189, 189, 189, 0.87) !important;
+  }
+  .XSVuue,
+  .iWO9fc .mUbCce svg {
+    fill: rgba(255, 255, 255, 0.54) !important;
+  }
+  .fEjTrb {
+    background-color: #111 !important;
+  }
+  .gb_X {
+    color: #ccc !important;
+  }
+  ::placeholder {
+    color: #999 !important;
+  }
+  .gs_hdr_act_am:link {
+    background-color: #222 !important;
+  }
+  .gs_hdr_act_am:link:hover {
+    background-color: #333 !important;
+  }
+  #gb > .gb_Ld.gb_je > .gb_Dc.gb_5d.gb_Je > div:nth-child(1) > svg,
+  #gb
+    > .gb_Ld.gb_je
+    > .gb_Ec.gb_kb.gb_Dc.gb_de
+    > div
+    > .gb_ee
+    > .gb_Oc.gb_ad.gb_R.gb_Pc.gb_Qf
+    > div
+    > a
+    > div
+    > svg {
+    fill: #fff !important;
+  }
+  .gb_Va svg,
+  .gb_nc svg,
+  .gb_pe,
+  .gb_pe.gb_ue {
+    color: #ccc !important;
+  }
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1),
+  #gb > div:nth-child(2) > div:nth-child(5),
+  #gbsfw {
+    border-color: #333 !important;
+  }
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > div,
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(4),
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > a,
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(4),
+  #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(2) > a:nth-child(2),
+  #gb
+    > div:nth-child(2)
+    > div:nth-child(6)
+    > div:nth-child(2)
+    > div:nth-child(1),
+  #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(4),
+  #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > a,
+  #gb > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4),
+  #gbw
+    > div
+    > div
+    > div:nth-child(2)
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > div,
+  #gbw
+    > div
+    > div
+    > div:nth-child(2)
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(4) {
+    background: #222 !important;
+  }
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > div
+    > a:hover,
+  #gb
+    > div:nth-child(2)
+    > div:nth-child(6)
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > a:hover,
+  #gb
+    > div
+    > div
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > div
+    > a:hover {
+    background: #333 !important;
+  }
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > div
+    > a
+    > div
+    > div:nth-child(1),
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > div
+    > a
+    > div
+    > div:nth-child(1),
+  #gb
+    > div:nth-child(2)
+    > div:nth-child(6)
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > a
+    > div
+    > div:nth-child(1),
+  #gb
+    > div
+    > div
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > div
+    > a
+    > div
+    > div:nth-child(1),
+  #gbw
+    > div
+    > div
+    > div:nth-child(2)
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > div
+    > a
+    > div
+    > div:nth-child(1),
+  #gbwa > div:nth-child(2) > div > div:nth-child(2) > div {
+    color: #ccc !important;
+  }
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(4)
+    > div
+    > a,
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(4)
+    > div
+    > a,
+  #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(4) > div > a,
+  #gb
+    > div
+    > div
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > div:nth-child(4)
+    > div
+    > a,
+  #gbw
+    > div
+    > div
+    > div:nth-child(2)
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(4)
+    > div
+    > a {
+    background-image: linear-gradient(to top, #333, #333) !important;
+    background-color: transparent !important;
+    border: 0 !important;
+    color: #999 !important;
+    cursor: pointer !important;
+  }
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(4)
+    > div
+    > a:hover,
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(4)
+    > div
+    > a:hover,
+  #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(4) > div > a:hover,
+  #gb
+    > div
+    > div
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > div:nth-child(4)
+    > div
+    > a:hover,
+  #gbw
+    > div
+    > div
+    > div:nth-child(2)
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(4)
+    > div
+    > a:hover {
+    background-image: linear-gradient(to top, #333, #333) !important;
+    cursor: pointer !important;
+  }
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > a,
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(3)
+    > div:nth-child(1)
+    > a,
+  #gbw
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > a,
+  #gbw > div > div > div > div > div > a > div {
+    filter: invert(0.9) !important;
+  }
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > a,
+  #gb > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div > a,
+  #gbw
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > div
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div
+    > a {
+    color: #fff !important;
+    cursor: pointer !important;
+  }
+  #gb
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > div
+    > a:hover,
+  #gbw
+    > div
+    > div
+    > div:nth-child(2)
+    > div:nth-child(4)
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > div
+    > a:hover {
+    background: #333 !important;
+  }
+  #gb
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div:nth-child(4)
+    > div
+    > a
+    > span {
+    color: #fff !important;
+  }
+  * {
+    scrollbar-width: thin !important;
+    scrollbar-color: #333 #111 !important;
+  }
 }
