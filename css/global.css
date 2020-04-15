@@ -3524,7 +3524,7 @@
   }
   #act-stopwatch-section > div > div > div,
   #act-timer-section > div > div > div,
-  .act-tim-fs-cnt:-webkit-full-screen {
+  .act-tim-fs-cnt:fullscreen {
     background-color: #1b1b1b !important;
   }
   .act-tab-link.act-inactive-tab:hover,
