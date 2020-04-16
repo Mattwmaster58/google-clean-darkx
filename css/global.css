@@ -297,7 +297,6 @@
   #hdtbSum {
     background: #222 !important;
   }
-  #appbar,
   ._dMq,
   .hdtb-mn-c,
   .hdtb-mn-o,
@@ -986,7 +985,8 @@
   .xrIqbe {
     color: #ddd !important;
   }
-  .knowledge-webanswers_table__webanswers-table tr {
+  .knowledge-webanswers_table__webanswers-table tr,
+  #top_nav {
     border-bottom: 1px solid #333;
   }
   .GtMhHe,
