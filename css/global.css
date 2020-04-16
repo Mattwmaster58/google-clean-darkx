@@ -1,6 +1,7 @@
 @-moz-document regexp("https?://(www|encrypted|images|translate|accounts|books|photos).google.(com|([a-z]{2}))(.[a-z]{2})?/(?!mobile|flights|intl|alerts|finance|calendar|nexus|contacts|services|voice|business|maps|dashboard|settings|android|adsense|analytics|doodles|chrome|fonts|patents|translate_p|recaptcha).*") {
   body,
-  html {
+  html,
+  .mQo3nc.hsL7ld {
     background: #222 !important;
     color: #ddd !important;
   }
@@ -881,6 +882,7 @@
   #tl_select,
   .cU5Wo {
     color: #999 !important;
+    background: #222;
   }
   ._Uoj {
     background: #222 !important;
@@ -943,7 +945,7 @@
   #lr_dct_img_use,
   .xpdxpnd > div:nth-of-type(2) > g-img,
   [id^="lr_dct_img_origin_"] {
-    filter: invert(0.895) hue-rotate(190deg) !important;
+    filter: invert(0.93) hue-rotate(190deg) !important;
   }
   .s8pPhe {
     background-color: #222 !important;
@@ -2096,7 +2098,7 @@
   .swap > .jfk-button-img,
   .trans-verified-button,
   .ttsbutton-res .jfk-button-img {
-    filter: invert(0.9) !important;
+    filter: invert(0.93) !important;
   }
   .input {
     border-right: 1px solid #222;
@@ -2164,7 +2166,8 @@
   .phrasebook-top-header .title,
   .result-dict-wrapper .translation,
   .results-container:not(.empty) .placeholder,
-  .select-file-section .choose-document-prompt {
+  .select-file-section .choose-document-prompt,
+  .zbA8Me.gJBeNe.vSuuAd {
     color: #ccc !important;
   }
   .epu-dt .gt-cd-pos-pop,
@@ -2320,9 +2323,15 @@
     fill: #111 !important;
   }
   .lr-fy-tb,
-  .lr-fy-ub.lr-fy-in {
+  .lr-fy-ub.lr-fy-in,
+  .bqVbBf.jfFgAc.CqMNyc .MR2UAc {
     border-color: #333 !important;
     color: #ccc !important;
+    background: #222 !important;
+  }
+  .bqVbBf.jfFgAc.CqMNyc .cO53qb {
+    border-color: #333 !important;
+    color: #777 !important;
     background: #222 !important;
   }
   .lr-fy-ol .lr-fy-dd {
