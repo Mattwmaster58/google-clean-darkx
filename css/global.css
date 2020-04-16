@@ -408,7 +408,10 @@
     background-color: #222 !important;
   }
   .V7X3Je,
-  .gb_Ub > .gb_6b {
+  .gb_Ub > .gb_6b,
+  .ILfuVd.rjOVwe,
+  .w8qArf,
+  .OS8yje {
     color: #ccc !important;
   }
   .irc_rimask.irc_rist {
@@ -1674,7 +1677,8 @@
     border-color: #333 !important;
   }
   #gt-apb-main,
-  #gt-appbar {
+  #gt-appbar,
+  .TieM1d {
     background: #111 !important;
     border-color: #333 !important;
   }
@@ -1832,7 +1836,8 @@
     background-color: #333 !important;
   }
   .gt-related-suggest-message,
-  .gt-revert-correct-message {
+  .gt-revert-correct-message,
+  .x3sNcc {
     color: #777 !important;
   }
   #tw-source-text-ta,
@@ -3486,6 +3491,9 @@
   }
   .Yhekq {
     background-color: #111;
+    border-color: #333;
+  }
+  .wwfboe {
     border-color: #333;
   }
   [class*="gws-csf-metronome__mtn-bar"] {
