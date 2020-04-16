@@ -1928,7 +1928,7 @@
   }
   .docs-gm .docs-material.trix-palette .goog-palette-cell-selected,
   .docs-material .goog-toolbar-button-checked {
-    background-color: #000e6 !important;
+    background-color: #000000e6 !important;
   }
   .docs-gm .docs-menubar .goog-control-disabled,
   .docs-link-insertlinkbubble-buttonbar {
@@ -2049,6 +2049,6 @@
     height: 36px !important;
   }
   .docs-gm .punch-filmstrip-thumbnail-border {
-    stroke: #00080;
+    stroke: #00000080;
   }
 }

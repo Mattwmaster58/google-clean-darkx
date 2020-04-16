@@ -77,7 +77,7 @@
     color: #ccc;
   }
   .pbgrIf {
-    background: #fff4d !important;
+    background: #ffffff4d !important;
   }
   .JUQOtc > path:nth-of-type(2) {
     fill: #444 !important;
@@ -166,7 +166,7 @@
     border-color: #333 !important;
   }
   .fJdjDd {
-    background-color: #00080;
+    background-color: #00000080;
   }
   .z80M1.qs41qe > .aBBjbd {
     background-image: radial-gradient(
@@ -177,10 +177,10 @@
     );
   }
   .zn4jxc {
-    background-color: #fff40 !important;
+    background-color: rgba(255, 255, 255, 0.25) !important;
   }
   .zn4jxc.auswjd {
-    background-color: #fff80 !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
   }
   .eIXhfb,
   .fL7mK,

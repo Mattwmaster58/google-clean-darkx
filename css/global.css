@@ -548,7 +548,7 @@
   }
   .rg_anbg,
   .rg_ilmbg {
-    background-color: #000e6 !important;
+    background-color: #000000e6 !important;
     color: #fff !important;
   }
   .iKjWAf {
@@ -2800,7 +2800,7 @@
     color: #999 !important;
   }
   .e2CuFe {
-    border-color: #fff4d transparent !important;
+    border-color: #ffffff4d transparent !important;
   }
   .Uo6gve {
     background-color: transparent !important;
@@ -3006,7 +3006,7 @@
     background-color: #111 !important;
   }
   .m114nf.fAwjXaCTMo5__visible {
-    background-color: #000b3 !important;
+    background-color: #000000b3 !important;
   }
   .tsp-dht {
     box-shadow: 0 3px 2px #111 !important;
@@ -3201,7 +3201,7 @@
     border-color: #555 !important;
   }
   .info_warning {
-    background-color: #fcc4d !important;
+    background-color: rgba(255, 204, 204, 0.3) !important;
   }
   #container > center:nth-child(112) > table > tbody > tr > td,
   #container > center:nth-child(42) > table > tbody > tr > td,
