@@ -49,7 +49,8 @@
   .gb_fa,
   .gb_ra,
   .gb_rb.gb_sb,
-  .gb_vc svg {
+  .gb_vc svg,
+  .gb_Ub > .gb_6b {
     color: #ccc !important;
   }
   .gb_qa {
@@ -192,7 +193,8 @@
   #gbsfw.gb_Tc,
   #gbsfw.gb_Uc,
   #gbsfw.gb_Vc,
-  .gb_ga {
+  .gb_ga,
+  .gb_Ob, .gb_9f.gb_Ib {
     border-color: #333 !important;
   }
   .gb_lb {
@@ -617,6 +619,10 @@
     > a
     > span {
     color: #fff !important;
+  }
+  .gb_xb.gb_cg.gbp1.gb_Ve.gb_1c {
+    background: #333;
+    color: #ccc;
   }
   * {
     scrollbar-width: thin !important;
