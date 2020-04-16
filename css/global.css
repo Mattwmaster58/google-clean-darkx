@@ -840,8 +840,11 @@
     background-color: transparent !important;
     border-color: #333 !important;
   }
-  .rl_item .title {
+  .rl_item .title, .JolIg {
     color: #ccc !important;
+  }
+  .GHDvEf {
+    filter: invert(0.86);
   }
   ._Ejf,
   ._Kjg,
