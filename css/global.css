@@ -115,10 +115,6 @@
   }
   .RNNXgb {
     border-color: transparent !important;
-    border-radius: 2px !important;
-  }
-  .aajZCb {
-    border-radius: 2px;
   }
   .sbct:first-child .sbtc,
   .sbct:first-child .suggestions-inner-container {
@@ -411,7 +407,8 @@
   .gb_Ub > .gb_6b,
   .ILfuVd.rjOVwe,
   .w8qArf,
-  .OS8yje {
+  .OS8yje,
+  #REsRA {
     color: #ccc !important;
   }
   .irc_rimask.irc_rist {
@@ -499,7 +496,8 @@
   #gsr > div:nth-child(n) > div {
     border-bottom-color: #333 !important;
   }
-  .irc_bg {
+  .irc_bgm,
+  .jZWadf {
     background-color: #222 !important;
   }
   #irc_bgl,
@@ -515,7 +513,7 @@
     background-color: #444 !important;
     border-color: #555 !important;
   }
-  #irc-cl {
+  #irc-cl, .cEPPT {
     border-color: #333 !important;
   }
   .SOS87c:hover,
