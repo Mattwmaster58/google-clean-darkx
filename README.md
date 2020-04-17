@@ -7,6 +7,9 @@
 This theme is a continuation of [this](https://userstyles.org/styles/144028/google-clean-dark)
 (by [Seishiin](https://userstyles.org/users/352024)) userstyle (which hasn't seen any update for over a year now) with improvments made by me as needed.
 
+## Screenshots
+
+Coming soon™
 
 ## Contributing
 
