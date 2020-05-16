@@ -1,0 +1,5 @@
+@-moz-document url-prefix("https://www.google.com/search") {
+    [data-attrid="formula-image"] img, [data-attrid^="variable-"] img {
+        filter: invert(1);
+    }
+}
