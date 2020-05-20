@@ -2,6 +2,9 @@
   .CTxcDf,
   .g3VIld,
   .oxAbDf,
+  .PV0kIb,
+  .uqJv0c,
+  .ueeCfb,
   body {
     background-color: #222 !important;
   }
@@ -10,9 +13,6 @@
   .blBtle,
   .fKz7Od {
     color: #999 !important;
-  }
-  .UhNUGe {
-    background-color: #333 !important;
   }
   .UhNUGe:focus,
   .UhNUGe:hover {
@@ -27,7 +27,9 @@
   .g3VIld .rFrNMe .aXBtI,
   .kpuJe,
   .ncFHed,
-  .nnsg6 {
+  .nnsg6,
+  .UhNUGe,
+  .ueeCfb:hover {
     background-color: #333 !important;
   }
   .AY4Dce:not(.sMVRZe),
@@ -62,7 +64,10 @@
   .tL9Q4c,
   .wYwLFe,
   .z80M1,
-  .zHQkBf {
+  .zHQkBf,
+  .RFmU6c,
+  .htVQK,
+  .jO7h3c {
     color: #ccc !important;
   }
   .fKz7Od {
